@@ -1,2 +1,2 @@
-[[part=1]]TEST TEST TEST
+[[page=1]][[part=1]]TEST TEST TEST
 [[
