@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>Рав</title>
+        <first_name>Давид</first_name>
+        <last_name>аЛеви Сегаль</last_name>
+        <short_name>ТаЗ</short_name>
+    </ru>
+	<display>
+		<css_class_name>yellow</css_class_name>
+	</display>
+</info>

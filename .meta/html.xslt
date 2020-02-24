@@ -54,6 +54,16 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <xsl:template match="ol">
+        <ol>
+            <xsl:apply-templates/>
+        </ol>
+    </xsl:template>
+    <xsl:template match="li">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
 
     <xsl:template match="comment">
         <span class="comment">
