@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
     <ru>
-        <title></title>
-        <first_name>asher_ben_jehiel</first_name>
+        <title>Рав</title>
+        <first_name>Ашер бен Ехиэль</first_name>
         <last_name></last_name>
-        <short_name>asher_ben_jehiel</short_name>
+        <short_name>РОШ</short_name>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>

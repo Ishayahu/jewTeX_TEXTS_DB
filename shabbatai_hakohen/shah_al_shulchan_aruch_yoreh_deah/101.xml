@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="0" type="siman" name="101" verbouse_name="Закон куска, рауя леискабед">
+        <header level="1" type="siman_katan" name="1">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="2">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="3">
+			<p>Так как каждый из них сам по себе разрешён и лишь благодаря их соединению становятся запрещены - всё это становится как одно "тело"</p>
+		</header>
+        <header level="1" type="siman_katan" name="4">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="5">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="6">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="7">
+			<p></p>
+		</header>
+        <header level="1" type="siman_katan" name="8">
+			<p></p>
+		</header>
+	</header>
+</content>

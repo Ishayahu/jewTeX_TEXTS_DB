@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>Рав</title>
+        <first_name>Меир Йона</first_name>
+        <last_name>Шац</last_name>
+        <short_name>meir_yonah_shatz</short_name>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

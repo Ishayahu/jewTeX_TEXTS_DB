@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>Рав</title>
+        <first_name>Йосеф бен Меир</first_name>
+        <last_name>Теомим</last_name>
+        <short_name>При Мегодим</short_name>
+    </ru>
+	<display>
+		<css_class_name>yellow</css_class_name>
+	</display>
+</info>

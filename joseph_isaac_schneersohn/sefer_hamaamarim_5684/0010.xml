@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="1" type="dibur_amathil" number='10' name="Сидящие в садах" jdate="Ваеце" continued_number='4'>
+        <page name="103">
+            <header level="2" type="letter" number="1" name='alef'>
+                <p></p>
+            </header>
+        </page>
+    </header>
+</content>

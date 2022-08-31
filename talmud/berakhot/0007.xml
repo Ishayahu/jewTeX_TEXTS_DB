@@ -1,17 +1,16 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-    <header type="chapter" name="a" level='1'>
-        <daf name="7">
-            <header type='amud' name='a'>
+    <header level='0' type="chapter" name="a" number="1">
+        <daf number="70" name="7a" >
+            <header type="ref" name="miyom_sheboro_akbh_aolam">
+                <p>Сказал раби Йоханан от имени раби Шимона бар Йохай: со дня, когда сотворил Святой, благословен Он, мир, не было человека, который называл бы Святого, благословен Он, Г-сподь, пока не пришёл Авраам и не назвал его Г-сподь, как сказано <link author='tora' book='bereshit' chapter="15" posuk="8">(Брейшис 15:8)</link>: <quote author='tora' book='bereshit' chapter="15" posuk ="8" /></p>
             </header>
-            <header type='amud' name='b'>
-                <p>
-                    <fragment></fragment>
-                    <header type="ref" name="miyom_sheboro_akbh_aolam">Сказал раби Йоханан от имени раби Шимона бар Йохай: со дня, когда сотворил Святой, благословен Он, мир, не было человека, который называл бы Святого, благословен Он, Г-сподь, пока не пришёл Авраам и не назвал его Г-сподь, как сказано <link author='tora' book='bereshit' chapter="15" verse="8">(Брейшис 15:8)</link>: <quote author='tora' book='bereshit' chapter="15" verse="8" />
-                    </header>
-                    <fragment></fragment>
-                </p>
-            </header>
+
+        </daf>
+        <daf number="75" name="7b" >
+                <p></p>
+                <p></p>
+                <p></p>
         </daf>
     </header>
 </content>

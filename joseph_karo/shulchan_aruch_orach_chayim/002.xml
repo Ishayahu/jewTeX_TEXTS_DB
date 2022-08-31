@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="0" type="siman" name="2" verbouse_name="Законы одевания. 6 параграфов" text_link="https://he.wikisource.org/wiki/שולחן_ערוך_אורח_חיים_ב">
+        <header level="1" type="seif" name="1">
+            <sha>
+                <p>Не надевай свой халат сидя (Тур), но возмьи халат, просунь в него (голову) и руки, пока ещё лежишь и получится что когда ты встанешь - ты уже одет</p>
+            </sha>
+            <ramo>
+                <p></p>
+            </ramo>
+        </header>
+        <header level="1" type="seif" name="2">
+            <sha>
+                <p>Не говори: "вот я один в своей комнате - кто меня видит?", так как вся земля полна Его славы.</p>
+            </sha>
+            <ramo>
+                <p></p>
+            </ramo>
+        </header>
+        <header level="1" type="seif" name="3">
+            <sha>
+                <p>Будь внимателен, надевая халат, чтобы не надеть его наизнанку</p>
+            </sha>
+            <ramo>
+                <p></p>
+            </ramo>
+        </header>
+        <header level="1" type="seif" name="4">
+            <sha>
+                <p>Сперва надо надеть правый ботинок, но не завязывать его, затем левый и завязать, и потом уже завязать правый</p>
+            </sha>
+            <ramo>
+                <p>И в нашей обуви, где нет шнурков, надевает сперва правый (Тойсфойс "баме иша" 4а)</p>
+            </ramo>
+        </header>
+        <header level="1" type="seif" name="5">
+            <sha>
+                <p>Когда снимаешь обувь - снимай сперва левый</p>
+            </sha>
+            <ramo>
+                <p></p>
+            </ramo>
+        </header>
+        <header level="1" type="seif" name="6">
+            <sha>
+                <p>Запрещено ходить "בקומה זקופה" <comment>выпрямившись в полный рост, гордо</comment>
+				<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='2' siman_katan='9'>мишна брура-9</link>
+				<link upper='upper' author='ashkenazi_yehudah_ben_shimon' book='baer_hetev_al_orach_chaim' siman='2' siman_katan='4'>беер эйтев-4</link>
+				или пройти больше 4 локтей с непокрыйтой головой (из уважения к Шхине). И надо убедиться что не хочешь в туалет.</p>
+            </sha>
+            <ramo>
+                <p>И надо покрыть всё тело и не ходить босым (Ор Заруа). И надо приучить себя ходить в тулает по утрам и вечерам, так как это проворство и чистота (примечания Маймони, глава 5 законов знаний)</p>
+            </ramo>
+        </header>
+    </header>
+</content>

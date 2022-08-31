@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="0" type="siman" name="15" verbouse_name="Несив 15.">
+        <header level="1" type="letter" name="1">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="2">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="3">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="4">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="5">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="6">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="7">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+        <header level="1" type="letter" name="28">
+			<p>...</p>
+			<header type='ref' name="maase_panadash">
+				<header type='girsa' name='main'>
+					<p>Случилось как-то что упал сыр в печь с панадашем (эмпанадой) и пошли и спросили р. Ицхака и разрешил он эмпанаду если снять с неё клипу. Даже если сыр влажный. Так как сыр не заходит настолько глубоко</p>
+					<p></p>
+				</header>
+			</header>
+			<p>...</p>
+		</header>
+        <header level="1" type="letter" name="9">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+	</header>
+</content>

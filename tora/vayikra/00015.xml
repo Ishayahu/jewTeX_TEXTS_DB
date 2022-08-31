@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="1" type="j_chapter" number='3' name="shemini" >
+        <header level="2" type="chapter" name='11'>
+			<header type='ref' name="11:20">
+				<p>Всякое насекомое летающее, ходящее на четырех, гнусно оно для вас.</p>
+			</header>
+			<header type='ref' name="11:21">
+				<p>Но такое можете есть из всех летающих насекомых, ходящих на четырех: у которого скоки над его ногами, чтобы ими прыжками ходить по земле.</p>
+			</header>
+			<header type='ref' name="11:22">
+				<p>Этих из них можете есть: саранчу по виду ее, и солам по виду его, и харгола по виду его, и хагава по виду его.</p>
+			</header>
+			<header type='ref' name="11:23">
+				<p> А всякое насекомое летающее, у которого четыре ноги, гнусно это для вас.</p>
+			</header>
+        </header>
+    </header>
+</content>
+

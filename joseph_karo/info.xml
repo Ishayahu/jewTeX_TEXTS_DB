@@ -6,4 +6,8 @@
         <last_name>Каро</last_name>
         <short_name>Маран</short_name>
     </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+
 </info>

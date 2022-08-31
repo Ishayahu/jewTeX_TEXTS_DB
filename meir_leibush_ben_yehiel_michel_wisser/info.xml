@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>Рав</title>
+        <first_name>Меир Лейб бен Иехиэль Михаэль</first_name>
+        <last_name>Кемпнер</last_name>
+        <short_name>malbim</short_name>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>Ребе</title>
+        <first_name>Менахем Мендл</first_name>
+        <last_name>Шнеерсон</last_name>
+        <short_name>ramam</short_name>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

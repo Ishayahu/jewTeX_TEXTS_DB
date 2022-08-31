@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>раби</title>
+        <first_name>Элиэзер бен Шмуэль</first_name>
+        <last_name>из Меца</last_name>
+        <short_name>eliezer_ben_samuel_of_metz</short_name>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+
