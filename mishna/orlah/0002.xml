@@ -1,15 +1,15 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-    <header type="chapter" name="2" level='1' text_link='https://he.wikisource.org/wiki/משנה_ערלה_ב'>
-        <header type='mishna' name='1'>
+    <header type="chapter" name="2" level='0' text_link='https://he.wikisource.org/wiki/משנה_ערלה_ב'>
+        <header type='mishna' level='1' name='1'>
             <p>
             </p>
         </header>
-        <header type='mishna' name='2'>
+        <header type='mishna' level='1' name='2'>
             <p>
             </p>
         </header>
-        <header type='mishna' name='3'>
+        <header type='mishna' level='1' name='3'>
             <p>
                 <header type="ref" name="2:3">
 					<p>Орла помогает битулировать килаим, а килаим битулировать орлу.</p>
@@ -17,7 +17,7 @@
 				</header>
             </p>
         </header>
-        <header type='mishna' name='4'>
+        <header type='mishna' level='1' name='4'>
             <p>
 
             </p>

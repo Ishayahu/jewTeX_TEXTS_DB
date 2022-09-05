@@ -125,6 +125,11 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
+    <xsl:template match="mishna">
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
     <xsl:template match="ol">
         <ol>
             <xsl:apply-templates/>
@@ -181,6 +186,16 @@
     </xsl:template>
 
     <xsl:template match="link">
+        <xsl:copy-of select=".">
+        </xsl:copy-of>
+
+    </xsl:template>
+    <xsl:template match="a">
+        <xsl:copy-of select=".">
+        </xsl:copy-of>
+
+    </xsl:template>
+    <xsl:template match="sup">
         <xsl:copy-of select=".">
         </xsl:copy-of>
 

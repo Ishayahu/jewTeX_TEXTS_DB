@@ -5,6 +5,8 @@
         <first_name>Менахем Мендл</first_name>
         <last_name>Шнеерсон</last_name>
         <short_name>ramam</short_name>
+		<start_year>5662</start_year>
+		<end_year>5754</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>
