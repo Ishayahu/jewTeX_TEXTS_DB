@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header type="chapter" level='0' name="1" verbouse_name='Пятеро'>
+        <header type='mishna' level='1' name='7'>
+			<header type='ref' name='1:7:1'>
+				<p>Не отделяют труму гдолу ни по объёму, ни по весу, ни по числу.
+					<comment number='1:7:1'>
+						<span>Хотя мудрецы установили размер трумы ("щедро" - 1/40, в среднем - 1/50, "скупо" - 1/60), тем не менее запрещено точно отмерять этот размер, но надо отделить труму по прикидке, как сказано (Бамидбар 18:27) "и будет это <strong>считаться</strong> вам трумой вашей"</span>
+					</comment>
+				</p>
+			</header>
+			<header type='ref' name='1:7:2'>
+				<p>Но отделяют объём, вес или число.</p>
+			</header>
+			<p></p>
+        </header>
+    </header>
+</content>
