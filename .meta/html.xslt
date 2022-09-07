@@ -18,7 +18,16 @@
                                 font-style: italic;}*/
 					.summary {font-style: italic;}
 					.posuk_p p{display: inline}
-					
+					.makshan{
+						color: red;
+					}
+					.tarzan{
+						color: green;
+					}
+					.halacha{
+						text-decoration: underline;
+						font-weight: bold;
+					}
                 </style>
             </head>
             <body>
@@ -97,6 +106,22 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="halacha">
+        <p class="halacha">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="makshan">
+        <p class="makshan">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tarzan">
+        <p class="tarzan">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+	
 
     <xsl:template match="p">
 		<xsl:variable name="padding_base" select="20" />
@@ -203,8 +228,9 @@
 
     <xsl:template match="quote">
 		<div class="quote">
-			<xsl:copy-of select=".">
-			</xsl:copy-of>
+			<!-- <xsl:copy-of select="."> -->
+			<!-- </xsl:copy-of> -->
+			<xsl:apply-templates/>
 		</div>
     </xsl:template>
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title></title>
+        <first_name></first_name>
+        <last_name>Википедия</last_name>
+        <short_name>wiki</short_name>
+		<start_year>-2000</start_year>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

@@ -2,9 +2,11 @@
 <info>
     <ru>
         <title></title>
-        <first_name>talmud</first_name>
+        <first_name>Талмуд</first_name>
         <last_name></last_name>
         <short_name>talmud</short_name>
+		<start_year>4000</start_year>
+		<end_year>4260</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>

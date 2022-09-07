@@ -5,6 +5,7 @@
         <first_name>ТаНаХ</first_name>
         <last_name></last_name>
         <short_name>tanakh</short_name>
+        <start_year>-2000</start_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>
