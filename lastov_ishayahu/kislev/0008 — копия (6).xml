@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+	<header level="0" type="chapter" name="7" verbouse_name="7 кислева">
+		<header level="1" type="siman" name='1' verbouse_name="Бааль Шем Тов">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='2' verbouse_name="Магид из Межерича">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='3' verbouse_name="Альтер Ребе">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='4' verbouse_name="Ребе Эмцои">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='5' verbouse_name="Ребе Цемах Цедек">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='6' verbouse_name="Ребе Маараш">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='7' verbouse_name="Ребе Рашаб">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='8' verbouse_name="Ребе Раяц">
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name='9' verbouse_name="Ребе">
+			<p></p>
+			<p></p>
+		</header>
+	</header>
+</content>

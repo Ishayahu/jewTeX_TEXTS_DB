@@ -5,6 +5,8 @@
         <first_name>Довбер</first_name>
         <last_name>Шнеури</last_name>
         <short_name>р. Эмцои</short_name>
+        <start_year>5534</start_year>
+        <end_year>5588</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>

@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+    <header level="0" type="chapter" name="3" verbouse_name="Кислев">
+        <header level="1" type="siman" name="11" verbouse_name="11 кислева">
+			<header level='2' type='seif' name='Общие события'>
+				<ul>
+					<li></li>
+				</ul>
+			</header>
+			<header level='2' type='seif' name='Хабадские события'>
+				<ul>
+					<li></li>
+				</ul>
+			</header>
+			<header level='2' type='seif' name='Родились'>
+				<ul>
+					<li></li>
+				</ul>
+			</header>
+			<header level='2' type='seif' name='Ушли из этого мира'>
+				<ul>
+					<li></li>
+				</ul>
+			</header>
+		</header>
+	</header>
+</content>

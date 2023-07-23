@@ -1,10 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
     <ru>
-        <title></title>
+        <title>Рав</title>
         <first_name>Яаков бен Ашер</first_name>
         <last_name></last_name>
-        <short_name>jacob_ben_asher</short_name>
+        <short_name>Бааль аТурим</short_name>
+		<start_year>5029</start_year>
+		<end_year>5103</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>

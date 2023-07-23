@@ -19,10 +19,10 @@
 					.summary {font-style: italic;}
 					.posuk_p p{display: inline}
 					.makshan{
-						color: red;
+						background-color: #ff6666;
 					}
 					.tarzan{
-						color: green;
+						background-color: #66ff66;
 					}
 					.halacha{
 						text-decoration: underline;
@@ -47,7 +47,16 @@
     </xsl:template>
 
     <xsl:template match="header[@type='chapter']">
-        <h2>Глава <xsl:value-of select="@number"/>: <xsl:value-of select="@verbouse_name"/></h2>
+        <h2>Глава <xsl:value-of select="@number"/>: 
+			<xsl:choose>
+				<xsl:when test="@verbouse_name">
+					<xsl:value-of select="@verbouse_name"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="@name"/>
+				</xsl:otherwise>
+			</xsl:choose>	
+		</h2>
 		<xsl:apply-templates />
     </xsl:template>
 
@@ -70,15 +79,33 @@
     </xsl:template>
 	
     <xsl:template match="header[@type='siman']">
-        <h2><xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/></h2>
+		<a>
+			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
+			<h2 data-type='header'>
+				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
+				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
+			</h2>	
+		</a>
 		<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="header[@type='seif']">
-        <h3><xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/></h3>
+		<a>
+			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
+			<h3 data-type='header'>
+				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
+				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
+			</h3>
+		</a>
 		<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="header[@type='siman_katan']">
-        <h3><xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/></h3>
+		<a>
+			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
+			<h3 data-type='header'>
+				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
+				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
+			</h3>
+		</a>
 		<xsl:apply-templates />
     </xsl:template>
 	
@@ -103,6 +130,9 @@
 
     <xsl:template match="term">
         <span class="term">
+			<xsl:if test="@name">
+				<xsl:attribute name='name'><xsl:value-of select="@name" /></xsl:attribute>
+			</xsl:if>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -112,14 +142,14 @@
         </p>
     </xsl:template>
     <xsl:template match="makshan">
-        <p class="makshan">
+        <div class="makshan">
             <xsl:apply-templates/>
-        </p>
+        </div>
     </xsl:template>
     <xsl:template match="tarzan">
-        <p class="tarzan">
+        <div class="tarzan">
             <xsl:apply-templates/>
-        </p>
+        </div>
     </xsl:template>
 	
 

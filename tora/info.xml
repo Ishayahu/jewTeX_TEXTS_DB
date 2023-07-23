@@ -2,9 +2,10 @@
 <info>
     <ru>
         <title></title>
-        <first_name>tora</first_name>
+        <first_name>Тора</first_name>
         <last_name></last_name>
         <short_name>tora</short_name>
+		<start_year>2488</start_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>
