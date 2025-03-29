@@ -91,9 +91,19 @@
         </header>
         <header level="1" type="seif" name="9">
 
-			<sha>
-				<p>Свеча из хелева<link upper='upper' author='solomon_eger' book='gilyon_maharsha' siman='92' siman_katan='45'>Гильон МааРША-45</link>, сделанная на подобии восковой свечи: если из неё капнуло на сосуд - достаточно только грейры<link upper='upper' author='solomon_eger' book='gilyon_maharsha' siman='92' siman_katan='46'>Гильон МааРША-46</link>. Но расплавленный горячий хелев из которого капля попала на сосуд - [сосуду] требуется агала</p>
-			</sha>
+             <sha>
+		  <p>
+		    <link upper='upper' author='israel_isserlein_ben_petachia' book='terumat_hadeshen' siman='176'>Трумат аДешен-176</link>
+		    Свеча из хелева
+		    <link upper='upper' author='elija_ben_solomon_zalman' book='comments_on_yoreh_deah' siman='92' siman_katan='42'>ГРА-42</link>
+		    <link upper='upper' author='solomon_eger' book='gilyon_maharsha' siman='92' siman_katan='45'>Гильон МааРША-45</link>
+		    , сделанная на подобии восковой свечи: если из неё капнуло на сосуд - достаточно только грейры
+		    <link upper='upper' author='solomon_eger' book='gilyon_maharsha' siman='92' siman_katan='46'>Гильон МааРША-46</link>
+	            . Но расплавленный горячий хелев
+		    <link upper='upper' author='elija_ben_solomon_zalman' book='comments_on_yoreh_deah' siman='92' siman_katan='43'>ГРА-43</link>
+		    из которого капля попала на сосуд - [сосуду] требуется агала
+	        </p>
+            </sha>
         </header>
     </header>
 </content>
