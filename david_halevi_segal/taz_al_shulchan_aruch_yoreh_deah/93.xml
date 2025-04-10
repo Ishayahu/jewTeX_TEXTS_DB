@@ -1,20 +1,22 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-    <header level="0" type="siman" name="93" verbouse_name="Запрещено варить молоко в кастрюле, в которой варили мясо">
-        <header level="1" type="siman_katan" name="1">
-			<p><link author='jacob_ben_asher' book='tur_yoreh_deah' siman='93' seif='1'>Тур пишет от имени Бааль аИтур</link>: "если сварили молоко в мясной кастрюле бат йома и есть в ней шишим - можно варить в этой кастрюле дальше что хочешь". И удивляется этому, см там.</p>
-			<p>И видится мне, что можно так объяснить мнение Итура: похоже вызывало у него затруднеие то, что можно спросить из главы "коль абосор" 30 про глиняный сосуд...</p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-		</header>
-        <header level="1" type="siman_katan" name="2">
-			<p></p>
-		</header>
+<header level="0" type="siman" name="93" verbouse_name="Запрещено варить молоко в кастрюле, в которой варили мясо" text_lik="https://he.wikisource.org/wiki/ט%22ז_על_יורה_דעה_צג">
+    <header level="1" type="siman_katan" name="1">
+        <p><link author='jacob_ben_asher' book='tur_yoreh_deah' siman='93' seif='1'>Тур пишет от имени Бааль аИтур</link>: "если сварили молоко в мясной кастрюле бат йома и есть в ней шишим - можно варить в этой кастрюле дальше что хочешь". И удивляется этому, см там.</p>
+        <p>И видится мне, что можно так объяснить мнение Итура: похоже вызывало у него затруднеие то, что можно спросить из <link author='talmud' book='pesahim' daf='30b'>главы «Всё время» (Псохим 30б)</link> про глиняный сосуд:</p>
+        <quote author='talmud' book='pesahim' daf='30b' ref="ответ Мреймара про глияную эмалированную посуду"/>
+        <p>Объясняет Раши:</p>
+        <quote author='shlomo_yitzchaki' book='rashi_al_pesahim' siman_katan='30b:потеют'/>
+        <p>Вот и не понятно: наоборот надо сказать — раз нам раскрыл Милосердный про жертвы, что мы говорим [что надо] разбить [посуду], значит в будничном должно быть легче, как пишет <link_needed>Маарам (ч2 121)</link_needed> в <link author='mordechai_ben_hillel_hakohen' book='mordechai_al_hullin' chapter='7' siman='679'>Мордехи (Хулин 679)</link>, и это приводит <link_needed>БЙ в 92 (147а первое речение) --Имрей Бина 1--</link_needed> на тему того, что глиняный сосуд не выделяет в другой сосуд, так как мы <work_needed>видим что о таком выделении написано в Торе в случае жертв, значит в будтичном это не так</work_needed>. А раз так - то и в нашем случае мы должны сказать, что в будничтном закон должен быть легче.</p>
+        <p>А в <link_needed>Тосафот там (на слова Тора)</link_needed> спрашивают</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </header>
+    <header level="1" type="siman_katan" name="2">
+        <p></p>
+    </header>
 	</header>
 </content>

@@ -2,9 +2,11 @@
 <info>
     <ru>
         <title></title>
-        <first_name>mordechai_ben_hillel_hakohen</first_name>
+        <first_name>Мордехай бен Илель</first_name>
         <last_name></last_name>
         <short_name>mordechai_ben_hillel_hakohen</short_name>
+        <start_year>5010</start_year>
+        <end_year>5058</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>
