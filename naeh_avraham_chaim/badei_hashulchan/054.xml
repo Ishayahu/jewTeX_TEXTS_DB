@@ -1,26 +1,26 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
     <header level="1" type="siman" name='54' verbouse_name="Предпочтения в благословениях">
-		<header level="2" type="siman_katan" name='1' verbouse_name="">
+		<header level="2" type="siman_katan" name='1' verbouse_name="Источник">
 			<p>Вся эта глава — из Седер биркот аНеенин, гл. 6 с п. 6 и далее</p>
 			<p></p>
 			<p></p>
 			<p></p>
 		</header>
-		<header level="2" type="siman_katan" name='2' verbouse_name="">
+		<header level="2" type="siman_katan" name='2' verbouse_name="Почему «шеаколь» в хвосте">
 			<p>Так как «шеаколь» — это общее благословение, а «аэц» и «адама» — более частные и потому важнее, чем любимое</p>
 			<p></p>
 			<p></p>
 			<p></p>
 		</header>
-		<header level="2" type="siman_katan" name='3' verbouse_name="">
-			<p></p>
+		<header level="2" type="siman_katan" name='3' verbouse_name="Есть ли предпочтение целому в разных благословениях">
+			<p>И см. <link_needed>Мишна Брура в Шаарей Циюн</link_needed>, где он сомневается по поводу двух видов с раными благословениями, надо ли начать с целого</p>
 			<p></p>
 			<p></p>
 			<p></p>
 		</header>
 		<header level="2" type="siman_katan" name='4' verbouse_name="">
-			<p></p>
+			<p>Потому что тут есть разные мнения. Есть те, который говорят, что если у них одинаковые благословения, то предпочтительнее фрукт из 7 видов. А есть мнение, что любимое предпочтительнее. Поэтому решение, что сказать можно на то, которое хочешь. См. Бейт Йосеф и Таз в гл. 211 комм. 1</p>
 			<p></p>
 			<p></p>
 			<p></p>
