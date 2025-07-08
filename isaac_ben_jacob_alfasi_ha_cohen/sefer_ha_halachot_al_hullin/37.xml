@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header level='0' type="chapter" name="8" verbouse_name="Всякое мясо">
+  <header level='0' type="chapter" name="8" verbouse_name="Всякое мясо" text_link="https://www.sefaria.org/Rif_Chullin.37b.3?lang=he&p2=Ran_on_Chullin.37b.7&lang2=he">
     <daf number="370" name="37a">
       <p></p>
       <quote author='talmud' book='hullin' chapter='8' ref="Учил Агра тесть раби Аба" girsa="риф" />
