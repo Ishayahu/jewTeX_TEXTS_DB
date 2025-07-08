@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="chapter" name="8" verbouse_name="Всякое мясо">
+    <daf number="370" name="37a">
+      <p></p>
+      <quote author='talmud' book='hullin' chapter='8' ref="Учил Агра тесть раби Аба" girsa="риф" />
+      <quote author='talmud' book='hullin' chapter='8' ref="Рав Ицхак у рава Аши" girsa="риф" /> 
+      <p><link upper='upper' author='nissim_of_gerona' book='ran_on_rif_on_hullin' chapter='8' siman_katan='37а:видно же'>Ран-9</link></p>
+    </daf>
+    <daf number="375" name="37b">
+      <quote author='talmud' book='hullin' chapter='8' ref="Дом Шамая и дом Илеля: чистит или ополаскивает?" />
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+  </header>
+</content>

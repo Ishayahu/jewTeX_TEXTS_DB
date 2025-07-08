@@ -1,10 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
     <ru>
-        <title></title>
-        <first_name>isaac_ben_jacob_alfasi_ha_cohen</first_name>
-        <last_name></last_name>
-        <short_name>isaac_ben_jacob_alfasi_ha_cohen</short_name>
+        <title>раби</title>
+        <first_name>Ицхак бен Яаков</first_name>
+        <last_name>Альфаси</last_name>
+        <short_name>РИФ</short_name>
+        <start_year>4773</start_year>
+        <end_year>7863</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>
