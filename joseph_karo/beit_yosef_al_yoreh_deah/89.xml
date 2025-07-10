@@ -1,6 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-<header level="0" type="siman" name="1" verbouse_name="">
+<header level="0" type="siman" name="89" verbouse_name="Мясо после творога, творог после мяса" text_link="https://www.sefaria.org/Beit%20Yosef,%20Yoreh%20De'ah%2089:1:1">
+  <header level="1" type="siman_katan" name="1">
+    <p>Вся эта глава объяснена в <link author='jacob_ben_asher' book='tur_orach_chayim' siman='173'>Орах Хаим 173</link>, кроме того, что написано от имени Рамбама</p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
   <header level="1" type="siman_katan" name="1">
     <p></p>
     <p></p>
