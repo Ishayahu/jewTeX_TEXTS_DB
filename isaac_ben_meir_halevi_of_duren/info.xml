@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title>рав</title>
+        <first_name>Ицхак бен Меир аЛеви из Дюрена</first_name>
+        <last_name></last_name>
+        <short_name>Шаарей Дура</short_name>
+        <start_year>4980</start_year>
+        <end_year>5060</end_year>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

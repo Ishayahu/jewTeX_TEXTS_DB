@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level="0" type="siman" name="76" verbouse_name="">
+    <header level="1" type="siman_katan" name="1" verbouse_name="">
+      <p></p>
+    </header>
+    <header level="1" type="siman_katan" name="2" verbouse_name="Обычай ждать час">
+      <header type='girsa' name='main'>
+        <p>У многих принято облегчать и они находят сами компромис <link_needed>[МОВАА ШААРИМ 40]</link_needed> и ждут час после мясной трапезы, убирают стол и говорят благословение после еды, а затем едят творог <link_needed>[МОВАА ШААРИМ 50]</link_needed>. И хотя мы не видим причины и намёка на такой перерыв, тем не менее, кто может протестовать против этого, ведь <link author='tosafot' book='tosafot_al_hullin' chapter='8' siman_katan='105a:в другой трапезе ест'>Тосафот</link> и <link author='eliezer_ben_yoel_halevi_of_bonn' book='sefer_raavyah' siman='1018'>РАБИА</link> разрешают [даже без перерыва].</p>
+        <p>Однако скромные, убирают руки свои [— делают паузу —] от утренней трапезы до вечерней трапезы. МаАРРАИ, благословенной памяти.</p>
+      </header>
+      <header type='girsa' name='Диврей Хамудот'>
+        <p>У многих принято облегчать и они находят сами компромис и ждут час после мясной трапезы, убирают стол и говорят благословение после еды, а затем едят творог. И хотя мы не видим причины и намёка на такой перерыв, тем не менее, кто может протестовать против этого, ведь <link author='tosafot' book='tosafot_al_hullin' chapter='8' siman_katan='105a:в другой трапезе ест'>Тосафот</link> и <link author='eliezer_ben_yoel_halevi_of_bonn' book='sefer_raavyah' siman='1018'>РАБИА</link> разрешают [даже без перерыва].</p>
+        <p>Однако скромные, убирают руки свои [— делают паузу —] в 6 часов.</p>
+      </header>
+      
+      <p><link_needed>[ПРИМЕЧАНИЕ]</link_needed></p>
+      <p></p>
+      <p></p>
+    </header>
+    <header level="1" type="siman_katan" name="3" verbouse_name="">
+      <p></p>
+    </header>
+  </header>
+</content>

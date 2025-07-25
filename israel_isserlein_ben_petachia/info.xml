@@ -1,10 +1,12 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
     <ru>
-        <title></title>
-        <first_name>israel_isserlein_ben_petachia</first_name>
-        <last_name></last_name>
-        <short_name>israel_isserlein_ben_petachia</short_name>
+        <title>Раби</title>
+        <first_name>Исраэль бен Петахья</first_name>
+        <last_name>Иссерлейн</last_name>
+        <short_name>Трумат аДешен</short_name>
+        <start_year>5150</start_year>
+        <end_year>5220</end_year>
     </ru>
 	<display>
 		<css_class_name>default</css_class_name>

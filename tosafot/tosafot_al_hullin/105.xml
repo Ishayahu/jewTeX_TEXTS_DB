@@ -1,6 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
     <header level="0" type="chapter" name="8" verbouse_name="Всякое мясо" text_link="https://he.m.wikisource.org/wiki/חולין_קה_ב">
+        <header level="1" type="siman_katan" name="105a:в другой трапезе ест">
+          <header type='ref' name="Какую другую трапезу имел ввиду мар Уква?">
+            <p>Не другая трапеза, как обычно делают одну утром а другую вечером, но и даже сразу, если убрал столи и сказал благословение - можно, так как мудрецы не давали дополнительного уточнения</p>
+          </header>
+        </header>
         <header level="1" type="siman_katan" name="105b:Это всё между блюдом и блюдом">
           <header type='ref' name="Средняя вода право между блюдом и блюдом - основное">
             <header type='girsa' name='main'>

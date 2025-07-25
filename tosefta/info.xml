@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+    <ru>
+        <title></title>
+        <first_name>Тосефта</first_name>
+        <last_name></last_name>
+        <short_name>Тосефта</short_name>
+		<start_year>3830</start_year>
+		<end_year>3831</end_year>
+    </ru>
+	<display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

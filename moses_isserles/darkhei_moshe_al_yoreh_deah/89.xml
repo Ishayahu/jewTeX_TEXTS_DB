@@ -1,10 +1,30 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-<header level="0" type="siman" name="91" verbouse_name="">
+<header level="0" type="siman" name="89" verbouse_name="">
   <header level="1" type="siman_katan" name="1">
-    <p></p>
+    <p>Ран:</p>
+    <quote author='nissim_of_gerona' book='ran_on_rif_on_hullin' chapter="8" siman_katan='37b:я в этом вопросе как винный уксус' ref="Ран: надо ли делать паузу после того, как убрал мясо между зубов" girsa="Даркей Мойше"/> 
   </header>
   <header level="1" type="siman_katan" name="2">
+    <p>Мордехай, в начале главы «любое мясо»:</p>
+    <quote author='mordechai_ben_hillel_hakohen' book='mordechai_al_hullin' chapter="8" siman='687' ref="Ответ Маарама про мясо после сыра" girsa="Даркей Мойше"/> 
+    <p>И так пишет Исур веЭтер Арох (правило 40):</p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="3">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="4">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="5">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="6">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="7">
     <p></p>
   </header>
 </header>
