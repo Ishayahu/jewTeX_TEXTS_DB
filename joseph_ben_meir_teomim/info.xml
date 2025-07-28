@@ -5,6 +5,8 @@
         <first_name>Йосеф бен Меир</first_name>
         <last_name>Теомим</last_name>
         <short_name>При Мегодим</short_name>
+        <start_year>5487</start_year>
+        <end_year>5552</end_year>
     </ru>
 	<display>
 		<css_class_name>yellow</css_class_name>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <ru>
+    <title>Рав</title>
+    <first_name>Еуда бен Шимон</first_name>
+    <last_name>Ашкенази</last_name>
+    <short_name>МААРИ Тыкоцин</short_name>
+    <start_year>5550</start_year>
+    <end_year>5603</end_year>
+
+  </ru>
+	<display>
+		<css_class_name>yellow</css_class_name>
+	</display>
+</info>

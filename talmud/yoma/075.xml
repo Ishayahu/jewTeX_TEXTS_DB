@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="chapter" name="8" verbouse_name="Йом Кипур">
+    <daf number="750" name="75a">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="755" name="75b">
+      <p idx="1">...</p>
+      <header type="ref" name="Есть мясо лишь ночью">
+        <p>Отсюда учит Тора нас правильному поведению: человек должен есть мясо лишь ночью.</p>
+        <makshan>А вот ведь сказал Абайе: «Если есть у тебя трапеза — ешь её только днём!»</makshan>
+        <tarzan>Имеется ввиду: когда это как день.</tarzan>
+      </header>
+      <p idx="10"></p>
+    </daf>
+  </header>
+</content>
