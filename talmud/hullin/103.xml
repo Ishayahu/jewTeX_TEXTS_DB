@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="7" verbouse_name="Гид аНоше">
+  <daf number="1030" name="103a">
+    <tarzan></tarzan>
+  </daf>
+  <daf number="1035" name="103b">
+    <p></p>
+  </daf>
+</header>
+<header level='0' type="chapter" name="8" verbouse_name="Гид аНоше">
+  <daf number="1035" name="103b">
+    <header type='ref' name='Мишна "всякое мясо". Запрет варить и ставить на стол'>
+      <p><strong>Всякое мясо запрещено варить с молоком, кроме мяса рыбы и саранчи. И запрещено ставить его на стол с творогом, кроме мяса рыбы и саранчи</strong></p>
+    </header>
+  </daf>
+</header>
+</content>

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="0" type="siman" name="88" verbouse_name="Не ставить мясо с творогом на стол. Не есть с тем, кто ест мясо, творог">
+  <header level="1" type="siman_katan" name="1">
+    <p>Начало главы «Всякое мясо» (103б):</p>
+    <quote author='talmud' book='hullin' chapter='8' ref='Мишна "всякое мясо". Запрет варить и ставить на стол' />
+    <p>А в следующей мишне (104б):</p>
+    <quote author='talmud' book='hullin' chapter='8' ref='Можно ставить на стол для раздачи' />
+  </header>
+  <header level="1" type="siman_katan" name="2">
+    <p>Всё это до конца главы объяснено в <link author='jacob_ben_asher' book='tur_orach_chayim' siman='173'>Тур Орах Хаим 173</link></p>
+  </header>
+</header>
+</content>

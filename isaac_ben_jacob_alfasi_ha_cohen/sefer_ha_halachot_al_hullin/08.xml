@@ -44,5 +44,12 @@
       <p></p>
       <p>...</p>
     </daf>
+    <daf number="380" name="38a">
+      <p>...</p>
+      <quote author='talmud' book='hullin' chapter='8' ref="Мишна: Два гостя едят за одним столом" />
+      <p>...</p>
+      <quote author='talmud' book='hullin' chapter='8' ref="Два гостя едят за одним столом" girsa="РИФ" />
+      <p>...</p>
+    </daf>
   </header>
 </content>
