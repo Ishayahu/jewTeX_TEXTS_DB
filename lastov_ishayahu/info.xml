@@ -1,13 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
-    <ru>
-        <title></title>
-        <first_name>Ишаяу</first_name>
-        <last_name>Ластов</last_name>
-        <short_name></short_name>
-    </ru>
-	<display>
-		<css_class_name>default</css_class_name>
-	</display>
+  <ru>
+    <title></title>
+    <first_name>Ишаяу</first_name>
+    <last_name>Ластов</last_name>
+    <start_year>5745</start_year>
+    <end_year></end_year>
+  </ru>
+<display>
+  <css_class_name>default</css_class_name>
+</display>
 </info>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-    <header level="0" type="siman" name="92" verbouse_name="Если упало молоко в мясную кастрюлю" text_link="https://he.wikisource.org/wiki/שולחן_ערוך_יורה_דעה_צב">
-        <header level="1" type="siman_katan" name="1">
+<header level="0" type="siman" name="92" verbouse_name="Если упало молоко в мясную кастрюлю" text_link="https://he.wikisource.org/wiki/שולחן_ערוך_יורה_דעה_צב">
+  <header level="1" type="siman_katan" name="1">
 			<p><work_needed>Тут есть два запрета:</work_needed><ol>
 				<li>из-за вкуса мяса, который выделяется в молоко сразу после падения [мяса в молоко] и тут помогает 60 в молоке [против мяса] по всем мнения</li>
 				<li>а есть другой запрет: молоко, которое впиталось в мясо [выделяется из него] и запрещает молоко в кастрюле и тут<ol>
@@ -65,7 +65,7 @@
 			<p></p>
 		</header>
 		<header level="1" type="siman_katan" name="17">
-			<p>В <link author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1'>Исур веейтер Арох правило 31 (закон 1)</link> <link author='smak' book='smak' siman='213'>от имени СМАК (симан 213) пишет</link>, что это <quote author='smak' book='smak' siman='213' ref="sha2_taz_92_17_1" />. <quote author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1' ref="sha2_taz_92_17_2" />.</p>
+			<p>В <link author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1'>Исур веейтер Арох правило 31 (закон 1)</link> <link author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213'>от имени СМАК (симан 213) пишет</link>, что это <quote author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213' ref="sha2_taz_92_17_1" />. <quote author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1' ref="sha2_taz_92_17_2" />.</p>
 		</header>
         <header level="1" type="siman_katan" name="18">
             <p></p>

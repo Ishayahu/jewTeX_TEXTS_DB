@@ -7,34 +7,37 @@
 
 
 <xsl:template match="/">
-        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
-            <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-                <title>test1</title>
-                <style type="text/css">
-                    /*.link_needed{ background: red;}
-                    .term {text-decoration: underline;}
-                    .comment {font-size: small;
-                                font-style: italic;}*/
-					.summary {font-style: italic;}
-					.posuk_p p{display: inline}
-					.makshan{
-						background-color: #ff6666;
-					}
-					.tarzan{
-						background-color: #66ff66;
-					}
-					.halacha{
-						text-decoration: underline;
-						font-weight: bold;
-					}
-                </style>
-            </head>
-            <body>
-                <xsl:apply-templates/>
-            </body>
-        </html>
-    </xsl:template>
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>test1</title>
+    <style type="text/css">
+      /*.link_needed{ background: red;}
+      .term {text-decoration: underline;}
+      .comment {font-size: small;
+                font-style: italic;}*/
+      .summary {font-style: italic;}
+      .posuk_p p{display: inline}
+      .makshan{
+        background-color: #ff6666;
+      }
+      .tarzan{
+        background-color: #66ff66;
+      }
+      .halacha{
+        text-decoration: underline;
+        font-weight: bold;
+      }
+      .NaN{background-color: black}
+      .Red{background-color: red}
+      table{border: 1px black solid}
+    </style>
+  </head>
+  <body>
+    <xsl:apply-templates/>
+  </body>
+</html>
+</xsl:template>
 
     <xsl:template match="header[@type='part']">
         <h2>Часть <xsl:value-of select="@number"/>: <xsl:value-of select="@verbouse_name"/></h2>
@@ -59,6 +62,20 @@
 		</h2>
 		<xsl:apply-templates />
     </xsl:template>
+    
+    <xsl:template match="header[@type='sub_chapter']">
+        <h2>Раздел <xsl:value-of select="@number"/>: 
+			<xsl:choose>
+				<xsl:when test="@verbouse_name">
+					<xsl:value-of select="@verbouse_name"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="@name"/>
+				</xsl:otherwise>
+			</xsl:choose>	
+		</h2>
+		<xsl:apply-templates />
+    </xsl:template>
 
     <xsl:template match="page">
         <h4>стр. <xsl:value-of select="@name"/></h4>
@@ -66,7 +83,7 @@
     </xsl:template>
 
     <xsl:template match="header[@type='letter']">
-        <h3><xsl:value-of select="@name"/></h3>
+        <h4><xsl:value-of select="@name"/></h4>
         <p>
             <xsl:apply-templates />
         </p>
@@ -81,30 +98,30 @@
     <xsl:template match="header[@type='siman']">
 		<a>
 			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
-			<h2 data-type='header'>
+			<h3 data-type='header'>
 				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
 				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
-			</h2>	
+			</h3>	
 		</a>
 		<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="header[@type='seif']">
 		<a>
 			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
-			<h3 data-type='header'>
+			<h4 data-type='header'>
 				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
 				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
-			</h3>
+			</h4>
 		</a>
 		<xsl:apply-templates />
     </xsl:template>
     <xsl:template match="header[@type='siman_katan']">
 		<a>
 			<xsl:attribute name='name'><xsl:value-of select="generate-id()"/></xsl:attribute>
-			<h3 data-type='header'>
+			<h5 data-type='header'>
 				<xsl:attribute name='data-level'><xsl:value-of select="@level" /></xsl:attribute>
 				<xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
-			</h3>
+			</h5>
 		</a>
 		<xsl:apply-templates />
     </xsl:template>
@@ -123,9 +140,19 @@
     </xsl:template>
 
     <xsl:template match="work_needed">
-        <span class="work_needed" title='нужно доработать текст'>
+      <xsl:choose>
+        <xsl:when test="@reason">
+          <span class="work_needed">
+            <xsl:attribute name='title'><xsl:value-of select="@reason" /></xsl:attribute>
             <xsl:apply-templates/>
-        </span>
+          </span>
+        </xsl:when>
+        <xsl:otherwise>
+          <span class="work_needed" title="Нужно доработать текст">
+            <xsl:apply-templates/>
+          </span>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:template>
 
     <xsl:template match="term">
@@ -201,22 +228,25 @@
         </li>
     </xsl:template>
 
-    <xsl:template match="comment">
-        <span class="comment"><xsl:attribute name='title'><xsl:value-of select="@number"/></xsl:attribute>
-            <sup>
-				<xsl:attribute name='id'><xsl:value-of select="concat('sup',@number)"/></xsl:attribute>
-				<strong>
-				<xsl:value-of select="@number"/>
-				</strong>
-			</sup>
-			<span class='comment_text'>
-				<xsl:if test="@number">
-					<xsl:attribute name='id'><xsl:value-of select="concat('comment',@number)"/></xsl:attribute>
-				</xsl:if>
-				<xsl:apply-templates/>
-			</span>
-        </span>
-    </xsl:template>
+  <xsl:template match="comment">
+    <xsl:variable name="comment_number">
+      <xsl:number level="any" count="comment"/>
+    </xsl:variable>
+    <span class="comment"><xsl:attribute name='title'><xsl:value-of select="$comment_number"/></xsl:attribute>
+      <sup>
+        <xsl:attribute name='id'><xsl:value-of select="concat('sup',$comment_number)"/></xsl:attribute>
+        <strong>
+          <xsl:value-of select="$comment_number"/>
+        </strong>
+      </sup>
+      <span class='comment_text'>
+        <xsl:if test="$comment_number">
+          <xsl:attribute name='id'><xsl:value-of select="concat('comment',$comment_number)"/></xsl:attribute>
+        </xsl:if>
+        <xsl:apply-templates/>
+      </span>
+    </span>
+  </xsl:template>
 
     <xsl:template match="strong">
         <strong>
@@ -250,11 +280,25 @@
         </xsl:copy-of>
 
     </xsl:template>
+    
     <xsl:template match="sup">
         <xsl:copy-of select=".">
         </xsl:copy-of>
-
     </xsl:template>
+    
+    <xsl:template match="table">
+        <xsl:copy-of select=".">
+        </xsl:copy-of>
+    </xsl:template>
+    <xsl:template match="th">
+        <xsl:copy-of select=".">
+        </xsl:copy-of>
+    </xsl:template>
+    <xsl:template match="td">
+        <xsl:copy-of select=".">
+        </xsl:copy-of>
+    </xsl:template>
+
 
     <xsl:template match="quote">
 		<div class="quote">
