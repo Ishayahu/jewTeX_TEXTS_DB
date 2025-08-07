@@ -87,7 +87,7 @@
       <img src='/static/img/uberachta/brokha_in_the_field.png' alt='Зона действия благословения в боле без каваны (синяя) и с каваной (красная)' />
       <p>Кавана не поможет, если второе место отделено от исходного двумя стенками (которые принадлежат разным владениям/территориям)<comment>Кцот аШульхан 57:1</comment>. Стена между домом и двором (даже принадлежащим одному человеку) считается как две стены, так как это одновременно стена дома и стена двора.</p>
       <p>Дерево<comment>Кцот аШульхан 57:8, 9</comment> является стеной. Поэтому:</p>
-      <table>
+      <table alt="Зона действия благословения">
         <tr>
           <th></th>
           <th>По умолчанию</th>
@@ -130,15 +130,240 @@
 
     </header>
     <header level="2" type="siman" name='3' number='3' verbouse_name="Предмет">
+      <p>Чтобы благословение начало действовать, надо чтобы подходящий предмет был перед вами. В идеале надо держать его в правой руке. Если предмета не было перед вами, то благословение не начало действовать и надо будет его повторить</p>
+      <p>Стоит изначально иметь ввиду всё, на что благословение можно распространить.</p>
+      <p>Если вы имели ввиду только конкретный предмет — то благословение действует только на него.</p>
+      <p>В гостях человек по умолчанию имеет ввиду всё, что подадут хозяева</p>
+      <p>Дома человек по умолчанию имеет ввиду всё, что ему доступно или может оказаться доступно и его не удивит. Если ему что-то принёс сосед, и обычно такого не происходит — на это благословение в любом случае не распространяется</p>
+      <p>Если человек сказал благословение не имея ввиду ничего конкретного, то</p>
+      <ol>
+        <li>Если ел яблоки, закончились яблоки, принесли яблоки, не надо говорить благословение на яблоки</li>
+        <li>Ел яблоки и принесли груши:
+          <ol>
+            <li>если яблоки закончились — надо повторить благословение</li>
+            <li>яблоки не закончились — не надо повторять благословение</li>
+          </ol>
+        </li>
+        <li>Пил пиво, принесли закуску — в любом случае надо сказать броху</li>
+      </ol>
+      <p>Если еда уже переварилась<link upper='upper' author='lastov_ishayahu' book='vasavata' siman_katan='6'>С-6</link> — действие благословения тоже прекратилось и чтобы продолжить есть, надо благословение повторить<link upper='upper' author='lastov_ishayahu' book='vasavata' siman_katan='7'>С-7</link>.</p>
     </header>
   </header>
   <header level="1" type="sub_chapter" name='3' number='3' verbouse_name="Тора/Мудрецы">
+    <p>Лишь одно благословение на удовольствие, которое мы произносим, установлено Торой. Это биркат амазон <strong>когда наелись</strong>. Все остальные благословения на удовольствия, которые мы произносим, установлены мудрецами.</p>
+    <p>Какая разница, если мы в любом случае обязаны благословение произнести?</p>
+    <p>Если благословение мы обязаны произнести по Торе и не уверены, сказали мы его или нет — мы должны устрожиться и повторить благословение ещё раз. Если же обязанность произнести благословение установлена мудрецами, то в случае сомнения, мы его произносить «на всякий случай» не будем.</p>
+    <p>Тут стоит отметить, что в некоторых случаях произносить благословение — лишь обычай. <work_needed reason='Уточнить'>И тем не менее это не считается произнесением благословения впустую. Более того, в таком случае не применимо правило «в случае сомнения — благословение не произносим1»</work_needed></p>
+    <p></p>
   </header>
   <header level="1" type="sub_chapter" name='4' number='4' verbouse_name="Взаимозаменяемость">
     <header level="2" type="siman" name='1' number='1' verbouse_name="Благословения перед едой">
+      <ol>
+        <li>Из всего, что есть, мудрецы выделили<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='8'>С-8</link> съедобное и ввели на это благословение «шеаколь»</li>
+        <li>
+          <p><work_needed reason='+см. Шеаоль 3, даже если изначально без приготовления это не еда — 51:5'>Начиная с этого пункта специальные благословения говорятся только при стандартном способе употребления<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='9'>С-9</link> и если сажали ради этого<comment>Кцот аШульхан 51:4, 6</comment>.</work_needed></p>
+          <p>Из всего съедобного мудрецы выделили плоды земли и ввели на них благословение «при адама»</p>
+        </li>
+        <li><work_needed reason='Нужно уточнить по Кцот аШульхан как там по всем мненями, а что не по всем (см. Таблицу)'>Из плодов земли мудрецы выделили две группы</work_needed>:
+          <ol>
+            <li>Плоды дерева с благословением «при аэц»
+              <ol>
+                <li>Из них мудрецы выделили вино с благословением «при агофен»</li>
+              </ol>
+            </li>
+            <li>Злаки с благословением «мезонот»
+              <ol>
+                <li>Из них мудрецы выделили хлеб с благословением «амойци»</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" alt='Схема вложенности благословений'>
+          <!-- Внешний прямоугольник -->
+          <rect x="0" y="0" width="400" height="300" fill="none" stroke="black"/>
+            <text x="200" y="20" font-size="16" fill="black" text-anchor="middle">Шеаколь</text>
+          <rect x="10" y="50" width="380" height="240" fill="none" stroke="black"/>
+            <text x="200" y="70" font-size="16" fill="black" text-anchor="middle">Адама</text>
+          <rect x="20" y="100" width="170" height="180" fill="none" stroke="black"/>
+            <text x="100" y="120" font-size="16" fill="black" text-anchor="middle">Мезонот</text>
+          <rect x="30" y="150" width="150" height="120" fill="none" stroke="black"/>
+            <text x="100" y="170" font-size="16" fill="black" text-anchor="middle">Амойци</text>
+          <rect x="210" y="100" width="170" height="180" fill="none" stroke="black"/>
+            <text x="300" y="120" font-size="16" fill="black" text-anchor="middle">Аэц</text>
+          <rect x="220" y="150" width="150" height="120" fill="none" stroke="black"/>
+            <text x="300" y="170" font-size="16" fill="black" text-anchor="middle">Агофен</text>
+      </svg>
+      <p>И таким образом получается такая схема:</p>
+      <p>Более общее благословение закрывает более частное постфактум. Но изначально, по умолчанию, более общее благословение не открывает то, что подпадает под более частное («борей при адама» по умолчанию не откроет яблоки). И правильно иметь кавану, что благословение распространяется только на свою целевую группу («борей при адама» только на овощи)<comment>Кцот аШульхан 49:4</comment>.</p>
+      <p><work_needed reason='Допроверить, особенно амойци и мезонот'>Итоговая таблица такая</work_needed>:</p>
+      <table alt="Какое благословение что открывает постфактум">
+        <tr>
+          <th class="diagonal-split">
+            <div class="top-right">На что</div>
+            <div class="bottom-left">Какое благословение</div>
+          </th>
+          <th>Шеаколь</th>
+          <th>Адама</th>
+          <th>Аэц</th>
+          <th>Мезонот</th>
+          <th>Амойци</th>
+          <th>Вино</th>
+        </tr>
+        <tr>
+          <td>Шеаколь</td>
+          <td class="NaN"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green">37:10</td>
+          <td class="Green"></td>
+        </tr>
+        <tr>
+          <td>Адама</td>
+          <td class="Red"></td>
+          <td class="NaN"></td>
+          <td class="Green">49:2</td>
+          <td class="Green">Из хлеба<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='10'>С-10</link></td>
+          <td class="Green">Цемах Цедек<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='11'>С-11</link> (37:10 - Софек)</td>
+          <td class="Green">Проверить<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='12'>С-12</link></td>
+        </tr>
+        <tr>
+          <td>Аэц</td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="NaN"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Green">Маариль<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='13'>С-13</link></td>
+        </tr>
+        <tr>
+          <td>Мезонот</td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="NaN"></td>
+          <td class="Green">Цемах Цедек<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='11'>С-11</link> (37:10 - Софек)</td>
+          <td class="Red"></td>
+        </tr>
+        <tr>
+          <td>Амойци</td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="NaN"></td>
+          <td class="Red"></td>
+        </tr>
+        <tr>
+          <td>Агофен</td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="Red"></td>
+          <td class="NaN"></td>
+        </tr>
+      </table>
+      <p>В случае софека стоит сказать благословение «шеаколь» на что-то сладкое, имя ввиду хлеб.</p>
     </header>
     <header level="2" type="siman" name='2' number='2' verbouse_name="Благословения после еды">
+      <p>Они в принципе не взаимозаменяемые. Но если в смысл благословения вписывается что-то, на что оно не рассчитано — в некоторых случаях это помогает постфактум, когда объект подходит по смыслу текста благословения. А иногда (когда по смыслу получается даже более конкретное благословение (см. п. 1)) — и изначально<comment>Кцот аШульхан 60:3</comment>. Например:</p>
+      <ol>
+        <li>Если вы ели фрукты, которыми славится Земля Израиля, и другие фрукты — достаточно сказать меайн шалош, и «борей нефашот» не требуется, так как вы и так благодарите за плоды дерева.</li>
+        <li>Постфактум меайн шалош засчитается и вообще за любые плоды дерева (так как это «за дерево и за плоды дерева»). <work_needed reason='Почему, ведь фрукты закрывают в аналогичном вопросе? И почему закрывает только злаки, ведь об этом в тексте не сказано...'>При этом «аль амихьё» не закрывает другую насыщающую еду (мясо, рыбу)</work_needed><comment>Кцот аШульхан 60:6</comment>.</li>
+        <li>Если ели яблоки и пили вино — тут не получится никак это совместить (<work_needed reason='Почему? И см. тогда вопрос в сноске'>яблоко никак не плод виноградной лозы</work_needed>) (даже если в меайн шалош упомянуть плоды дерева) и потому нужно будет два благословения — «борей нефашот» и меайн шалош<link upper="upper" author='lastov_ishayahu' book='veakhalta' chapter='1' siman_katan='2'>?-2</link>.</li>
+        <li>Если ели виноград и пили вино, то по умолчанию меайн шалош после вина не засчитается за виноград, но если иметь такое намерение — засчитается. Делать, однако, так не стоит, и стоит <strong>явно</strong> упомянуть плоды дерева в меайн шалош.</li>
+        <li>Первое благословение биркат амазона (<work_needed reason='Проверить'>и так же «аль амихья»</work_needed><comment>Беер Эйтев 208:23. Кцот аШульхан 60:6</comment>) засчитается постфактум не только после мезонота, но и после вина и после фиников<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='14'>С-14</link> <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='15'>С-15</link> <comment>Кцот аШульхан 60:4, 5</comment>.</li>
+      </ol>
+      <p>Ещё надо отметить, что вино является «хлебом» для напитков, поэтому благословения перед и после вина освобождают все остальные напитки<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='16'>С-16</link> <link upper="upper" author='lastov_ishayahu' book='veakhalta' chapter='1' siman_katan='3'>?-3</link>.</p>
+      <table alt='Что закрывает (даже постфактум) благословение после еды?'>
+        <tr>
+          <th class="diagonal-split">
+            <div class="top-right">Еда</div>
+            <div class="bottom-left">Благословение</div>
+          </th>
+          <th>Хлеб</th>
+          <th>Мезонот</th>
+          <th>Вино</th>
+          <th>Финики</th>
+          <th>Виноград</th>
+          <th>3 фрукта</th>
+          <th>Осталные фрукты</th>
+          <th>Овощи</th>
+          <th>Остальное</th>
+          <th>Напитки</th>
+        </tr>
+        <tr>
+          <td>БА<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='17'>С-17</link></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+          <td class='Yellow'><work_needed>Проверить</work_needed></td>
+        </tr>
+        <tr>
+          <td>аМихьё</td>
+          <td><work_needed>Биркей Йосеф 167:10; Ябиа Омер ч2 ОХ 12; Спор в понимании БЙ</work_needed></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+        </tr>
+        <tr>
+          <td>аПерот</td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+        </tr>
+        <tr>
+          <td>аГофен</td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class="Green"></td>
+          <td class='Red'></td>
+          <td class="Green"></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class="Yellow"><work_needed reason='А почему в случае вина и яблок даже намеренно не помогает?'>Проверить: Если пил вино</work_needed></td>
+        </tr>
+        <tr>
+          <td>БНР</td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class='Red'></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+          <td class="Green"></td>
+        </tr>
+      </table>
       <header level="3" type="seif" name='1' number='1' verbouse_name="Решение сомнения в благословении после еды">
+        <p>Тем не менее есть решение и для ситуации, когда мы не знаем, какое благословение говорить после еды. Например, мы сомневаемся, говорить «борей нефашот» или «аль амихьё». В таком случае можно съесть что-то, после чего надо говорить «борей нефашот» и что-то, после чего надо говорить «аль амихьё». И сказать оба благословение имея ввиду сомнительный продукт<comment>Кцот аШульхан 60:6</comment>.</p>
+        <p><work_needed reason='А почему в случае вина и яблок даже намеренно не помогает?'>Если нет мезонота — то можно взять вино или плод из 7 видов, сказать благословение после него, упомянув в благословении мезонот<comment>Кцот аШульхан 60:6</comment>.</work_needed></p>
+        <p>Если же нет ничего, кроме сомнительной еды — не говорим после неё ничего<comment>Кцот аШульхан 60:6</comment> <link upper='upper' author='lastov_ishayahu' book='veakhalta' chapter='1' siman_katan='4'>?-4</link>.</p>
       </header>
     </header>
 
@@ -146,7 +371,58 @@
   <header level="1" type="sub_chapter" name='5' number='5' verbouse_name="Нужно конкретное благословение">
   </header>
   <header level="1" type="sub_chapter" name='6' number='6' verbouse_name="Сведение благословений к минимуму">
+    <p>См. <link author='lastov_ishayahu' book='uberachta' chapter='2' sub_chapter='4' siman='1'>«Взаимозаменяемость. Благословения перед едой»</link></p>
     <header level="2" type="siman" name='1' number='1' verbouse_name="Главное и второстепенное">
+      <p><work_needed>МБ 216к6. Шаарей Тшува 208к15; Бадей Шульхан 40к8 И в заметке</work_needed></p>
+      <p>Второстепенное — то, что не стали бы есть, если бы не главное. Благословение на главное и открывает и закрывает второстепенное<comment>Кцот аШульхан 58:1</comment>.</p>
+      <table alt='Варианты употребления главного и второстепенного'>
+        <tr>
+          <th>Смесь еды и напитка<comment>Кцот аШульхан 58:4</comment></th>
+          <th>Единое блюдо<comment>Кцот аШульхан 58:1, 5. Бадей аШульхан 58к10</comment></th>
+          <th>Едят по отдельности<comment>Кцот аШульхан 58:6, 9, 12. Бадей аШульхан 58к10</comment></th>
+        </tr>
+        <tr>
+          <td colspan='3'><strong>Хлеб</strong><comment>Кцот аШульхан 58:7, 8. Бадей аШульхан 58к8</comment> всегда главное, кроме как если человек сытый<comment>Кцот аШульхан 58:9: на это не стоит полагаться, так как человек не всегда может знать, сытый он или нет</comment> или то, что едят с хлебом - десерт<link upper="upper" author='lastov_ishayahu' book='veakhalta' chapter='1' siman_katan='5'>?-5</link></td>
+        </tr>
+        <tr>
+          <td rowspan='2'>
+            <p><strong>По умолчаню</strong> главное — еда</p>
+            <p><strong>Иначе</strong>: то, что для человека важнее. Если важна и еда и напиток, то сперва говорим благословение на еду, потом пробуем еду, потом на напиток и пробуем напиток</p>
+          </td>
+          <td colspan='2'>
+            <p>Мезонот<comment>Кцот аШульхан 58:2. Даже если они - бульон</comment> всегда главное, если</p>
+            <ol>
+              <li>они есть физически</li>
+              <li>нужны для вкуса/сытности</li>
+            </ol>
+            <p>С точки зрения благословения после еды, если концентрация злаков меньше, чем <term>КБАП</term> — есть сомнение, какое благословение говорить</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>В этой смеси главным будет</p>
+            <ol>
+              <li>не второстепенное</li>
+              <li><work_needed reason='А если их 50/50?'>если главного несколько — то то, чего больше</work_needed></li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li><strong>Главное</strong>. И благословение засчитается на второстепенное, если оно на него распространяется<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='18'>С-18</link></li>
+              <li><strong>если всё главное</strong> — говорим благословение на каждое по отдельности, что очевидно</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      <p>Если есть цепочка «второстепенного», например, человек есть сладкие плоды, а чтобы избавиться от приторности, ест солёную рыбу, а чтобы она не повредила, ест хлеб (и при этом он сыт), то рыба главная для хлеба, плоды — для рыбы. И поэтому благословение на плоды срабатывает и для рыбы и для хлеба<comment>Бадей аШульхан 58к7</comment>.</p>
+      <p><work_needed reason='Почему? Всегда ли? Нужно ли, чтобы его было видно?'>Мясо главное если присутствует в блюде физически и видно<comment>Кцот аШульхан 51:1</comment>.</work_needed></p>
+      <p>В некоторых случаях благочестивые люди будут есть сперва второстепенное, чтобы сказать на него благословение<comment>Кцот аШульхан 58:10-11</comment> <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='19'>С-19</link>:</p>
+      <ol>
+        <li>Если их едят по отдельности</li>
+        <li>Если благословение на второстепенное не «шеаколь» и не такое же, как на главное</li>
+        <li><work_needed reason='См. 212:9; при этом предпочтительность благословений тут нас не интекресует, так как про это АР ничего не говорит. А почему интересует «любовь»? Потому что это ???? вот там и смотри'>Если главное не более любимое ни вместе с этим второстепенным, ни по отдельности<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='20'>С-20</link>. С этим пунктом не все согласны и можно на него «закрыть глаза» в шабат или йом-тов, чтобы добрать нужное количество благословений.</work_needed></li>
+      </ol>
+
     </header>
 
   </header>
@@ -157,6 +433,7 @@
       <header level="3" type="seif" name='2' number='2' verbouse_name="Определённое время, чтобы съесть">
       </header>
       <header level="3" type="seif" name='3' number='3' verbouse_name="Определённое время, чтобы сказать благословение">
+        <p>!!!</p>
       </header>
     </header>
 

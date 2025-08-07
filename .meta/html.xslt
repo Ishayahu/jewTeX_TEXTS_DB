@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
 
 <xsl:output method="xml" indent="yes"
         doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -30,13 +30,45 @@
       }
       .NaN{background-color: black}
       .Red{background-color: red}
+      .Green{background-color: lightgreen}
+      .Yellow{background-color: yellow}
       table{border: 1px black solid}
       td, th {
         border-left: 1px solid #999;
         border-top: 1px solid #999;
         }
+      .diagonal-split {
+        position: relative;
+        min-width: 150px;
+        height: 80px;
+        background: linear-gradient(
+          to top right,
+          transparent 49.5%,
+          #000 50%,
+          transparent 50.5%
+        );
+      }
+
+      .top-right {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        text-align: right;
+        width: 45%;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        width: 45%;
+      }
       .img-container{display: flow-root}
       .img-title{font-style: italic}
+      svg{
+        width: 400px;
+        height: 300px;
+      }
     </style>
   </head>
   <body>
@@ -221,17 +253,32 @@
     </xsl:template>
     
     <xsl:template match="img">
-      <xsl:variable name="img_number">
-        <xsl:number level="any" count="img"/>
-      </xsl:variable>
-
       <div class='img-container'>
         <xsl:copy-of select="."/>
       </div>
       <div class='img-title'>
-        Рис. <xsl:value-of select="$img_number"/>: <xsl:value-of select="@alt" />
+        Рис. <xsl:number 
+            level="any" 
+            count="img|svg:svg" 
+            format="1." 
+            letter-value="traditional"/>: <xsl:value-of select="@alt" />
       </div>
     </xsl:template>
+    
+    <xsl:template match="svg:*">
+      <xsl:copy>
+        <xsl:copy-of select="."/>
+      </xsl:copy>
+      <div class='img-title'>
+        Рис. <xsl:number 
+            level="any" 
+            count="img|svg:svg" 
+            format="1." 
+            letter-value="traditional"/>: <xsl:value-of select="@alt" />
+      </div>
+
+    </xsl:template>
+    
     
     <xsl:template match="ol">
         <ol>
@@ -308,8 +355,37 @@
     </xsl:template>
     
     <xsl:template match="table">
-        <xsl:copy-of select=".">
-        </xsl:copy-of>
+      <xsl:copy>
+        <!-- Копируем атрибуты и пространства имен -->
+        <xsl:apply-templates select="@*"/>
+        
+        <!-- Обрабатываем содержимое таблицы -->
+        <xsl:apply-templates select="*|text()"/>
+      </xsl:copy>
+      <div class='img-title'>
+        Таб. <xsl:number 
+            level="any" 
+            count="table" 
+            format="1." 
+            letter-value="traditional"/>: <xsl:value-of select="@alt" />
+      </div>
+    </xsl:template>
+    <xsl:template match="tr">
+      <tr>
+        <xsl:apply-templates/>
+      </tr>
+    </xsl:template>
+    <xsl:template match="th">
+      <th>
+        <xsl:copy-of select="@*"/>
+        <xsl:apply-templates/>
+      </th>
+    </xsl:template>
+    <xsl:template match="td">
+      <td>
+        <xsl:copy-of select="@*"/>
+        <xsl:apply-templates/>
+      </td>
     </xsl:template>
 
 
