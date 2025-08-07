@@ -31,6 +31,12 @@
       .NaN{background-color: black}
       .Red{background-color: red}
       table{border: 1px black solid}
+      td, th {
+        border-left: 1px solid #999;
+        border-top: 1px solid #999;
+        }
+      .img-container{display: flow-root}
+      .img-title{font-style: italic}
     </style>
   </head>
   <body>
@@ -207,11 +213,26 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
+    
     <xsl:template match="mishna">
         <strong>
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
+    
+    <xsl:template match="img">
+      <xsl:variable name="img_number">
+        <xsl:number level="any" count="img"/>
+      </xsl:variable>
+
+      <div class='img-container'>
+        <xsl:copy-of select="."/>
+      </div>
+      <div class='img-title'>
+        Рис. <xsl:value-of select="$img_number"/>: <xsl:value-of select="@alt" />
+      </div>
+    </xsl:template>
+    
     <xsl:template match="ol">
         <ol>
             <xsl:apply-templates/>
@@ -287,14 +308,6 @@
     </xsl:template>
     
     <xsl:template match="table">
-        <xsl:copy-of select=".">
-        </xsl:copy-of>
-    </xsl:template>
-    <xsl:template match="th">
-        <xsl:copy-of select=".">
-        </xsl:copy-of>
-    </xsl:template>
-    <xsl:template match="td">
         <xsl:copy-of select=".">
         </xsl:copy-of>
     </xsl:template>
