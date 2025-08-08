@@ -281,9 +281,10 @@
     
     
     <xsl:template match="ol">
-        <ol>
-            <xsl:apply-templates/>
-        </ol>
+      <ol>
+        <xsl:copy-of select="@*"/>
+        <xsl:apply-templates/>
+      </ol>
     </xsl:template>
     <xsl:template match="ul">
         <ul>
