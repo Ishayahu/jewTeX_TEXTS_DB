@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="0" type="siman" name="70" verbouse_name="">
+  <header level="1" type="siman_katan" name="1">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="2">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="3">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="4">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="5">
+    <p>В гл. «Всякое мясо» (112б):</p>
+    <quote author='talmud' book='hullin' daf='112b' ref='солили мясо для рава Мори бар Рохель' />
+    <p>В Геморе (113а):</p>
+    <quote author='talmud' book='hullin' daf='113a' ref='Возражение на Рову из брайты про рыбу' />
+    <p>И пишет Рашба в Торат аБайт Арох (Дом 4 Врата 1 2б)</p>
+    <quote author='shlomo_ben_avraam_ibn_aderet' book='torat_habayit_haaroch' chapter='4' siman='1' siman_katan='4' ref='Одно солёное, другое пресное' />
+    <p>И пишут Тосафот (кошерное) и РОШ (41)</p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="6">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </header>
+</header>
+</content>

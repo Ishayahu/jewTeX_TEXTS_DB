@@ -65,7 +65,9 @@
 			<p></p>
 		</header>
 		<header level="1" type="siman_katan" name="17">
-			<p>В <link author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1'>Исур веейтер Арох правило 31 (закон 1)</link> <link author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213'>от имени СМАК (симан 213) пишет</link>, что это <quote author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213' ref="sha2_taz_92_17_1" />. <quote author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1' ref="sha2_taz_92_17_2" />.</p>
+			<p>В <link author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1'>Исур веейтер Арох правило 31 (закон 1)</link> <link author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213'>от имени СМАК (симан 213) пишет</link>, что это:</p>
+      <quote author='isaac_ben_joseph_of_corbeil' book='sefer_mitzvot_katan' siman='213' ref="sha2_taz_92_17_1" />
+      <quote author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='1' ref="sha2_taz_92_17_2" />
 		</header>
         <header level="1" type="siman_katan" name="18">
             <p></p>
@@ -73,9 +75,17 @@
         <header level="1" type="siman_katan" name="19">
             <p></p>
         </header>
-        <header level="1" type="siman_katan" name="20">
-            <p></p>
-        </header>
+	<header level="1" type="siman_katan" name="20">
+		<p>То есть, не помогает даже подождать, пока остынет. И так следует из Исур веЭтер Арох 31, который пишет:</p>
+    <quote author='isur_vheyter_harokh' book='isur_vheyter_harokh' klal='31' din='2' girsa='Обычай'/>
+		<p>А из <link author='joshua_falk' book='perishah_al_yoreh_deah' siman='92' siman_katan='21'>Приши</link> следует, что можно разрешить даже по обычаю, если дать остыть, а обычай устрожаться касается только запрета выливать до того, как остыло. И слова его ясные, как он пишет. И так следует из <link author='moses_isserles' book='torath_ha_chatath' klal='55' din='2'>Торат Хатат 55</link></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</header>
         <header level="1" type="siman_katan" name="21">
             <p></p>
         </header>
