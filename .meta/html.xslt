@@ -12,6 +12,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>test1</title>
     <style type="text/css">
+      .work_needed{ background: DarkOrange;}
       /*.link_needed{ background: red;}
       .term {text-decoration: underline;}
       .comment {font-size: small;
@@ -30,8 +31,10 @@
       }
       .NaN{background-color: black}
       .Red{background-color: red}
-      .Green{background-color: lightgreen}
+      .Green{background-color: green}
       .Yellow{background-color: yellow}
+      .Lightgreen{background-color: lightgreen}
+      .Indigo{background-color: indigo; color: white}
       table{border: 1px black solid}
       td, th {
         border-left: 1px solid #999;
