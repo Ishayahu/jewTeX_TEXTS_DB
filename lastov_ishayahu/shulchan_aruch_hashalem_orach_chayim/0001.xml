@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-	<header level="0" type="chapter" name="0" verbouse_name="Предисловие" text_link=''>
+	<header level="0" type="part" name="0" verbouse_name="Предисловие" text_link=''>
 		<header level="1" type="siman" name="1">
 			<p>В чём в чём состоит заповедь изучения Торы?</p>
 			<p>Зачем ещё одна книга? все хотели создать но у них не вышло... 1) не получилось чтобы были причины 2) нет актуальных законов</p>

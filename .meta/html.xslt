@@ -325,6 +325,11 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
+    <xsl:template match="s">
+        <s>
+            <xsl:apply-templates/>
+        </s>
+    </xsl:template>
 
     <xsl:template match="possible_comment">
         <span class="possible_comment">
@@ -361,7 +366,7 @@
     <xsl:template match="table">
       <xsl:copy>
         <!-- Копируем атрибуты и пространства имен -->
-        <xsl:apply-templates select="@*"/>
+        <!-- <xsl:apply-templates select="@*"/> -->
         
         <!-- Обрабатываем содержимое таблицы -->
         <xsl:apply-templates select="*|text()"/>
@@ -373,6 +378,8 @@
             format="1." 
             letter-value="traditional"/>: <xsl:value-of select="@alt" />
       </div>
+
+
     </xsl:template>
     <xsl:template match="tr">
       <tr>
