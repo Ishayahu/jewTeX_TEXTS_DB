@@ -920,16 +920,18 @@
   <header level="1" type="sub_chapter" name='2' number='2' verbouse_name="Благословение на отвары/соки">
     <table alt='Мнения об отварах/соках'>
         <tr>
-          <td></td>
-          <th>Оливки</th>
-          <th>Виноград</th>
+          <td rowspan='2'></td>
+          <th rowspan='2'>Оливки</th>
+          <th rowspan='2'>Виноград</th>
+          <th rowspan='2'>Уксус из недозрелого винограда</th>
+          <th rowspan='2'>Яблочный сидр, фруктовое вино</th>
+          <th rowspan='2'>Финиковый мёд</th>
+          <th rowspan='2'>Сок</th>
+          <th rowspan='2'>Плоды, перетёртые в жидкость</th>
           <th colspan='2'>Фрукты</th>
           <th colspan='2'>Овощи</th>
         </tr>
         <tr>
-          <td></td>
-          <th></th>
-          <th></th>
           <th>Которые обычно варят</th>
           <th>Которые обычно не варят</th>
           <th>Которые обычно варят</th>
@@ -937,19 +939,52 @@
         </tr>
         <tr>
           <th>РаШИ</th>
+          <td colspan='11'>???</td>
+        </tr>
+        <tr>
+          <th>РаШИ по РАШБА</th>
           <td colspan='2'>Борей при аэц (так как обычно их пускают под пресс)</td>
-          <td colspan='4'>Шеаколь (так как обычно их не пускают под пресс) <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='45'>С-45</link></td>
+          <td>Шеаколь (так как обычно их не пускают под пресс) <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='45'>С-45</link></td>
+          <td colspan='8'>Шеаколь (так как обычно их не пускают под пресс)</td>
         </tr>
         <tr>
-          <th>Тосафот</th>
+          <th>Тосафот по РАШБА</th>
           <td colspan='2'>Борей при аэц (так как это лучше, чем исходные плоды)</td>
-          <td colspan='4'>Шеаколь (так как это хуже, чем обычные плоды) <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='46'>С-46</link></td>
+          <td>Шеаколь (так как это хуже, чем обычные плоды) <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='46'>С-46</link></td>
+          <td colspan='8'>Шеаколь (так как это хуже, чем обычные плоды)</td>
         </tr>
         <tr>
-          <th></th>
+          <th>Алахот гдолот</th>
+          <td colspan='2'>Борей при аэц (так как это лучше, чем исходные плоды)</td>
+          <td>шеаколь (гемора)</td>
+          <td>шеаколь</td>
+          <td>Борей при аэц (так как это лучше, чем исходные плоды) <link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='47'>С-47</link></td>
+          <td colspan='6'>шеаколь</td>
+        </tr>
+        <tr>
+          <th>Тосафот, РОШ</th>
+          <td colspan='2'>Борей при аэц (так как ???)</td>
+          <td colspan='5'>Шеаколь (так как не отвар)</td>
+          <td colspan='4'>Отвар - при</td>
+        </tr>
+        <tr>
+          <th>РААВАД</th>
+          <td colspan='2'>Борей при аэц (так как ???)</td>
+          <td>Шеаколь (так как не сок и не вино)</td>
+          <td>Шеаколь<link upper="upper" author='lastov_ishayahu' book='vasavata' chapter='1' siman_katan='48'>С-48</link></td>
+          <td colspan='2'>Шеаколь</td>
+          <td>При</td>
+          <td colspan='4'>Отвар - при</td>
         </tr>
         <tr>
           <th>РаШБА</th>
+          <td colspan='2'>Борей при аэц (так как идут под пресс)</td>
+          <td>Шеаколь, так как хотя идёт под пресс, но исходный виноград - шеаколь</td>
+          <td colspan='4'>Если так обычно делают - "при", иначе - "шеаколь"</td>
+          <td>при</td>
+          <td>шеаколь</td>
+          <td>при</td>
+          <td>шеаколь</td>
         </tr>
     </table>
   </header>
