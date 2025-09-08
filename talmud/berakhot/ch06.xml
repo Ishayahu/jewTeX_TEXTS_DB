@@ -3,7 +3,9 @@
 <header level='0' type="chapter" name="6" verbouse_name='Как благословляют'>
 <daf number="380" name="38a" >
   <p>...</p>
-  <p>И сказал мар бар рав Аши: «На сладость фиников благословляют “Шеаколь”<link upper='upper' author='tosafot' book='tosafot_al_berakhot' chapter='6' siman_katan='38a:На сладость фиников благословляют “Шеаколь”'>Тосафот</link>. Почему? Потому это это просто пот<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='6' siman_katan='38a:Потому это это просто пот'>РаШИ</link>»</p>
+  <header type='ref' name='Благословение на сладость фиников'>
+    <p>И сказал мар бар рав Аши: «На сладость фиников благословляют “Шеаколь”<link upper='upper' author='tosafot' book='tosafot_al_berakhot' chapter='6' siman_katan='38a:На сладость фиников благословляют “Шеаколь”'>Тосафот</link>. Почему? Потому это это просто пот<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='6' siman_katan='38a:Потому это это просто пот'>РаШИ</link>»</p>
+  </header>
   <p>Как кто? Как тот тана, который учил:</p>
   <quote author='mishna' book='terumot' chapter='11' mishna='2' ref='Первая часть' />
   <p></p>
