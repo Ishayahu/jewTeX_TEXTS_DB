@@ -407,6 +407,12 @@
 			<xsl:apply-templates/>
 		</div>
     </xsl:template>
+    
+    <xsl:template match="spoiler">
+		<div class="spoiler">
+			<xsl:apply-templates/>
+		</div>
+    </xsl:template>
 
     <xsl:template match="external_link">
         <a target='_blank' ><xsl:attribute name='href'><xsl:value-of select="@url"/></xsl:attribute><xsl:value-of select="@name"/></a>
