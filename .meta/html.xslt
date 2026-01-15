@@ -69,8 +69,16 @@
       .img-container{display: flow-root}
       .img-title{font-style: italic}
       svg{
-        width: 400px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .svg-container{
+        width: 100%;
+        height: 100vh; /* Занимает всю высоту экрана */
+        overflow: auto; /* Добавляет скролл при зуме */
+        position: relative;
+  
       }
     </style>
   </head>
@@ -265,6 +273,11 @@
             count="img|svg:svg" 
             format="1." 
             letter-value="traditional"/>: <xsl:value-of select="@alt" />
+      </div>
+    </xsl:template>
+    <xsl:template match="div">
+      <div class='svg-container'>
+        <xsl:copy-of select="."/>
       </div>
     </xsl:template>
     
