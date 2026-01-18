@@ -33,6 +33,7 @@
       .Red{background-color: red}
       .Green{background-color: green}
       .Yellow{background-color: yellow}
+      .FireBrick{background-color: FireBrick}
       .Lightgreen{background-color: lightgreen}
       .Indigo{background-color: indigo; color: white}
       table{border: 1px black solid}
