@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: xml-validate
+        name: Validate XML syntax
+        language: system
+        entry: wsl xmllint --noout  # Ключевой параметр для проверки синтаксиса
+        files: \.xml$           # Регулярное выражение для XML-файлов
+        pass_filenames: true

@@ -283,9 +283,12 @@
     </xsl:template>
     
     <xsl:template match="svg:*">
-      <xsl:copy>
-        <xsl:copy-of select="."/>
-      </xsl:copy>
+      <div>
+        <xsl:attribute name='style'><xsl:value-of select="concat('height: ',@height,'px;')" /></xsl:attribute>
+        <xsl:copy>
+          <xsl:copy-of select="."/>
+        </xsl:copy>
+      </div>
       <div class='img-title'>
         Рис. <xsl:number 
             level="any" 
