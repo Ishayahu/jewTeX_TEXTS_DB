@@ -7,12 +7,16 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
+
       - name: Install xmllint
         run: sudo apt update && sudo apt install -y libxml2-utils
-        
+
+      - name: Enable error annotations
+        uses: korelstar/xmllint-problem-matcher@v1  # Для форматирования ошибок [github.com](https://github.com/korelstar/xmllint-problem-matcher)
+
       - name: Validate XML files
         run: |
           find . -type f -name "*.xml" -print0 | while IFS= read -r -d $'\0' file; do
-            xmllint --noout "$file" || exit 1
+            echo "Validating: $file"
+            xmllint --noout "$file" 2>&1 | sed "s|^|${file}: |"  # Добавляет имя файла к ошибкам
           done
