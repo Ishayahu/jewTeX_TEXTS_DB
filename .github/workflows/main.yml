@@ -1,3 +1,5 @@
+on: push
+
 jobs:
   xml-validate:
     runs-on: ubuntu-latest
