@@ -1,0 +1,7 @@
+jobs:
+  xml-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt install libxml2-utils
+      - run: find . -name "*.xml" -exec xmllint --noout {} \;
