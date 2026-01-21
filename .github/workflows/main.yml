@@ -1,9 +1,18 @@
-on: push
+name: XML Syntax Validation
+on: [push, pull_request]
 
 jobs:
-  xml-validate:
+  validate-xml:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: sudo apt install libxml2-utils
-      - run: find . -name "*.xml" -exec xmllint --noout {} \;
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Install xmllint
+        run: sudo apt update && sudo apt install -y libxml2-utils
+        
+      - name: Validate XML files
+        run: |
+          find . -type f -name "*.xml" -print0 | while IFS= read -r -d $'\0' file; do
+            xmllint --noout "$file" || exit 1
+          done
