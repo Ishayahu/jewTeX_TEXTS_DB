@@ -1384,7 +1384,16 @@
       <p></p>
     </header>
   </header>
-	<header level="0" type="chapter" name="4100" verbouse_name="42 век. Ерусалимский Талмуд" text_link=''>
+	<header level="0" type="chapter" name="4100" verbouse_name="42 век. Ерусалимский Талмуд" text_link='https://he.wikipedia.org/wiki/%D7%A9%D7%A0%D7%99%D7%9D_%D7%A2%D7%91%D7%A8%D7%99%D7%95%D7%AA_%D7%93%27%D7%A7%27_-_%D7%93%27%D7%A7%D7%A6%22%D7%98'>
+    <header level="2" type="seif" name="4113 родился рав Аши">
+      <p></p>
+    </header>
+    <header level="2" type="seif" name="4118 родился Илель Несиа, 10 поколение от Илеля аЗокена">
+      <p></p>
+    </header>
+    <header level="2" type="seif" name="4119 Илель Несиа устанавливает постоянный календарь">
+      <p></p>
+    </header>
     <header level="2" type="seif" name="4128 завершение составленя Ерусалимского Талмуда">
       <p>раби Йоханан</p>
     </header>
