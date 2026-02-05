@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <ru>
+    <title>Рав</title>
+    <first_name>Ехиэль</first_name>
+    <last_name>Эльприн</last_name>
+    <short_name>Седер аДорот</short_name>
+    <start_year>5421</start_year>
+    <end_year>5507</end_year>
+
+  </ru>
+	<display>
+		<css_class_name>yellow</css_class_name>
+	</display>
+</info>
