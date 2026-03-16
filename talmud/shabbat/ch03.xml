@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="chapter" name="3" verbouse_name="Кира">
+    <daf number="420" name="42a">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="425" name="42b">
+			<p></p>
+			<p></p>
+    </daf>
+  </header>
+</content>

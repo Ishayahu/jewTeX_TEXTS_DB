@@ -1,6 +1,42 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header level='0' type="chapter" name="7" verbouse_name="Кровь хатата">
+  <header level='0' type="chapter" name="11" verbouse_name="Кровь хатата">
+    <daf number="950" name="95a">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <header type="ref" name="">
+        <p></p>
+      </header>
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="955" name="95b">
+      <p>...</p>
+      <header type="ref" name="Сосуд в котором варилось и в который перелили">
+        <p>Учили мудрецы: «“[И глиняный сосуд,] она варилась в котором...” — отсюда мы видим, что закон применим только к сосуду, в котором варилось. А если перелили в него горячее — откуда это учим<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95а:так написано в Торат Коаним'>РаШИ</link>? “... она варилась в котором, будет разбит”»<link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
+      </header>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <header type="ref" name="">
+        <p></p>
+      </header>
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
     <daf number="960" name="96a">
       <p></p>
       <p></p>
