@@ -1,6 +1,18 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header type="chapter" level='0' name="3" >
+  <header type="chapter" level='0' name="3" verbouse_name='Кира' text_link='https://www.sefaria.org/Mishnah_Shabbat.3'>
+    <header type='mishna' level='1' name='3'>
+      <header type="ref" name="Не кладут яйцо рядом с самоваром">
+        <p>Не кладут яйцо рядом с самоваром, чтобы оно сварилось.</p>
+      </header>
+      <header type="ref" name="Яйцо в платок">
+        <p>И не заворачивают в платок. Раби Йоси разрешает.</p>
+      </header>
+      <header type="ref" name="Яйцо в пыль дорог">
+        <p>И не прячут в песок или пыль дорог, чтобы пожарилось</p>
+      </header>
+
+    </header>
     <header type='mishna' level='1' name='5'>
       <header type="ref" name="Самовар, который освободили от воды">
         <p>Самовар, который освободили от воды, нельзя класть в него холодное, чтобы нагрелось, но можно положить в него или в стакан, чтобы не было холодным.</p>

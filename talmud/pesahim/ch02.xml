@@ -29,7 +29,7 @@
       <header type='ref' name="ответ Мреймара про глияную эмалированную посуду">
         <tarzan>
           Сказал им: я же вижу что они снаружи потеют
-          <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='30b:потеют'>Раши: потеют</link>
+          <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='30b:потеют'>Раши</link>
           <comment number='30522'>
               <p>То есть капли варева выделяются из внешней стороны сосуда (Раши, см. Тосафот)</p>
           </comment>
@@ -76,6 +76,35 @@
       <p></p>
       <p></p>
       <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="410" name="41a">
+      <p idx='1'></p>
+      <header type='ref' name='Меиса и халита'>
+        <p idx='2'></p>
+        <p idx='3'></p>
+        <p idx='4'></p>
+      </header>
+      <p idx='5'></p>
+      <p idx='6'></p>
+      <p idx='7'></p>
+      <p idx='8'></p>
+      <p idx='9'></p>
+      <p idx='10'>А мудрецы это «бошель мевушаль» как используют?</p>
+      <p>Им это нужно для того, что учили в брайте:</p>
+      <header type='ref' name='Брайта: сварил и пожарил или наоборот'>
+         <p>«Сварил и потом пожарил или пожарил и потом сварил — виновен<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='41a:виновен'>Раши</link>»</p>
+      </header>
+      <header type='ref' name='В чём проблема с варкой после жарки?'>
+         <p idx='11'>Понятно печему виновен когда сварил, а потом пожарил, ведь сварил. Но пожарил а потом сварил — ведь он жаренный, почему же [виновен]?</p>
+      </header>
+      <header type='ref' name='Ответ рава Кааны'>
+         <p idx='11'>Сказал рав Каана: «Чьё это мнение? раби Йоси<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='41a:раби Йоси'>Раши</link>! Как учили в брайте: “Исполняют<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='41a:исполняют'>Раши</link> [заповедь есть мацу] при помощи рокика замоченного или варёного, который не потерял форму — слова раби Меира. Раби Йоси говорит: исполняют при помощи рокика замоченного, но не варёного<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='41a:но не варёного'>Раши</link>, хоть и не потерял форму”»</p>
+      </header>
+      <header type='ref' name='Ответ Улы'>
+         <p idx='11'>Сказал Ула: «Даже скажи что это раби Меир: тут ситуация отличается, так как стих говорит<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_pesahim' chapter='2' siman_katan='41a:тут ситуация отличается, так как стих говорит'>Раши</link> “бошель мевушаль” — в любом случае»</p>
+      </header>
       <p></p>
       <p></p>
     </daf>

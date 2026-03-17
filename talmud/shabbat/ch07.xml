@@ -1,10 +1,38 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-    <header level='0' type="chapter" name="7" verbouse_name="Важное правило">
-        <daf number="750" name="75a">
+  <header level='0' type="chapter" name="7" verbouse_name="Важное правило">
+    <daf number="740" name="74a">
 			<p></p>
 		</daf>
-        <daf number="755" name="75b">
+    <daf number="745" name="74b">
+			<p idx='1'></p>
+			<p idx='2'></p>
+			<p idx='3'></p>
+      <header type="ref" name="колышек - варка">
+        <p idx='4'>Сказал рав Аха бар рав Авира: «Тот, кто кладёт колышек<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='7' siman_katan='74b:кладёт крюк'>Раши</link> в печь — нарушает запрет варки.»</p>
+      </header>
+			<p>Так это же очевидно?!</p>
+			<p>Ты мог бы подумать, что он намеревается укрепить<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='7' siman_katan='74b:укрепить'>Раши</link> сосуд, сообщается нам, что ослабляет<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='7' siman_katan='74b:ослабляет'>Раши</link> и потом укрепляет.</p>
+      <header type="ref" name="плавит смолу - варка">
+        <p>Сказал Раба бар рав Уна: «Тот, кто плавит смолу — нарушает запрет варки».</p>
+      </header>
+			<p>Так это же очевидно?!</p>
+			<p>Ты мог бы подумать, что так как потом затвердевает — скажу [что это] не [варка], Сообщается нам [что это всё же варка].</p>
+			<p idx='5'></p>
+			<p idx='6'></p>
+			<p idx='7'></p>
+			<p idx='8'></p>
+			<p idx='9'></p>
+			<p idx='10'></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="750" name="75a">
+			<p></p>
+		</daf>
+    <daf number="755" name="75b">
 			<p>[Среди малахот, перечисленных в мишне, есть те, которые связаны с выделкой кожи,] например, солящий её и выделывающий.</p>
 			<makshan>Так солящий - это и есть выделывающий?!</makshan>
 			<tarzan>Раби Йоханан и Рейш Лакиш сказали оба: "убери одну из них и добавь [вместо неё] разлиновку"</tarzan>

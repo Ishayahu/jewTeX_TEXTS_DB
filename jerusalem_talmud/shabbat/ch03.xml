@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="chapter" name="3" verbouse_name="Кира">
+    <header level='1' type="halakha" name="5">
+      <quote author='mishna' book='shabbat' chapter='3' mishna='5' />
+      <header type='ref' name='Варит ли струя?.1'>  
+        <p idx='2'>Можно ли положить специи внизу и лить на них сверху?</p>
+        <p>Раби Йона сказал: «Запрещено. И струя [из первого сосуда] — как первый сосуд.»</p>
+      </header>
+      <p>«Сила» раби Йоны [пришла] из этого:</p>
+      <quote author='mishna' book='zevachim' chapter='11' mishna='7' ref='Начало 1' />
+      <p>Сказал раби Йоси: «Там [говорится о том, что] глиняный сосуд впитывает, специи же не варятся.»</p>
+      <p>Возразил на это раби Йоси браби Бун: «А ведь мы же учили: и так же в случае медного сосуда. А разве медный сосуд впитывает?»</p>
+			<p></p>
+			<p></p>
+			<p idx='3'></p>
+      
+      <p idx='4'></p>
+      <p></p>
+      <p></p>
+        
+			
+      <header type='ref' name='рав Йосеф думал сказать о соли - 2.1'>
+        <p idx='5'></p>
+			</header>
+      <header type='ref' name='рав Йосеф думал сказать о соли - 2.2'>
+        <p></p>
+			</header>
+      <p></p>
+      <p></p>
+      
+      <p idx='6'></p>
+
+    </header>
+  </header>
+</content>
