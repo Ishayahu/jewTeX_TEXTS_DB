@@ -1,29 +1,40 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-<header level='0' type="chapter" name="6" verbouse_name='Как благословляют'>
-<daf number="380" name="38a" >
-  <p>...</p>
-  <header type='ref' name='Благословение на сладость фиников'>
-    <p>И сказал мар бар рав Аши: «На сладость фиников благословляют “Шеаколь”<link upper='upper' author='tosafot' book='tosafot_al_berakhot' chapter='6' siman_katan='38a:На сладость фиников благословляют “Шеаколь”'>Тосафот</link>. Почему? Потому это это просто пот<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='6' siman_katan='38a:Потому это это просто пот'>РаШИ</link>»</p>
+  <header level='0' type="chapter" name="6" verbouse_name='Как благословляют'>
+    <daf number="350" name="35a">
+      <quote author='mishna' book='berakhot' chapter='6' mishna='1' />
+      <header type='ref' name='Откуда учим обязанность произносить благословение?'>
+        <p idx='2'>Откуда это?</p>
+        <p>Так как учили мудрецы: «</p>
+        <quote author='tora' book='vayikra' chapter='19' ref='19:24.святыней хвалы Господу' />
+        <p>Отсюда мы учим, что требуется благословение перед ними и после них. Отсюда говорил раби Акива: “Запрещено человеку пробовать что-либо перед тем, как произнесёт благословение.”»</p>
+      </header>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="380" name="38a">
+      <p>...</p>
+      <header type='ref' name='Благословение на сладость фиников'>
+        <p>И сказал мар бар рав Аши: «На сладость фиников благословляют “Шеаколь”<link upper='upper' author='tosafot' book='tosafot_al_berakhot' chapter='6' siman_katan='38a:На сладость фиников благословляют “Шеаколь”'>Тосафот</link>. Почему? Потому это это просто пот<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='6' siman_katan='38a:Потому это это просто пот'>РаШИ</link>»</p>
+      </header>
+      <p>Как кто? Как тот тана, который учил:</p>
+      <quote author='mishna' book='terumot' chapter='11' mishna='2' ref='Первая часть' />
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="385" name="38b">
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
+    <daf number="390" name="39a">
+      <p>...</p>
+      <p>Сказал рав Папа: «Очевидно мне, что отвар свёклы - как свёкла, отвар репы - как репа, и отвар всего, что варят - как то, что варят.»</p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </daf>
   </header>
-  <p>Как кто? Как тот тана, который учил:</p>
-  <quote author='mishna' book='terumot' chapter='11' mishna='2' ref='Первая часть' />
-  <p></p>
-  <p></p>
-  <p></p>
-</daf>
-<daf number="385" name="38b" >
-  <p></p>
-  <p></p>
-  <p></p>
-</daf>
-<daf number="390" name="39a" >
-  <p>...</p>
-  <p>Сказал рав Папа: «Очевидно мне, что отвар свёклы - как свёкла, отвар репы - как репа, и отвар всего, что варят - как то, что варят.»</p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-</daf>
-</header>
 </content>
