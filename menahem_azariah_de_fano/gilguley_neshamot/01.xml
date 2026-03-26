@@ -1,6 +1,8 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header level="0" type="siman" name="Алеф">
+  <header level="0" type="siman" name='0' verbouse_name="Предисловие">
+  </header>
+  <header level="0" type="siman" name='1' verbouse_name="Алеф">
     <header level="1" type="siman_katan" name="1" verbouse_name="Авимелех, царь Грора - Авимелех бен Гидеон">
 			<p>Авимелех, царь Грора, переродился в Авимелеха бен Ерубааль, сына наложницы Гидеона, как написано «А наложница его, которая в Шхеме, родила ему так же она сына и назвал имя его — Авимелех». И тем не менее не было завершено его исправление, так как ему полагалась смерть за то, что взял Сару, как сказал ему ангел: «Вот ты умрёшь за женщину, которую взял». И хотя он сказал: «По простоте сердца своего [и чистоте рук] сделал я это», тем не менее заслужил за это смерть. И умер из-за женщины, которая бросила на него жернов. И это то, что намекнул ему Бг, гооворя: «Вот ты умрёшь за женщину» — из-за женщины.</p>
 			<p></p>
@@ -127,7 +129,7 @@
 			<p></p>
 		</header>
   </header>
-  <header level="0" type="siman" name="Бейс">
+  <header level="0" type="siman" name='2' verbouse_name="Бейс">
     <header level="1" type="siman_katan" name="">
 			<p></p>
 			<p></p>
@@ -135,7 +137,7 @@
 			<p></p>
 		</header>
 	</header>
-  <header level="0" type="siman" name="Гимел">
+  <header level="0" type="siman" name='3' verbouse_name="Гимел">
     <header level="1" type="siman_katan" name="">
 			<p></p>
 			<p></p>

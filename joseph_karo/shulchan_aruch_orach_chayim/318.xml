@@ -34,22 +34,22 @@
                 <p></p>
             </ramo>
         </header>
-        <header level="1" type="seif" name="5" verbouse_name="">
-            <sha>
-                <p></p>
-            </sha>
-            <ramo>
-                <p></p>
-            </ramo>
-        </header>
-        <header level="1" type="seif" name="6" verbouse_name="">
-            <sha>
-                <p></p>
-            </sha>
-            <ramo>
-                <p></p>
-            </ramo>
-        </header>
+    <header level="1" type="seif" name="5" verbouse_name="Варка после жарки и выпечки">
+      <sha>
+        <p>Есть тот, кто говорит, что то, что было испечено или пожарено, если потом сварили в воде<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='40'>МБ-40</link> — нарушается этим запрет варки<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='41'>МБ-41</link> и запрещено класть хлеб<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='42'>МБ-42</link> [даже] во второй сосуд, чья температура выше, чем яд соледет. А есть разрешающие.</p>
+      </sha>
+      <ramo>
+        <p>[Разрешающие] во второй сосуд<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='43'>МБ-43</link>. И есть облегчающие даже в первый сосуд<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='44'>МБ-44</link>. И принято изначально<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='46'>МБ-46</link> не класть<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='45'>МБ-45</link> хлеб даже во второй сосуд<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='47'>МБ-47</link> всё то время, пока его температура выше, чем яд соледет<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='48'>МБ-48</link>.</p>
+      </ramo>
+    </header>
+    <header level="1" type="seif" name="6" verbouse_name="">
+        <sha>
+            <p></p>
+        </sha>
+        <ramo>
+            <p></p>
+        </ramo>
+    </header>
     <header level="1" type="seif" name="10" verbouse_name="Струя из первого сосуда на кли ришон">
       <sha>
         <p>Запрещено<link upper='upper' author='gombiner_abraham_abele' book='magen_avraham_on_shulchan_aruch_orach_chayim' siman='318' siman_katan='32'>МА-32</link> класть специи в тарелку и лить на них из кли ришон<link upper='upper' author='kagan_yisrael_meir' book='mishnah_berurah' siman='318' siman_katan='74'>МБ-74</link></p>
@@ -65,5 +65,51 @@
         <p></p>
       </ramo>
     </header>
+    <header level="1" type="seif" name="12" verbouse_name="">
+      <sha>
+        <p></p>
+        <p></p>
+      </sha>
+      <ramo>
+        <p></p>
+      </ramo>
     </header>
+    <header level="1" type="seif" name="13" verbouse_name="">
+      <sha>
+        <p></p>
+        <p></p>
+      </sha>
+      <ramo>
+        <p></p>
+      </ramo>
+    </header>
+    <header level="1" type="seif" name="14" verbouse_name="">
+      <sha>
+        <p></p>
+        <p></p>
+      </sha>
+      <ramo>
+        <p></p>
+      </ramo>
+    </header>
+    <header level="1" type="seif" name="15" verbouse_name="">
+      <sha>
+        <p></p>
+        <p></p>
+      </sha>
+      <ramo>
+        <p></p>
+      </ramo>
+    </header>
+    <header level="1" type="seif" name="16" verbouse_name="">
+      <sha>
+        <p>Можно положить эмпанаду на некотором расстоянии от огня, там где температура яд соледет<link upper='upper' author='david_halevi_segal' book='taz_al_shulchan_aruch_orach_chayim' siman='318' siman_katan='20'>ТаЗ-20</link>, хотя и засытвший жир<link upper='upper' author='david_halevi_segal' book='taz_al_shulchan_aruch_orach_chayim' siman='318' siman_katan='21'>ТаЗ-21</link> в ней плавится.</p>
+        <p></p>
+      </sha>
+      <ramo>
+        <p>И тем более кастрюлю в которой есть застывшая жидкость, так как когда жир плавится — его не заметно и поэтому разрешено (р. Ерухам ч. 3). А есть устрожающие (РаН гл. «Во что укутывают»). И принято устрожаться, однако если нужно — можно положиться на первое мнение.</p>
+        <p></p>
+      </ramo>
+    </header>
+  </header>
 </content>

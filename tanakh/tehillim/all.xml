@@ -16,6 +16,16 @@
     </header>
   </header>
   <header level="0" type="part" name="5" verbouse_name="Пятая книга" text_link="">
+    <header level='1' type='chapter' name='72' number='72'>
+      <header level='2' type='posuk' name='16'>
+        <header type='ref' name='И будет обильный урожай в стране,'>
+          <span>И будет обильный урожай в стране,</span>
+        </header>
+      </header>
+      <header type='ref' name='конец'>
+        <span>на верху гор; заколышутся плоды его, как (лес) леванонский, и цвести будут (умножаться) в городе (люди), как трава на земле.</span>
+      </header>
+    </header>
     <header level='1' type='chapter' name='115' number='115'>
       <header level='2' type='posuk' name='16'>
         <header type='ref' name='Небеса эти, небеса – Г-споду,'>

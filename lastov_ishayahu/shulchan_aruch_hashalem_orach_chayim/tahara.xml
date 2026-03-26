@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+	<header level="0" type="part" name="90" verbouse_name="Законы ритуальной чистоты" text_link=''>
+		<header level="1" type="siman" name="1" verbouse_name="Тума постфактум (Нида, первая сугия)">
+			<header level="1" type="seif" name="1" verbouse_name="">
+				<p></p>
+				<p></p>
+				<p></p>
+			</header>
+		</header>
+		<header level="1" type="siman" name="2">
+			<p></p>
+			<p></p>
+			<p></p>
+		</header>
+		<header level="1" type="siman" name="3">
+			<p></p>
+		</header>
+	</header>
+</content>
