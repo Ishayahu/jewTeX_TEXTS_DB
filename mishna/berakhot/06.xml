@@ -13,5 +13,19 @@
         <p>Вот правило: если есть главное и с ним второстепенное — говорит благословение на главное и освобождает второстепенное.</p>
       </header>
     </header>
+    <header type='mishna' level='1' name='8'>
+      <header type='ref' name='Благословение после фиников по рабану Гамлиэлю'>
+        <p>Тот, кто ел финики, виноград и гранат, благословляет после них три благословления — слова рабана Гамлиэля.</p>
+      </header>
+      <p>А мудрецы говорят: одно благословение, подобное трём.</p>
+      <p>Раби Акива говорит: даже если ел варёные овощи и они его насытили — благословляет три благословления.</p>
+      <p></p>
+      <header type='ref' name='Тот, кто пьёт воду из жажды'>
+        <p>Тот, кто пьёт воду из-за жажды<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_eruvin' chapter='1' siman_katan='14b:из-за жажды'>РаШИ Эрувин</link> — говорит «...шеаколь ниьё бидваро»<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_eruvin' chapter='1' siman_katan='14b:шеаколь ниьё бидваро'>РаШИ Эрувин</link></p>
+      </header>
+      <header type='ref' name='Раби Тарфон про воду'>
+        <p>Раби Тарфон говорит: «...боре нефашот работ»<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_eruvin' chapter='1' siman_katan='14b:Раби Тарфон говорит: «...боре нефашот работ»'>РаШИ Эрувин</link> <link upper='upper' author='tosafot' book='tosafot_al_berakhot' chapter='6' siman_katan='45a:Раби Тарфон говорит: «...боре нефашот работ»'>Тосафот</link>.</p>
+      </header>
+    </header>
   </header>
 </content>

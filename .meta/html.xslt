@@ -31,6 +31,7 @@
       }
       .NaN{background-color: black}
       .Red{background-color: red}
+      .Red a{color: wheat;}
       .Green{background-color: green}
       .Yellow{background-color: yellow}
       .FireBrick{background-color: FireBrick}

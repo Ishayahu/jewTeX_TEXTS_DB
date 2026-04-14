@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <ru>
+    <title>рабейну</title>
+    <first_name>Яааков бен Меир</first_name>
+    <last_name></last_name>
+    <short_name>рабейну Там</short_name>
+    <start_year>4860</start_year>
+    <end_year>4931</end_year>
+  </ru>
+  <display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+

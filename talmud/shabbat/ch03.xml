@@ -33,12 +33,12 @@
 			<p></p>
 		</daf>
     <daf number="420" name="42a">
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<p></p>
-		</daf>
+			<p idx='1'></p>
+			<p idx='2'></p>
+			<p idx='3'></p>
+			<p idx='4'></p>
+			<p idx='5'></p>
+    </daf>
     <daf number="425" name="42b">
 			<p idx='1'></p>
 			<p idx='2'></p>
@@ -62,7 +62,110 @@
         <p></p>
         <p></p>
         
-      <p idx='6'></p>
+      <header type='ref' name='Мишна: не ставят посуду под свечку'>
+        <p idx='6'>
+          <mishna>Не ставят<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='42b:Не ставят'>Раши</link> посуду под свечку<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='42b:посуду под свечку'>Раши</link>, чтобы туда капало масло.</mishna>
+        </p>
+      </header>
+        <p>
+          <mishna>Если же поставил накануне — разрешено<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='42b:разрешено'>Раши</link>.</mishna>
+        </p>
+        <p>
+          <mishna>И не не пользуются им так как оно не было готово.</mishna>
+        </p>
+      
+			<p idx='7'></p>
+			<p idx='8'></p>
+			<p></p>
+			<p></p>
+			<p></p>
+
     </daf>
+    <daf number="430" name="43a">
+			<p idx='1'></p>
+			<p idx='2'></p>
+			<p idx='3'></p>
+      <header type='ref' name='Рав Йосеф объясняет рава Хисду'>
+        <p idx='4'>Рав Йосеф сказал: причина [почему] рав Хисда<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='43a:причина рав Хисды'>Раши</link> [запрещает ставить сосуд под курицу в том,] что делает предмет неготовым
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='43a:делает предмет неготовым'>Раши</link>
+        <link upper='upper' author='yom_tov_ben_abraham_of_seville' book='chiddushei_ha_ritva_on_shabbat' chapter='3' siman_katan='43a:Рав Йосеф сказал: причина рав Хисды из-за того, что делает предмет неготовым'>Ритва</link>
+        <link upper='upper' author='joseph_ben_meir_teomim' book='rosh_joseph_on_shabbat' chapter='3' siman_katan='43a:Рав Йосеф сказал: причина рав Хисды из-за того, что делает предмет неготовым'>Рош Йосеф</link>
+        .</p>
+      </header>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="435" name="43b">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="440" name="44a">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="445" name="44b">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="450" name="45a">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="455" name="45b">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="460" name="46a">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="465" name="46b">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="470" name="47a">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</daf>
+    <daf number="475" name="47b">
+			<p></p>
+      <header type='ref' name='Ставят посуду под свечку'>
+        <mishna>Ставят посуду под свечку, чтобы туда падали искры.</mishna>
+      </header>  
+      <mishna>Но не наливают в неё воду, так как это тушение.</mishna>
+      <header type='ref' name='Возражение на рав Хисду?'>
+        <makshan>Так он же делает предмет неготовым<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_shabbat' chapter='3' siman_katan='47b:Так он же делает предмет неготовым'>Раши</link>!?</makshan>
+        <tarzan>В искрах нет сущности.</tarzan>
+      </header>
+			<p></p>
+		</daf>
+
   </header>
 </content>

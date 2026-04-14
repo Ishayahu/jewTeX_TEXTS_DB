@@ -1,6 +1,26 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
 <header level="0" type="chapter" name="3" verbouse_name="Кира">
+  <header level="1" type="siman_katan" name='42b:Не ставят'>
+    <p>в шабат</p>
+  </header>
+  <header level="1" type="siman_katan" name='42b:посуду под свечку'>
+    <p>чтобы туда собиралось капающее масло, так как это масло — мукце.</p>
+    <p>И он считает, что берут предмет в шабат только для того, что можно брать.</p>
+    <p>Или же считает, что запрещено делать предмет неготовым, из-за чего он останется на своём месте и не возможно будет больше взять его оттуда, так как тем самым как будто устанавливается место для предмета и как будто он прикрепляется к нему глиной и это похоже на малаху. А эта посуда, когда упадёт в неё масло мукце, будет запрещена для перемещения.</p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name='42b:разрешено'>
+    <p>получать от него выгоду</p>
+  </header>
+  <header level="1" type="siman_katan" name="">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="">
+    <p></p>
+  </header>
+
   <header level="1" type="siman_katan" name="42b:и в первом сосуде тоже не варится">
     <p>и можно положить её даже в первый сосуд после того, как сняли его с огня</p>
   </header>
@@ -10,11 +30,29 @@
   <header level="1" type="siman_katan" name="">
     <p></p>
   </header>
+  <header level="1" type="siman_katan" name="43a:причина рав Хисды">
+    <p>что не ставят посуду под курицу</p>
+  </header>
+  <header level="1" type="siman_katan" name="43a:делает предмет неготовым">
+    <p>так как он был сперва готов к перемещению а теперь делает из него мукце</p>
+  </header>
   <header level="1" type="siman_katan" name="">
     <p></p>
   </header>
   <header level="1" type="siman_katan" name="">
     <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="">
+    <p></p>
+  </header>
+  <header level="1" type="siman_katan" name="47b:Так он же делает предмет неготовым">
+    <p>так как не сможет забрать его оттуда весь день, ведь он станет основной для искр. И получается это возражение на рав. Хисду, который высказался <link author='talmud' book='shabbat' daf='43a'>выше</link></p>
   </header>
   <header level="1" type="siman_katan" name="">
     <p></p>
