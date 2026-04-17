@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <ru>
+    <title>рав</title>
+    <first_name>Исроэль</first_name>
+    <last_name>Баренбаум</last_name>
+    <short_name></short_name>
+    <start_year>5738</start_year>
+    <end_year></end_year>
+  </ru>
+  <display>
+		<css_class_name>default</css_class_name>
+	</display>
+</info>
+
