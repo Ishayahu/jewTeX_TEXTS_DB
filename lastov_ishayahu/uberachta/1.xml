@@ -189,6 +189,9 @@
         <li><quote author='jerusalem_talmud' book='berakhot' chapter='6' halakha='8' ref='Вода из-за жажды' /></li>
         <li><quote author='talmud' book='niddah' chapter='6' ref='Всё, что требует благословения после...' /></li>
         <li><quote author='talmud' book='eruvin' daf='14b' ref='Благословение на воду - как тана кама или раби Тарфон?' /></li>
+        <li><quote author='mishna' book='berakhot' chapter='7' mishna='1' ref='Кто не участвует в зимуне' /></li>
+        <li><quote author='talmud' book='sanhedrin' daf='6b' ref='Тот, кто украл пшеницу'/></li>
+        <li></li>
         <li></li>
         <li></li>
         <li></li>
@@ -237,7 +240,7 @@
         </tr>
         <tr>
           <th>Рамбам</th>
-          <th colspan='2' class='Red'><link author='moses_ben_maimon' book='mishneh_torah_ahava_berakhot' chapter='1' siman='19'>Нет</link> (из РОШ Брахот 7:2) (из Мишны Брахот 7:1 так как раз не присоединяет к зимуну, тем более ни к брохе) (и даже шойгег, так как это не «еда»)</th>
+          <th colspan='2' class='Red'><link author='moses_ben_maimon' book='mishneh_torah_ahava_berakhot' chapter='1' siman='19'>Нет</link> (из <link author='mishna' book='berakhot' chapter='7' mishna='1'>Мишны Брахот 7:1</link> так как раз не присоединяет к зимуну, тем более ни к брохе) (и даже шойгег, так как это не «еда»)</th>
           <th class='Yellow'>
             <p>Мехабер: надо (кесеф мишна)</p>
             <p>Таз, р. Ерухам, Рашба: не надо (так как не еда) (196к1)</p>
@@ -252,7 +255,7 @@
         </tr>
         <tr>
           <th>Раавад</th>
-          <th colspan='2' class='Green'>Да (из РОШ Брахот 7:2) (из Мишны Брахот 7:1 так как мишна про зимун, а броха - про удовольствие, а оно тут есть) (Таз: именно бешогег)</th>
+          <th colspan='2' class='Green'><link author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_berakhot' chapter='1' siman='19'>Да</link> (из <link author='mishna' book='berakhot' chapter='7' mishna='1'>Мишны Брахот 7:1</link> так как мишна про зимун, а броха - про удовольствие, а оно тут есть) (Таз: именно бешогег)</th>
           <th>До</th>
           <th>После</th>
           <th>До</th>
@@ -264,8 +267,7 @@
         </tr>
         <tr>
           <th>Рош (+Тосафот: всё упирается в наличие вкуса)</th>
-          <th class='Green'>Да (Брахот 7:2)</th>
-          <th class='Green'>Да (Брахот 7:2)</th>
+          <th colspan='2' class='Green'><link author='asher_ben_jehiel' book='rosh_berakhot' chapter='7' siman='2'>Да</link> (согласен с РААВАДом и из <link author='talmud' book='sanhedrin' daf='6b'>первой гл. Санедрин 6б</link> и <link author='talmud' book='bava_kamma' daf='94a'>в первой главе «Укравший» [Бава Кама] 94а</link>)</th>
           <th>До</th>
           <th>После</th>
           <th>До</th>
