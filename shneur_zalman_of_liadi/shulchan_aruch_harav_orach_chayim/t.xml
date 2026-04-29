@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="0" type="siman" name="1" verbouse_name="" text_link='https://www.sefaria.org/Shulchan_Arukh_HaRav%2C_Orach_Chayim.1'>
+  <header level="1" type="seif" name="1" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="2" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="3" verbouse_name=''>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="4" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="5" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="6" verbouse_name=''>
+    <p></p>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="7" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="8" verbouse_name=''>
+    <p></p>
+  </header>
+  <header level="1" type="seif" name="9" verbouse_name=''>
+    <p></p>
+  </header>
+</header>
+</content>
