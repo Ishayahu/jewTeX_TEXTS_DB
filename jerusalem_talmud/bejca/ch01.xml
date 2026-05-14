@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="1" verbouse_name="Яйцо">
+  <header level='1' type="halakha" name="1">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </header>
+  <header level='1' type="halakha" name="2">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </header>
+  <header level='1' type="halakha" name="3">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </header>
+  <header level='1' type="halakha" name="4">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p idx='9'></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </header>
+  <header level='1' type="halakha" name="5">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p idx='3'></p>
+    <p idx='4'></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </header>
+  <header level='1' type="halakha" name="6">
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level='1' type="halakha" name="7">
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p></p>
+    <p></p>
+  </header>
+  <header level='1' type="halakha" name="8">
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p></p>
+    <p></p>
+  </header>
+</header>
+</content>

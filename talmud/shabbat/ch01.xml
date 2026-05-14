@@ -1,6 +1,15 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
   <header level='0' type="chapter" name="1" verbouse_name="Выносы в шабат">
+    <daf number="20" name="2a">
+      <quote author='mishna' book='shabbat' chapter='1' mishna='1' />
+			<p idx='1'></p>
+      <p></p>
+		</daf>
+    <daf number="25" name="2b">
+			<p idx='1'></p>
+      <p></p>
+		</daf>
     <daf number="190" name="19a">
 			<p idx='1'></p>
       <p></p>

@@ -58,19 +58,31 @@
       <quote author='mishna' book='niddah' chapter='6' mishna='10' />
       <p idx='19'>Что это должно добавить? [То есть, что это за вещи, на которые говорят благословение до, но не после?]</p>
       <p>Добавить зелень.</p>
-      <p>А по мнению раби Ицхака, что надо благословлять за зелень<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='51b:что надо благословлять на зелень'>РаШИ</link>, что это должно добавить?</p>
+      <p>
+        <span>А по мнению раби Ицхака, что надо благословлять за зелень</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='51b:что надо благословлять на зелень'>РаШИ</link>
+        <span>, что это должно добавить?</span>
+      </p>
       <p>Добавить воду.</p>
       <header type="ref" name="Всё, что требует благословения после... А по мнению рав Попо?">
         <p idx='20'>А по мнению рав Попо, который считает, что надо благословлять на воду, что это должно добавить?</p>
       </header>
-      <p>Добавить заповеди<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='51b:заповеди'>РаШИ</link>.</p>
+      <p>
+        <span>Добавить заповеди</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='51b:заповеди'>РаШИ</link>
+        <span>.</span>
+      </p>
       <p>А по мнению жителей Израиля, которые благословляют после того, как заканчивают молитву: «…Который освятил нас своими заповедями и повелел нам соблюдать Свои законы», что это должно добавить?</p>
       <p>Добавить</p>
       <p></p>
     </header>
   </daf>
   <daf number="520" name="52a">
-    <p idx='1'>специи<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='52a:специи'>РаШИ</link>.</p>
+    <p idx='1'>
+      <span>специи</span>
+      <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_niddah' chapter='6' siman_katan='52a:специи'>РаШИ</link>
+      <span>.</span>
+    </p>
     <header type="ref" name="">
       <p></p>
     </header>

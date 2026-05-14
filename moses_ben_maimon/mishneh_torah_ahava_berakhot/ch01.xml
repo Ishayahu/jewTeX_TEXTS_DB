@@ -54,11 +54,34 @@
   </header>
   <header level="1" type="siman" name="18">
     <p></p>
+    <p><work_needed>...</work_needed></p>
+    <p></p>
   </header>
   <header level="1" type="siman" name="19">
-    <p>Всякий, кто ест запрещённое<link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='1'>КМ-1.19.1</link>, как намеренно, так и по ошибке<link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='2'>КМ-1.19.2</link>, не благословляет ни до ни после<link upper='upper' author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_berakhot' chapter='1' siman='19'>РААВАД</link>.</p>
-    <p>Например, тот, кто ел тевель по мудрецам, или маасер ришон, от которого не отделили труму<link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='3'>КМ-1.19.3</link>, или маасер шейни или экдеш, которые не были выкуплены по закону — не благословляет.</p>
+    <p>
+      <span>Всякий, кто ест запрещённое</span>
+      <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='1'>КМ-1.19.1</link>
+      <span>, как намеренно, так и по ошибке</span>
+      <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='2'>КМ-1.19.2</link>
+      <span>, не благословляет ни до ни после</span>
+      <link upper='upper' author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_berakhot' chapter='1' siman='19'>РААВАД</link>
+      <span>.</span>
+    </p>
+    <p>
+      <span>Например, тот, кто ел тевель по мудрецам, или маасер ришон, от которого не отделили труму</span>
+      <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_berakhot' chapter='1' siman='19' seif='3'>КМ-1.19.3</link>
+      <span>, или маасер шейни или экдеш, которые не были выкуплены по закону — не благословляет.</span>
+    </p>
     <p>И тем более если ел невейлу или трейфу или пил яйн несех и тому подобное.</p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Even_HaEzel/Berakhot/1.19#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Peirush_HaRav_Kapach/Berakhot/1.19#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Yad_Peshutah/Berakhot/1.19#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Tzafenat_Paneach_(Rogatchover)/Berakhot/1.19#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Hagahot_Maimoniyot/Berakhot/1.14#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Migdal_Oz/Berakhot/1.14#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Maaseh_Rokeach/Berakhot/1.16#m7e_he_he_n6</work_needed></p>
+    <p><work_needed>https://rambam.alhatorah.org/Parshan/Mirkevet_HaMishneh/Berakhot/1.18#m7e_he_he_n6</work_needed></p>
+
   </header>
   <header level="1" type="siman" name="20">
     <p></p>

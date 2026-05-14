@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="7" verbouse_name="Трое, которые ели">
+  <daf number="325" name="32b">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <quote author='mishna' book='berakhot' chapter='7' mishna='1' ref='Трое обязаны в зимуне' />
+    <quote author='mishna' book='berakhot' chapter='7' mishna='1' ref='Выглядит как запрет' />
+  </daf>
+  <daf number="330" name="33a">
+    <quote author='mishna' book='berakhot' chapter='7' mishna='1' ref='Кто не участвует в зимуне' />
+    <quote author='mishna' book='berakhot' chapter='7' mishna='1' ref='Женщины рабы и дети' />
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+</header>
+</content>

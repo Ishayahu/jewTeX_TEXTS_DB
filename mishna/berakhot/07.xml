@@ -3,12 +3,52 @@
 <header type="chapter" level='0' name="7" verbouse_name='Трое, которые ели' text_link="https://www.sefaria.org/Mishnah_Berakhot.7">
   <header type='mishna' level='1' name='1'>
     <header type='ref' name='Трое обязаны в зимуне'>
-      <p>Трое, которые ели вместе, обязаны в зимуне.</p>
+      <p>
+        <span>Трое, которые ели вместе, обязаны в зимуне</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='7' siman_katan='45a:Трое, которые ели вместе, обязаны в зимуне'>РаШИ</link>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:Трое, которые ели вместе, обязаны в зимуне'>р. Йона</link>
+        <span>.</span>
+      </p>
     </header>
-    <p>Ели дмай; маасер ришон, от которого отделили труму; маасер шейни или посвящённое, которое выкупили; официант, который съел кезайт — участвуют в зимуне.</p>
+    <header type='ref' name='Выглядит как запрет'>
+      <p>
+        <span>Ел дмай</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:Ел дмай'>р. Йона</link>
+        <span>; маасер ришон, от которого отделили труму</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='7' siman_katan='45a:от которого отделили труму'>РаШИ</link>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:маасер ришон, от которого отделили труму'>р. Йона</link>
+        <span>; маасер шейни или посвящённое, которое выкупили</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='7' siman_katan='45a:маасер шейни, который выкупили'>РаШИ</link>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:маасер шейни или посвящённое, которое выкупили'>р. Йона</link>
+        <span>; официант</span>
+        <link upper='upper' author='shlomo_yitzchaki' book='rashi_al_berakhot' chapter='7' siman_katan='45a:и официант'>РаШИ</link>
+        <span>, который съел кезайт</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:официант, который съел кезайт'>р. Йона</link>
+        <span>и самаритянин</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:и самаритянин'>р. Йона</link>
+        <span>— участвует в зимуне.</span>
+      </p>
+    </header>
     <header type='ref' name='Кто не участвует в зимуне'>    
-      <p>Но если ел тевель; маасер ришон, от которого не отделили труму; маасер шейни и посвящённое, которое не выкупили; официант, который съел меньше кезайта и нееврей — не участвуют в зимуне.</p>      
+      <p>
+        <span>Но если ел тевель</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:ел тевель'>р. Йона</link>
+        <span>; маасер ришон, от которого не отделили труму</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:маасер ришон, от которого не отделили труму'>р. Йона</link>
+        <span>; маасер шейни и посвящённое, которое не выкупили</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:маасер шейни и посвящённое, которое не выкупили'>р. Йона</link>
+        <span>; официант</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:официант'>р. Йона</link>
+        <span>, который съел меньше кезайта и нееврей</span>
+        <link upper='upper' author='yonah_gerondi' book='hiddushim_to_alfasi_on_berakhot' chapter='7' siman_katan='32b:и нееврей'>р. Йона</link>
+        <span>— не участвует в зимуне.</span>
+      </p>
     </header>
+    <header type='ref' name='Женщины рабы и дети'>
+      <p>Женщины, рабы и дети — не участвуют в зимуне.</p>
+    </header>
+    <p></p>      
+    <p></p>      
     <p></p>      
   </header>
   <header type='mishna' level='1' name='2'>
