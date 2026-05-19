@@ -1,16 +1,40 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <info>
-  <ru>
-    <title>наш учитель</title>
-    <first_name>Шломо</first_name>
-    <last_name>Лурия</last_name>
-    <short_name>РаШаЛь</short_name>
-    <start_year>5270</start_year>
-    <end_year>5334</end_year>
-    <quote>Рашаль считал, что лучший способ получения знаний — тщательный филологический анализ Талмуда. Поддерживал дружеские отношения со своим кузеном, краковским раввином Моше Иссерлесом. Однако это не помешало Рашалю жестко раскритиковать Рамо, когда к ему дошли сведения о том, что тот изучал философию, в частности, произведения «необрезанного Аристотеля».</quote>
-  </ru>
-	<display>
-		<css_class_name>default</css_class_name>
-	</display>
+  <start_year>5270</start_year>
+  <end_year>5334</end_year>
+  <localized_info>
+    <ru>
+      <title>наш учитель</title>
+      <first_name>Шломо</first_name>
+      <last_name>Лурия</last_name>
+      <short_name>РаШаЛь</short_name>
+      <quote/>
+    </ru>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
 </info>
-

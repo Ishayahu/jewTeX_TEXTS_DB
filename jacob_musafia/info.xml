@@ -1,13 +1,40 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <info>
+  <start_year/>
+  <end_year/>
+  <localized_info>
     <ru>
-        <title>рав</title>
-        <first_name>Яаков</first_name>
-        <last_name>Мусафья?</last_name>
-        <short_name></short_name>
+      <title>рав</title>
+      <first_name>Яаков</first_name>
+      <last_name>Мусафья?</last_name>
+      <short_name/>
+      <quote/>
     </ru>
-	<display>
-		<css_class_name>default</css_class_name>
-	</display>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
 </info>
-

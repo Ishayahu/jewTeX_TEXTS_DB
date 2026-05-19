@@ -1,15 +1,40 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <info>
-  <ru>
-    <title>рабейну</title>
-    <first_name>Шимшон бен Авраам из Санса</first_name>
-    <last_name></last_name>
-    <short_name>рабейну Шимшон</short_name>
-		<start_year>4910</start_year>
-		<end_year>4990</end_year>
+  <start_year>4910</start_year>
+  <end_year>4990</end_year>
+  <localized_info>
+    <ru>
+      <title>рабейну</title>
+      <first_name>Шимшон бен Авраам из Санса</first_name>
+      <last_name/>
+      <short_name>рабейну Шимшон</short_name>
+      <quote/>
     </ru>
-	<display>
-		<css_class_name>default</css_class_name>
-	</display>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
 </info>
-

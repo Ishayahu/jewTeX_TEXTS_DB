@@ -1,15 +1,40 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <info>
-  <ru>
-    <title>Рав</title>
-    <first_name>Менахем Азарья</first_name>
-    <last_name>из Пано</last_name>
-    <short_name>РэМА миПано</short_name>
-    <start_year>5309</start_year>
-    <end_year>5381</end_year>
-
-  </ru>
-	<display>
-		<css_class_name>yellow</css_class_name>
-	</display>
+  <start_year>5309</start_year>
+  <end_year>5381</end_year>
+  <localized_info>
+    <ru>
+      <title>Рав</title>
+      <first_name>Менахем Азарья</first_name>
+      <last_name>из Пано</last_name>
+      <short_name>РэМА миПано</short_name>
+      <quote/>
+    </ru>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>yellow</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
 </info>

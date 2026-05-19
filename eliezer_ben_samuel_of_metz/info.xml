@@ -1,15 +1,40 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <info>
-  <ru>
-    <title>раби</title>
-    <first_name>Элиэзер бен Шмуэль</first_name>
-    <last_name>из Меца</last_name>
-    <short_name>eliezer_ben_samuel_of_metz</short_name>
-    <start_year>4900</start_year>
-    <end_year>4997</end_year>
-  </ru>
-	<display>
-		<css_class_name>default</css_class_name>
-	</display>
+  <start_year>4900</start_year>
+  <end_year>4997</end_year>
+  <localized_info>
+    <ru>
+      <title>раби</title>
+      <first_name>Элиэзер бен Шмуэль</first_name>
+      <last_name>из Меца</last_name>
+      <short_name>eliezer_ben_samuel_of_metz</short_name>
+      <quote/>
+    </ru>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
 </info>
-
