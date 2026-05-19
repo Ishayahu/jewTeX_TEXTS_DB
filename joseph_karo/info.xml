@@ -1,16 +1,47 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
+  <start_year>5248</start_year>
+  <end_year>5335</end_year>
+  <localized_info>
     <ru>
-        <title>Рав</title>
-        <first_name>Йосеф</first_name>
-        <last_name>Каро</last_name>
-        <short_name>Маран</short_name>
-        <start_year>5248</start_year>
-        <end_year>5335</end_year>
-
+      <title>Рав</title>
+      <first_name>Йосеф</first_name>
+      <last_name>Каро</last_name>
+      <short_name>Маран</short_name>
+      <quote>Понял я, что мне не следует устанавливать законы при помощи рассуждений и доказательств, опирающихся на Талмуд: ведь так поступали авторы Тосафот, Рамбам, Рашба, Ран, — и каждый из этих мудрецов отстаивал свою позицию. Как я могу позволить себе вмешиваться в споры великих, приводя свои аргументы?! Вот я и решил положиться на три столпа закона, на которых зиждется весь дом Израиля: на Рифа, Рамбама и Роша</quote>
     </ru>
+    <en>
+      <title>Rabbi</title>
+      <first_name>Joseph</first_name>
+      <last_name>Karo</last_name>
+      <short_name>Maran</short_name>
+      <quote>I realized that I shouldn't establish laws through reasoning and proof based on the Talmud: after all, that's what the authors of Tosafot, Rambam, Rashba, and Ran did—and each of these sages defended their position. How could I allow myself to interfere in the debates of the greats by presenting my own arguments?! So I decided to rely on the three pillars of law on which the entire House of Israel is founded: the Rif, the Rambam, and the Rosh.</quote>
+    </en>
+  </localized_info>
 	<display>
 		<css_class_name>default</css_class_name>
 	</display>
+  <domains>
+    <exegesis>1</exegesis>
+    <halakha>1</halakha>
+    <liturgics></liturgics>
+    <kabbalah></kabbalah>
+    <philosophy></philosophy>
+  </domains>
+  <cities>
+    <city>Толедо</city>
+    <city>Лиссабон</city>
+    <city>Стамбул</city>
+    <city>Никополь</city>
+    <city>Адрианополь</city>
+    <city>София</city>
+    <city>Цфат</city>
+  </cities>
+  <books>
+    <book>Рамбам</book>
+    <book>Тур</book>
+    <book>Шульхан Арух</book>
+    <book>Тора</book>
+  </books>
 
 </info>
