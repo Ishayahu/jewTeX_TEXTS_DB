@@ -82,6 +82,43 @@
         position: relative;
   
       }
+      .switch{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+      .switch-item{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      tr.sefard th:first-child {position: relative}
+      tr.sefard th:first-child::after{
+        position: absolute;
+        content: ''; /* Обязательно: пустой контент */
+        display: inline-block;
+        top:0; left:0;
+        background-image: url('/static/img/uberachta/sefard.png');
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+      tr.ashkenaz th:first-child {position: relative}
+      tr.ashkenaz th:first-child::after{
+        position: absolute;
+        content: ''; /* Обязательно: пустой контент */
+        display: inline-block;
+        top:0; left:0;
+        background-image: url('/static/img/uberachta/ashkenaz.png');
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
     </style>
   </head>
   <body>
@@ -381,7 +418,52 @@
         </xsl:copy-of>
     </xsl:template>
     
+    
+    
+    <!-- Рекурсивный шаблон для разделения строки -->
+    <xsl:template name="split-string">
+        <xsl:param name="text"/>
+        <xsl:param name="delimiter" select="','"/>
+
+        <xsl:choose>
+            <!-- Если в строке есть разделитель -->
+            <xsl:when test="contains($text, $delimiter)">
+                <!-- Выводим первый элемент -->
+                <span class='switch-item' onclick="set_switch(this, event)">
+                  <xsl:attribute name='switch-value'>
+                    <xsl:value-of select="substring-before($text, $delimiter)"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="substring-before($text, $delimiter)"/>
+                </span>
+                <!-- Рекурсивно обрабатываем оставшуюся часть -->
+                <xsl:call-template name="split-string">
+                    <xsl:with-param name="text"
+                        select="substring-after($text, $delimiter)"/>
+                    <xsl:with-param name="delimiter" select="$delimiter"/>
+                </xsl:call-template>
+            </xsl:when>
+            <!-- Если разделителя нет — выводим оставшуюся строку -->
+            <xsl:otherwise>
+                <span class='switch-item' onclick="set_switch(this, event)">
+                  <xsl:attribute name='switch-value'>
+                    <xsl:value-of select="$text"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="$text"/>
+                </span>
+                <span class='switch-item' onclick="clear_switch(this, event)">X</span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <xsl:template match="table">
+      <!-- Вызываем шаблон разделения для атрибута switch -->
+      <xsl:if test="@switch">
+        <div class='switch'>
+        <xsl:call-template name="split-string">
+          <xsl:with-param name="text" select="@switch"/>
+        </xsl:call-template>
+        </div>
+      </xsl:if>
       <xsl:copy>
         <!-- Копируем атрибуты и пространства имен -->
         <!-- <xsl:apply-templates select="@*"/> -->
@@ -401,6 +483,7 @@
     </xsl:template>
     <xsl:template match="tr">
       <tr>
+        <xsl:copy-of select="@*"/>
         <xsl:apply-templates/>
       </tr>
     </xsl:template>
