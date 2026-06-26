@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <info>
-  <start_year/>
-  <end_year/>
+  <start_year>4930</start_year>
+  <end_year>5004</end_year>
   <localized_info>
     <ru>
       <title/>
-      <first_name>Издательство аМеор</first_name>
-      <last_name/>
+      <first_name>Меир бен Тодрос аЛеви</first_name>
+      <last_name>Абулафья</last_name>
       <short_name/>
       <quote/>
     </ru>

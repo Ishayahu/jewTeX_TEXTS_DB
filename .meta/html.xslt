@@ -93,7 +93,7 @@
         text-decoration: underline;
         cursor: pointer;
       }
-      tr.sefard th:first-child {position: relative}
+      /*tr.sefard th:first-child {position: relative}
       tr.sefard th:first-child::after{
         position: absolute;
         content: ''; /* Обязательно: пустой контент */
@@ -106,7 +106,43 @@
         background-position: center;
         background-repeat: no-repeat;
         }
-      tr.ashkenaz th:first-child {position: relative}
+      */
+      tr.sefard {color: red}
+      tr.sefard.ashkenaz th:first-child{
+        background: repeating-linear-gradient(
+          45deg,
+          #ffeb3b,
+          #ffeb3b 10px,
+          transparent 10px,
+          transparent 20px
+        ),
+        repeating-linear-gradient(
+          -45deg,
+          lightblue,
+          lightblue 10px,
+          transparent 10px,
+          transparent 20px
+        );
+      }
+      tr.sefard th:first-child{
+        background: repeating-linear-gradient(
+          45deg,
+          #ffeb3b,
+          #ffeb3b 10px,
+          transparent 10px,
+          transparent 20px
+        );
+      }
+      tr.ashkenaz th:first-child{
+        background: repeating-linear-gradient(
+          -45deg,
+          lightblue,
+          lightblue 10px,
+          transparent 10px,
+          transparent 20px
+        );
+      }      
+      /*tr.ashkenaz th:first-child {position: relative}
       tr.ashkenaz th:first-child::after{
         position: absolute;
         content: ''; /* Обязательно: пустой контент */
@@ -118,7 +154,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        }
+      }*/
     </style>
   </head>
   <body>
@@ -314,8 +350,16 @@
             letter-value="traditional"/>: <xsl:value-of select="@alt" />
       </div>
     </xsl:template>
+    
+    <!-- Вроде не нужно -->
+    <!-- <xsl:template match="div"> -->
+      <!-- <div class='svg-container'> -->
+        <!-- <xsl:copy-of select="."/> -->
+      <!-- </div> -->
+    <!-- </xsl:template> -->
+    
     <xsl:template match="div">
-      <div class='svg-container'>
+      <div>
         <xsl:copy-of select="."/>
       </div>
     </xsl:template>
