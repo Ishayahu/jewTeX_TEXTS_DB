@@ -188,16 +188,18 @@
       </header>
       <header level="3" type="seif" name='2' verbouse_name="Источники">
         <ul>
-          <li><link author='talmud' book='berakhot' chapter='6' ref='Благословение на оливковое масло'>Брахот гл. 6</link></li>
+          <li><link author='talmud' book='berakhot' chapter='6'>Брахот гл. 6</link></li>
           <li>
-            <link author='mishna' book='berakhot' chapter='6' mishna='8' ref='Тот, кто пьёт воду из жажды'>Брахот гл.6 Мишна</link>
-            <link author='talmud' book='berakhot' chapter='6' ref='Подавился мясом'>и Гемора</link>
+            <link author='mishna' book='berakhot' chapter='6' mishna='8'>Брахот гл.6 Мишна</link>
+            <link author='talmud' book='berakhot' chapter='6'>и Гемора</link>
           </li>
-          <li><link author='jerusalem_talmud' book='berakhot' chapter='6' halakha='8' ref='Вода из-за жажды'>Ерушалми Брахот 6:8</link></li>
-          <li><link author='talmud' book='niddah' chapter='6' ref='Всё, что требует благословения после...'>Нида гл.6</link></li>
-          <li><link author='talmud' book='eruvin' daf='14b' ref='Благословение на воду — как тана кама или раби Тарфон?'>Ейрувин 14б</link></li>
-          <li><link author='mishna' book='berakhot' chapter='7' mishna='1' ref='Кто не участвует в зимуне'>Брахот 7:1</link></li>
-          <li><link author='talmud' book='sanhedrin' daf='6b' ref='Тот, кто украл пшеницу'>Санедрин 6б</link></li>
+          <li><link author='jerusalem_talmud' book='berakhot' chapter='6' halakha='8'>Ерушалми Брахот 6:8</link></li>
+          <li><link author='jerusalem_talmud' book='challah' chapter='1' halakha='5'>Ерушалми Хала 1:5</link></li>
+          <li><link author='talmud' book='niddah' chapter='6'>Нида гл.6</link></li>
+          <li><link author='talmud' book='eruvin' daf='14b'>Ейрувин 14б</link></li>
+          <li><link author='mishna' book='berakhot' chapter='7' mishna='1'>Брахот 7:1</link></li>
+          <li><link author='talmud' book='sanhedrin' daf='6b'>Санедрин 6б</link></li>
+          <li><link author='talmud' book='bava_kamma' daf='94a'>Бава Кама 94а</link></li>
           <li><link author='tosefta' book='demai' chapter='7' halakha='14'>Тосефта Дмай 2:14</link></li>
           <li><link author='mishna' book='demai' chapter='1' mishna='4' >Дмай 1:4</link></li>
           <li></li>
@@ -296,7 +298,9 @@
             
           <tr class='ashkenaz'>
             <th>Раавад</th>
-            <th colspan='2' class='Green'><link author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_berakhot' chapter='1' siman='19'>Да</link> (из <link author='mishna' book='berakhot' chapter='7' mishna='1'>Мишны Брахот 7:1</link> так как мишна про зимун, а броха — про удовольствие, а оно тут есть) (Таз: именно бешогег)</th>
+            <th colspan='2' class='Green'>
+              <link author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_berakhot' chapter='1' siman='19'>Да</link> (из <link author='mishna' book='berakhot' chapter='7' mishna='1'>Мишны Брахот 7:1</link> так как мишна про зимун, а броха — про удовольствие, а оно тут есть) (Таз: именно бешогег)
+            </th>
             <th>До</th>
             <th>После</th>
             <th>До</th>
@@ -385,7 +389,9 @@
           </tr>
           <tr class='sefard ashkenaz'>
             <th>Рош (+Тосафот: всё упирается в наличие вкуса)</th>
-            <th colspan='2' class='Green'><link author='asher_ben_jehiel' book='rosh_berakhot' chapter='7' siman='2'>Да</link> (согласен с РААВАДом и из <link author='talmud' book='sanhedrin' daf='6b'>первой гл. Санедрин 6б</link> и <link author='talmud' book='bava_kamma' daf='94a'>в первой главе «Укравший» [Бава Кама] 94а</link>)</th>
+            <th colspan='2' class='Green'>
+              <link author='asher_ben_jehiel' book='rosh_berakhot' chapter='7' siman='2'>Да</link> (согласен с РААВАДом и из <link author='talmud' book='sanhedrin' daf='6b'>первой гл. Санедрин 6б</link> и <link author='talmud' book='bava_kamma' daf='94a'>в первой главе «Укравший» [Бава Кама] 94а</link>)
+            </th>
             <th>До</th>
             <th>После</th>
             <th>До</th>
@@ -445,9 +451,9 @@
             <th>После</th>
           </tr>
           <tr class='sefard ashkenaz'>
-            <th>ТУР</th>
-            <th>До</th>
-            <th>После</th>         
+            <th>Тур</th>         
+            <th class='Green'><link author='jacob_ben_asher' book='tur_orach_chayim' siman='196' seif='1'>Да</link>, как его отец</th>
+            <th class='Green'><link author='jacob_ben_asher' book='tur_orach_chayim' siman='196' seif='1'>Да</link>, как его отец (хотя из текста это не очевидно)</th>
             <th>До</th>
             <th>После</th>         
             <th>До</th>
@@ -464,10 +470,22 @@
             <th colspan='2' class='Red'><link author='yerucham_ben_meshullam' book='book_adam' siman='16' letter='1'>Нет</link>, так как для лечения (МА: возмжно тут надо 204к21)</th>
             <th>До</th>
             <th>После</th>
-            <th colspan='2' class='Red'>Нет, так как для лечения</th>
-            <th colspan='2' class='Red'>Нет, так как для лечения (МА: возмжно тут надо 204к21)</th>
+            <th colspan='2' class='Red'><link author='yerucham_ben_meshullam' book='book_adam' siman='16' letter='1'>Нет</link>, так как для лечения</th>
+            <th colspan='2' class='Red'><link author='yerucham_ben_meshullam' book='book_adam' siman='16' letter='1'>Нет</link>, так как для лечения (МА: возмжно тут надо 204к21)</th>
           </tr>
-
+          <tr class='ashkenaz'>
+            <th>Маара из Праги</th>         
+            <th class='Red'>Нет, <link author='moses_isserles' book='darkhei_moshe_al_orach_chayim' siman='196' siman_katan='1'>со слов Рамо</link> (из Дмай 1:4)</th>
+            <th class='Green'>Да, <link author='moses_isserles' book='darkhei_moshe_al_orach_chayim' siman='196' siman_katan='1'>со слов Рамо</link>, так как это по Торе</th>
+            <th>До</th>
+            <th>После</th>         
+            <th>До</th>
+            <th>После</th>
+            <th>До</th>
+            <th>После</th>
+            <th>До</th>
+            <th>После</th>
+          </tr>
           <tr class='sefard'>
             <th>ША</th>
             <th colspan='2' class='Red'>Нет (196:1) (из-за Ерушалми и Тосефты)</th>

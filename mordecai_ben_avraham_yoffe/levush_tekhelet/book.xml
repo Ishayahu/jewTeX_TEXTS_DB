@@ -1,5 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
+<header level="0" type="siman" name="46" verbouse_name="46. Законы утренних благословений и других благословений">
+</header>
+<header level="0" type="siman" name="47" verbouse_name="47. Законы благословений на Тору">
+</header>
+<header level="0" type="siman" name="49" verbouse_name="49. Чтение ?? наизусть">
+</header>
+<header level="0" type="siman" name="48" verbouse_name="48. Отрывки шабатних жертв">
+</header>
 <header level="0" type="siman" name="173" verbouse_name="" text_link="https://hebrewbooks.org/41186">
   <header level="1" type="seif" name="1" verbouse_name="">
     <p>Средняя вода - право. Это касается ситуации, когда ел блюдо, даже мясное, и хочет есть после него молочное блюдо, и тем более — наоборот, в этих случаях нет даже обязанности мыть руки между ними, так как в обоих блюдах нет ни самого мяса ни самого молока, а лишь их вкус. Поэтому не устрожили и не обязали мыть руки.</p>			
@@ -12,4 +20,7 @@
     <p></p>
 	</header>
 </header>
+<header level="0" type="siman" name="196" verbouse_name="196. Тот ,кто ел запрещённое — присоединяется к зимуну? 4 параграфа.">
+</header>
+
 </content>

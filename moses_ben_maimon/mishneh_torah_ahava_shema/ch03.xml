@@ -1,10 +1,27 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-<header level="0" type="chapter" name="1" text_link="https://rambam.alhatorah.org/Parshan/Rambam_Mishneh_Torah_Printed_Versions/Berakhot/1.1">
+<header level="0" type="chapter" name="3" text_link="">
   <header level="1" type="siman" name="1">
     <p></p>
   </header>
-  <header level="1" type="siman" name="2">
+  <header level="1" type="siman" name="2" verbouse_name='Где не читают Шма'>
+    <p>
+      Не читают ни в бане, ни в туалете
+      <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_shema' chapter='3' siman='2' seif='1'>КМ-3.2.1</link>
+      , хотя и нет там испражнений; и не на кладбище и не рядом с мёртвым
+      <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_shema' chapter='3' siman='2' seif='2'>КМ-3.2.2</link>
+      , но если отошёл на 4 локтя от могилы или от мёртвого — разрешено читать.
+    </p>
+    <header type='ref' name='Постфактум'>
+      <p>
+        И всякий, кто читал в месте, где не читают — перечитывает
+        <link upper='upper' author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_shema' chapter='3' siman='2'>РААВАД</link>
+        <link upper='upper' author='joseph_karo' book='kesef_mishneh_al_mishneh_torah_ahava_shema' chapter='3' siman='2' seif='3'>КМ-3.2.3</link>
+        .
+      </p>
+    </header>
+    <p></p>
+    <p></p>
     <p></p>
   </header>
   <header level="1" type="siman" name="3">
@@ -89,7 +106,7 @@
 
   </header>
   <header level="1" type="siman" name="20">
-    <p>Но если ел дмай, не смотря на то, что он полагается только беднякам; или маасер ришон, от которого отделена трума, хотя и отеделена по расчёту великой трумы, как например когда пришёл на колосьях; или второй маасер и посвящённое, которые выкуплены, хотя и не дал пятую часть — в этих случах благословляет до и после. И так же во всех подобных случаях.</p>
+    <p></p>
   </header>
 </header>
 </content>

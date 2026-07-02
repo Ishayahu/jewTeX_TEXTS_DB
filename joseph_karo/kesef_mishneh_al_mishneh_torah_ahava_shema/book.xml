@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="0" type="chapter" name="3" text_link=''>
+  <header level="1" type="siman" name="1">
+    <p></p>
+  </header>
+  <header level="1" type="siman" name="2">
+    <header level="2" type="seif" name="1" verbouse_name='Какие баня и туалет'>
+      <p><link author='talmud' book='shabbat' daf='10a'>Первая глава тр. «Шабат» (10а)</link> и <link author='talmud' book='berakhot' daf='26a'>конец главы «Тот, чей мертвец» (Брахот 26а)</link>:</p>
+      <quote author='talmud' book='berakhot' daf='26a' ref='Про какой туалет и какую баню идёт речь?' />
+      <p>«Про который сказали» — то есть, что не читают в нём Шма и не молятся.</p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </header>
+    <header level="2" type="seif" name="2" verbouse_name=''>
+      <p><link author='talmud' book='sotah' daf='43b'>Сота, гл. «Помазанный на войну» (43b)</link>:</p>
+      <quote author='talmud' book='sotah' daf='43b' ref='Рав Дими… о мёртвом' />
+      <p>и <link author='talmud' book='berakhot' daf='18a'>в начале главы «Тот, чей мертвец» (Брахот 18a)</link> приравнивает могилу к мертвецу.</p>
+      <p>И считает учитель наш, что любой, кто читает там, где читать нельзя — не засчиталось ему чтение.</p>
+      <p></p>
+      <p></p>
+    </header>
+    <header level="2" type="seif" name="3" verbouse_name=''>
+      <quote upper='upper' author='abraham_ben_david' book='hasagot_to_mishneh_torah_ahava_shema' chapter='3' siman='2' />
+      <p>И причина его мнения в том, раз вся причина запрета лишь из-за «насмешки над бедным» — нет повода чтобы перечитывать. И так пишет РМХ.</p>
+      <header type='ref' name='Объяснение Рамбама'>
+        <p>И можно сказать, что хотя учитель наш говорил о других случаях, а не о мёртвом.</p>
+        <header type='ref' name='Второе объяснение Рамбама'>
+          <p>Или же так как нарушил слова мудрецов — они оштрафовали его и обязали повторить, даже если он сделал это по ошибке, чтобы в следующий раз был внимательнее.</p>
+        </header>
+      </header>
+      <p></p>
+      <p></p>
+    </header>
+  </header>
+</header>
+</content>

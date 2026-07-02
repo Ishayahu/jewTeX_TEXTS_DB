@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name='3' verbouse_name="Тот, чей мертвец" number="3">
+  <daf number="175" name="17b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="180" name="18a" >
+   <p></p>
+  </daf>
+  <daf number="185" name="18b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="190" name="19a" >
+   <p></p>
+  </daf>
+  <daf number="195" name="19b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="200" name="20a" >
+   <p></p>
+  </daf>
+  <daf number="205" name="20b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="210" name="21a" >
+   <p></p>
+  </daf>
+  <daf number="215" name="21b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="220" name="22a" >
+   <p></p>
+  </daf>
+  <daf number="225" name="22b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="230" name="23a" >
+   <p></p>
+  </daf>
+  <daf number="235" name="23b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="240" name="24a" >
+   <p></p>
+  </daf>
+  <daf number="245" name="24b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="250" name="25a" >
+   <p></p>
+  </daf>
+  <daf number="255" name="25b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="260" name="26a" >
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p idx='3'></p>
+    <p idx='4'>Разве?</p>
+    <header type='ref' name='Про какой туалет и какую баню идёт речь?'>
+      <p>А ведь сказал рав Йосеф бар Ханина:</p>
+      <quote author='amoraim' book='rabbi_jose_bar_hanina' siman='Про туалет и баню' />
+    </header>
+    <p>Но про что идёт речь? Про новую!</p>
+    <p idx='5'></p>
+  </daf>
+</header>
+</content>

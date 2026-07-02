@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="8" verbouse_name="Помазанный на войну">
+  <daf number="420" name="42a" >
+   <p></p>
+  </daf>
+  <daf number="425" name="42b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+
+  <daf number="430" name="43a" >
+    <p></p>
+  </daf>
+  <daf number="435" name="43b" >
+    <p idx="1"></p>
+    <p></p>
+    <p idx="2"></p>
+    <p></p>
+    <p idx="3"></p>
+    <p></p>
+    <p idx="4"></p>
+    <p></p>
+    <p idx="5"></p>
+    <p></p>
+    <p idx="6"></p>
+    <p></p>
+    <p idx="7"></p>
+    <p></p>
+    <p idx="8"></p>
+    <p></p>
+    <p idx="9"></p>
+    <p></p>
+    <p idx="10"></p>
+    <p></p>
+    <p idx="11"></p>
+    <p></p>
+    <p idx="12"></p>
+    <p></p>
+    <p idx="13"></p>
+    <p></p>
+    <p idx="14"></p>
+    <p></p>
+    <header type='ref' name='Рав Дими… о мёртвом'>
+      <p idx="15">Когда пришёл рав Дими, сказал [он от имени] раби Йоханан от имени раби Элиэзера бен Яакова:</p>
+      <quote author='tannaim' book='rabbi_eliezer_ben_jacob_II' siman='Мертвец схватыват 4 локтя' />
+    </header>
+    <p></p>
+    <p idx="16"></p>
+    <p></p>
+    <p idx="17"></p>
+    <p></p>
+    <p idx="18"></p>
+    <p></p>
+    <p idx="19"></p>
+  </daf>
+
+  <daf number="440" name="44a" >
+   <p></p>
+  </daf>
+  <daf number="445" name="44b" >
+    <p></p>
+    <p></p>
+    <p></p>
+  </daf>
+</header>
+</content>

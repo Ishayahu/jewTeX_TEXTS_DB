@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level="1" type="j_chapter" number='3' name="ekev" >
+    <header level="2" type="chapter" name='8'>
+      <header level="3" type="posuk" name='10'>
+        <header type='ref' name="8:10">
+          <p>И будешь есть и насытишься, и благословлять будешь Господа, Б-га твоего, за землю добрую, которую Он дал тебе.</p>
+        </header>
+      </header>
+    </header>
+  </header>
+  <header level="1" type="j_chapter" number='4' name="reeh" >
+    <header level="2" type="chapter" name='14'>
+      <header type='ref' name="14:19">
+        <p>И все кишащее крылатое нечисто для вас, не должно их есть.</p>
+      </header>
+    </header>
+  </header>
+</content>
+
