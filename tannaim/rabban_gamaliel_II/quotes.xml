@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="siman" name='За три вещи я люблю персов'>
+    <p>За три вещи я люблю персов:</p>
+    <ol> 
+      <li>Они скромные в еде</li>
+      <li>Они скромные в туалете</li>
+      <li>Они скромные в другом</li>
+    </ol>
+  </header>
+  <header level='0' type="siman" name=''>
+    <p></p>
+  </header>
+</content>

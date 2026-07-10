@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type="siman" name='Шма два раза ночью'>
+    <p>Иногда человек читает Шма два раза ночью, один раз до рассвета, другой раз — после рассвета и засчитвыается ему это один раз днём и один раз ночью.</p>
+    <p></p>
+  </header>
+  <header level='0' type="siman" name='от имени раби Акивы: Шма два раза днём'>
+    <p>от имени раби Акивы:</p>
+    <quote author='tannaim' book='rabbi_akiva' siman="Шма два раза днём" />
+  </header>
+  <header level='0' type="siman" name=''>
+    <p></p>
+  </header>
+</content>
