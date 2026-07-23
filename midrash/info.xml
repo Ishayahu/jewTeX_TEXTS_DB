@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<info>
+  <start_year>4135</start_year>
+  <end_year>4260</end_year>
+  <localized_info>
+    <ru>
+      <title/>
+      <first_name>Мидраши разные</first_name>
+      <last_name/>
+      <short_name></short_name>
+      <quote/>
+    </ru>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities/>
+  <books/>
+</info>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<info>
+  <start_year>5450</start_year>
+  <end_year>5524</end_year>
+  <localized_info>
+    <ru>
+      <title>рав</title>
+      <first_name>Йонатан бен Натан Ната</first_name>
+      <last_name>Эйбешюц</last_name>
+      <short_name></short_name>
+      <quote/>
+    </ru>
+    <en>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </en>
+    <he>
+      <title/>
+      <first_name/>
+      <last_name/>
+      <short_name/>
+      <quote/>
+    </he>
+  </localized_info>
+  <display>
+    <css_class_name>default</css_class_name>
+  </display>
+  <domains>
+    <exegesis/>
+    <halakha/>
+    <liturgics/>
+    <kabbalah/>
+    <philosophy/>
+  </domains>
+  <cities>
+    <city>Krakow</city>
+    <city>Eibenschutz</city>
+    <city></city>
+  </cities>
+  <books/>
+</info>

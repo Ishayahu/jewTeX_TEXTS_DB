@@ -1,6 +1,16 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header level="1" type="j_chapter" number='3' name="ekev" >
+  <header level="1" type="j_chapter" number='1' name="devarim">
+    <header level="2" type="chapter" name='1'>
+      <header level="3" type="posuk" name='12'>
+        <header type='ref' name="Как мне нести одному вашу тягость">
+          <span>Как мне нести одному вашу тягость,</span>
+        </header>
+        <span>ваше бремя и ваш раздор!</span>
+      </header>
+    </header>
+  </header>
+  <header level="1" type="j_chapter" number='3' name="ekev">
     <header level="2" type="chapter" name='8'>
       <header level="3" type="posuk" name='10'>
         <header type='ref' name="8:10">

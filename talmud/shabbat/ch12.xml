@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="7" verbouse_name="Строящий">
+  <daf number="1025" name="102b">
+    <p></p>
+  </daf>
+  <daf number="1030" name="103a">
+    <p></p>
+  </daf>
+  <daf number="1035" name="103b">
+    <p></p>
+  </daf>
+  <daf number="1040" name="104a">
+    <p></p>
+  </daf>
+  <daf number="1045" name="104b">
+    <p></p>
+  </daf>
+  <daf number="1050" name="105a">
+    <p idx='1'></p>
+    <p idx='2'></p>
+    <p idx='3'>Сам раби Йоханан сказал:</p>
+    <quote author="amoraim" book="rabbi_yochanan_ben_napacha" siman="Я себя записал дал" />
+    <p>Мудрецы же говорят: «Речение приятное написано дано». Есть же те, кто говорят, что «אנכי» нао читать наоборот: «Дано писание приятное речение»</p>
+    <p idx='4'></p>
+  </daf>
+</header>
+</content>

@@ -36,6 +36,21 @@
         </header>
       </header>
     </header>
+    <header level='1' type='chapter' name='122' number='122'>
+      <header level='2' type='posuk' name='4'>
+        <span>Куда восходили</span>
+        <header type='ref' name='колена, колена Г-сподни, уставу Йисраэйля'>
+          <span>колена (Йисраэйля), колена Г-сподни («יָ֭הּ»), (по) уставу Йисраэйля, </span>
+        </header>
+        <span>чтобы благодарить имя Г-сподне</span>
+      </header>
+      <header level='2' type='posuk' name='5'>
+        <header type='ref' name='Потому что там стояли престолы суда'>
+          <span>Потому что там стояли престолы суда,</span>
+        </header>
+        <span> престолы дома Давидова.</span>
+      </header>
+    </header>
 		<header level='1' type='chapter' name='145' number='145'>
 			<header level='2' type='posuk' name='1'><p>
 				Хвалебная (песнь) Давида. Превозносить буду Тебя, Б-г мой, Царь, и благословлять имя Твое во веки веков
@@ -147,5 +162,10 @@
 			<header level='2' type='posuk' name='21'><p>
 				Хвалу Г-споду изрекут уста мои, и благословлять будет всякая плоть имя святое Его вовеки.</p></header>
 		</header>
+    <header level='1' type='chapter' name='150' number='150'>
+      <header level='2' type='posuk' name='6'>
+        <span>Всякая душа (человеческая) да хвалит Г-спода (יָהּ). Алелуйа!</span>
+      </header>
+    </header>
 	</header>
 </content>

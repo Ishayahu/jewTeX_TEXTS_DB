@@ -1,5 +1,21 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
+	<header level='0' type='chapter' name='1'>
+		<header level='1' type='posuk' name='21'>
+      <header type='ref' name='Как город верный, исполненный правосудия, стал блудницей!'>
+        <span>Как город верный, исполненный правосудия, стал блудницей!</span>
+      </header>
+      <span>Праведность обитала в нем, а ныне – убийцы.</span>
+		</header>
+  </header>
+	<header level='0' type='chapter' name='3'>
+		<header level='1' type='posuk' name='16'>
+      <header type='ref' name='И сказал Г-сподь: за то, что возгордились дочери Цийона'>
+        <span>И сказал Г-сподь: за то, что возгордились дочери Цийона</span>
+      </header>
+      <span> и ходят, вытянув шею и подмигивая глазами, выступая плавною поступью и бренча (украшениями) ног своих,</span>
+		</header>
+  </header>
 	<header level='0' type='chapter' name='13'>
 		<header level='1' type='posuk' name='1'>
 			<p></p>

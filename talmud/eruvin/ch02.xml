@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level='0' type="chapter" name="2" verbouse_name="Ставят доски">
+  <daf number="175" name="17b">
+    <p></p>
+    <header type="ref" name="">
+      <p></p>
+    </header>
+    <p></p>
+  </daf>
+  <daf number="180" name="18a">
+    <p></p>
+    <header type="ref" name="">
+      <p></p>
+    </header>
+    <p></p>
+  </daf>
+  <daf number="185" name="18b">
+    <p></p>
+    <header type="ref" name="">
+      <p></p>
+    </header>
+    <header type="ref" name="Со дня, когда был разрушен Храм">
+      <p idx='17'>И сказал раби Ирмия бен Элазар:</p>
+      <quote author="amoraim" book="rabbi_jeremiah_ben_elazar" siman="Со дня, когда был разрушен Храм" />
+    </header>
+    <p></p>
+  </daf>
+  <daf number="190" name="19a">
+    <p></p>
+    <header type="ref" name="">
+      <p></p>
+    </header>
+    <p></p>
+  </daf>
+  <daf number="195" name="19b">
+    <p></p>
+    <header type="ref" name="">
+      <p></p>
+    </header>
+    <p></p>
+  </daf>
+</header>
+</content>

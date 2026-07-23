@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="1" type="chapter" name="1">
+  <header level="2" type="letter" name='1'>
+    <header type='ref' name='1.1.начало'>
+      <p>«Как сидит…». Трое пророчествовали словом «Как»: Мойше, Ишаяу и Ирмияу. Мойше сказал:</p>
+      <quote author="tora" book="devarim" chapter="1" posuk="12" ref="Как мне нести одному вашу тягость" />
+      <p>Ишаяу сказал:</p>
+      <quote author="tanakh" book="isaiah" chapter="1" posuk="21" ref="Как город верный, исполненный правосудия, стал блудницей!" />
+      <p>Ирмияу сказал:</p>
+      <quote author="tanakh" book="eikhah" chapter="1" posuk="1" ref="Как одиноко сидит столица" />
+    </header>
+    <p>Сказал раби Леви:..</p>
+    <p></p>
+    <p></p>
+  </header>
+</header>
+</content>
