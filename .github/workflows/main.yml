@@ -107,7 +107,14 @@ jobs:
             cat <<'REMOTE'
           cd "$repo_path"
           test "$(git branch --show-current)" = master
-          test -z "$(git status --porcelain)"
+          git_status=$(git status --porcelain 2>&1) || {
+            printf 'Git status failed: %s\n' "$git_status" >&2
+            exit 1
+          }
+          if [ -n "$git_status" ]; then
+            printf 'Refusing deployment: working tree is not clean:\n%s\n' "$git_status" >&2
+            exit 1
+          fi
           git fetch origin master
           git merge --ff-only "$verified_sha"
           REMOTE
