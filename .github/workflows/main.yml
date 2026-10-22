@@ -1,22 +1,98 @@
-name: XML Syntax Validation
-on: [push, pull_request]
+name: XML Validation and Server Update
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
 
 jobs:
   validate-xml:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install xmllint
-        run: sudo apt update && sudo apt install -y libxml2-utils
-
-      - name: Enable error annotations
-        uses: korelstar/xmllint-problem-matcher@v1  # Для форматирования ошибок [github.com](https://github.com/korelstar/xmllint-problem-matcher)
-
-      - name: Validate XML files
+      - name: Install XML validator
         run: |
-          find . -type f -name "*.xml" -print0 | while IFS= read -r -d $'\0' file; do
-            echo "Validating: $file"
-            xmllint --noout "$file" 2>&1 | sed "s|^|${file}: |"  # Добавляет имя файла к ошибкам
-          done
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+
+      - name: Validate tracked XML files
+        shell: bash
+        run: |
+          set -euo pipefail
+          count=0
+          while IFS= read -r -d '' file; do
+            ((count += 1))
+            if ! xmllint --noout "$file"; then
+              echo "::error file=$file::XML validation failed"
+              exit 1
+            fi
+          done < <(git ls-files -z -- '*.xml')
+          if (( count == 0 )); then
+            echo '::error::No tracked XML files found'
+            exit 1
+          fi
+          echo "Validated $count XML files"
+
+  update-server:
+    needs: validate-xml
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy validated commit over SSH (FreeBSD port 4322)
+        shell: bash
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          : "${DEPLOY_HOST:?Missing DEPLOY_HOST}"
+          : "${DEPLOY_USER:?Missing DEPLOY_USER}"
+          : "${DEPLOY_PATH:?Missing DEPLOY_PATH}"
+          : "${DEPLOY_SSH_KEY:?Missing DEPLOY_SSH_KEY}"
+          : "${DEPLOY_KNOWN_HOSTS:?Missing DEPLOY_KNOWN_HOSTS}"
+
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$DEPLOY_SSH_KEY" > "$HOME/.ssh/id_ed25519"
+          chmod 600 "$HOME/.ssh/id_ed25519"
+
+          # A non-default SSH port requires [host]:port in known_hosts.
+          # The configured secret contains the verified public host key.
+          awk -v host="[$DEPLOY_HOST]:4322" '
+            $2 == "ssh-ed25519" && $3 ~ /^[A-Za-z0-9+\/=]+$/ {
+              print host, $2, $3
+              matched = 1
+            }
+            END { if (!matched) exit 1 }
+          ' <<< "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/known_hosts"
+
+          # Send data over stdin, not interpolated into remote shell code.
+          remote_script='
+            set -eu
+            IFS= read -r repo_path || exit 1
+            IFS= read -r verified_sha || exit 1
+            cd "$repo_path"
+            test "$(git branch --show-current)" = master
+            test -z "$(git status --porcelain)"
+            git fetch origin master
+            git merge --ff-only "$verified_sha"
+          '
+          {
+            printf '%s\n' "$DEPLOY_PATH"
+            printf '%s\n' "$GITHUB_SHA"
+          } | ssh -p 4322 \
+            -i "$HOME/.ssh/id_ed25519" \
+            -o IdentitiesOnly=yes \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -o ConnectTimeout=20 \
+            "$DEPLOY_USER@$DEPLOY_HOST" "sh -c '$remote_script'"
