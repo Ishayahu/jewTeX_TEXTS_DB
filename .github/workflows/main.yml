@@ -90,24 +90,31 @@ jobs:
           ' <<< "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
           chmod 600 "$HOME/.ssh/known_hosts"
 
-          # Send data over stdin, not interpolated into remote shell code.
-          remote_script='
-            set -eu
-            IFS= read -r repo_path || exit 1
-            IFS= read -r verified_sha || exit 1
-            cd "$repo_path"
-            test "$(git branch --show-current)" = master
-            test -z "$(git status --porcelain)"
-            git fetch origin master
-            git merge --ff-only "$verified_sha"
-          '
+          # FreeBSD accounts may use csh/tcsh as their login shell.
+          # Pass a POSIX shell script on stdin; only a simple "sh -s" command
+          # is interpreted by the login shell.
+          single_quote() {
+            printf "'"
+            printf '%s' "$1" | sed "s/'/'\\\\''/g"
+            printf "'"
+          }
+
           {
-            printf '%s\n' "$DEPLOY_PATH"
-            printf '%s\n' "$GITHUB_SHA"
+            printf 'set -eu\n'
+            printf 'repo_path='
+            single_quote "$DEPLOY_PATH"
+            printf '\nverified_sha=%s\n' "$GITHUB_SHA"
+            cat <<'REMOTE'
+          cd "$repo_path"
+          test "$(git branch --show-current)" = master
+          test -z "$(git status --porcelain)"
+          git fetch origin master
+          git merge --ff-only "$verified_sha"
+          REMOTE
           } | ssh -p 4322 \
             -i "$HOME/.ssh/id_ed25519" \
             -o IdentitiesOnly=yes \
             -o BatchMode=yes \
             -o StrictHostKeyChecking=yes \
             -o ConnectTimeout=20 \
-            "$DEPLOY_USER@$DEPLOY_HOST" "sh -c '$remote_script'"
+            "$DEPLOY_USER@$DEPLOY_HOST" sh -s
