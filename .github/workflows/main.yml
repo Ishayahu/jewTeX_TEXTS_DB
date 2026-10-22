@@ -67,11 +67,26 @@ jobs:
           # A non-default SSH port requires [host]:port in known_hosts.
           # The configured secret contains the verified public host key.
           awk -v host="[$DEPLOY_HOST]:4322" '
-            $2 == "ssh-ed25519" && $3 ~ /^[A-Za-z0-9+\/=]+$/ {
-              print host, $2, $3
-              matched = 1
+            function valid(type, key) {
+              return (type == "ssh-ed25519" || type == "ssh-rsa" ||
+                type ~ /^ecdsa-sha2-nistp(256|384|521)$/) &&
+                key ~ /^[A-Za-z0-9+\/=]+$/
             }
-            END { if (!matched) exit 1 }
+            {
+              if (valid($1, $2)) {
+                print host, $1, $2
+                matched = 1
+              } else if (valid($2, $3)) {
+                print host, $2, $3
+                matched = 1
+              }
+            }
+            END {
+              if (!matched) {
+                print "DEPLOY_KNOWN_HOSTS must contain an SSH server public key" > "/dev/stderr"
+                exit 1
+              }
+            }
           ' <<< "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
           chmod 600 "$HOME/.ssh/known_hosts"
 
