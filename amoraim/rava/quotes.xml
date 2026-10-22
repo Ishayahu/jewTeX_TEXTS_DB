@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level='0' type='siman' name='Доказательство из Мишны о переливании горячего'>
+    <p>Послушай [доказательство из нашей Мишны]:</p>
+    <quote author='mishna' book='zevachim' chapter='11' mishna='7' ref='Начало 1' />
+    <p><link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95b:и тот, в который перелили горячее'>РаШИ</link></p>
+  </header>
+  <header level='0' type='siman' name=''>
+    <p></p>
+  </header>
+</content>
