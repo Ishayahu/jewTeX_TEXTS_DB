@@ -21,7 +21,13 @@
     <daf number="955" name="95b">
       <p>...</p>
       <header type="ref" name="Сосуд в котором варилось и в который перелили">
-        <p>Учили мудрецы: «“[И глиняный сосуд,] она варилась в котором...” — отсюда мы видим, что закон применим только к сосуду, в котором варилось. А если перелили в него горячее — откуда это учим<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95а:так написано в Торат Коаним'>РаШИ</link>? “... она варилась в котором, будет разбит”»<link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
+        <p>Учили мудрецы:</p>
+        <quote author='tora' book='vayikra' chapter='6' posuk='21'
+               ref='в котором она варилась' />
+        <p>— отсюда мы видим, что закон применим только к сосуду, в котором варилось. А если перелили в него горячее — откуда это учим<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95а:так написано в Торат Коаним'>РаШИ</link>?</p>
+        <quote author='tora' book='vayikra' chapter='6' posuk='21'
+               ref='в котором она варилась, будет разбит' />
+        <p><link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
       </header>
       <p></p>
       <p></p>
