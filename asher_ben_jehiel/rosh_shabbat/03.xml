@@ -2,6 +2,9 @@
 <content>
     <header level="0" type="chapter" name="3" verbouse_name="Кира" text_link="https://he.wikisource.org/wiki/רבינו_אשר_על_הש%22ס/פסקי_הרא%22ש/שבת/פרק_ג">
         <header level="1" type="siman" name="16">
+            <p>Мишна:</p>
+            <quote author='mishna' book='shabbat' chapter='3' mishna='5' ref='В кипящий илпас не кладут специи' />
+            <quote author='mishna' book='shabbat' chapter='3' mishna='5' ref='Рабби Йеуда о специях с уксусом и рассолом' />
             <p><work_needed>...</work_needed></p>
         </header>
     </header>
