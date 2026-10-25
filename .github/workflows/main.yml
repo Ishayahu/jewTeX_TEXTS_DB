@@ -107,16 +107,11 @@ jobs:
             cat <<'REMOTE'
           cd "$repo_path"
           test "$(git branch --show-current)" = master
-          git_status=$(git status --porcelain 2>&1) || {
-            printf 'Git status failed: %s\n' "$git_status" >&2
-            exit 1
-          }
-          if [ -n "$git_status" ]; then
-            printf 'Refusing deployment: working tree is not clean:\n%s\n' "$git_status" >&2
-            exit 1
-          fi
+          # GitHub master is authoritative for this deployment checkout.
+          # Local edits to tracked files are disposable; leave untracked/ignored files alone.
           git fetch origin master
-          git merge --ff-only "$verified_sha"
+          git reset --hard "$verified_sha"
+          test "$(git rev-parse HEAD)" = "$verified_sha"
           REMOTE
           } | ssh -p 4322 \
             -i "$HOME/.ssh/id_ed25519" \
