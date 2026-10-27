@@ -42,6 +42,15 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <!-- Quote fragments do not include the main HTML stylesheet: keep box styles inline. -->
+    <xsl:template match="p-ai">
+        <p class="ai-translation"
+           style="border: 1px dashed #b68b46; background-color: #fffaf0; padding: 0.75em 1em; margin: 0.75em 0; border-radius: 4px;">
+            <span class="ai-translation-label"
+                  style="display: block; color: #7b561d; font-size: 0.75em; font-weight: bold; margin-bottom: 0.5em;">Автоматический перевод · не проверен</span>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     <xsl:template match="strong">
         <strong>
             <xsl:apply-templates/>
