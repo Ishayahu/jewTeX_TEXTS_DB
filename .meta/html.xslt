@@ -13,6 +13,20 @@
     <title>test1</title>
     <style type="text/css">
       .work_needed{ background: DarkOrange;}
+      .ai-translation {
+        border: 1px dashed #b68b46;
+        background-color: #fffaf0;
+        padding: 0.75em 1em;
+        margin: 0.75em 0;
+        border-radius: 4px;
+      }
+      .ai-translation-label {
+        display: block;
+        color: #7b561d;
+        font-size: 0.75em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+      }
       /*.link_needed{ background: red;}
       .term {text-decoration: underline;}
       .comment {font-size: small;
@@ -319,6 +333,14 @@
         </p>
     </xsl:template>
 	
+    <!-- Unreviewed automatic translation: one clearly marked box per paragraph. -->
+    <xsl:template match="p-ai">
+        <p class="ai-translation">
+            <span class="ai-translation-label">Автоматический перевод · не проверен</span>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
     <xsl:template match="quoted_text">
         <p class='quote'>
             <xsl:apply-templates/>
