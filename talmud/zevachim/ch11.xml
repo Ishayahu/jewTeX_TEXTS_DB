@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
-  <header level='0' type="chapter" name="11" verbouse_name="Кровь хатата">
+  <header level='0' type="chapter" name="11" verbouse_name="Кровь хатата" text_link='https://he.wikisource.org/wiki/בבלי_זבחים_פרק_יא'>
     <daf number="950" name="95a">
       <p></p>
       <p></p>
@@ -21,7 +21,20 @@
     <daf number="955" name="95b">
       <p>...</p>
       <header type="ref" name="Сосуд в котором варилось и в который перелили">
-        <p>Учили мудрецы: «“[И глиняный сосуд,] она варилась в котором...” — отсюда мы видим, что закон применим только к сосуду, в котором варилось. А если перелили в него горячее — откуда это учим<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95а:так написано в Торат Коаним'>РаШИ</link>? “... она варилась в котором, будет разбит”»<link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
+        <p>Учили мудрецы:</p>
+        <quote author='tora' book='vayikra' chapter='6' posuk='21'
+               ref='в котором она варилась' />
+        <p>— отсюда мы видим, что закон применим только к сосуду, в котором варилось. А если перелили в него горячее — откуда это учим<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95b:так написано в Торат Коаним'>РаШИ</link>?</p>
+        <quote author='tora' book='vayikra' chapter='6' posuk='21'
+               ref='в котором она варилась, будет разбит' />
+        <p><link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
+      </header>
+      <header type='ref' name='Рами бар Хама: приготовление без впитывания'>
+        <p>Спросил Рами бар Хама:</p>
+        <quote author='amoraim' book='rami_bar_chama' siman='Приготовление без впитывания' />
+        <p>Сказал Рова:</p>
+        <quote author='amoraim' book='rava' siman='Доказательство из Мишны о переливании горячего' />
+        <p>Впитывание без приготовления не вызывает у нас сомнений<link upper='upper' author='shlomo_yitzchaki' book='rashi_al_zevachim' chapter='11' siman_katan='95b:впитывание без варки не вызывает сомнения'>РаШИ</link>. Наш вопрос — каков закон в случае приготовления без впитывания? <link upper='upper' author='tosafot' book='tosafot_al_zevachim' chapter='11' siman_katan='95b:А если перелили в него горячее — откуда это учим...'>Тосафот</link></p>
       </header>
       <p></p>
       <p></p>
