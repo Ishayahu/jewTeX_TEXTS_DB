@@ -340,7 +340,7 @@
             <xsl:if test="@id">
                 <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
             </xsl:if>
-            <span class="ai-translation-label">Автоматический перевод · не проверен<xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
+            <span class="ai-translation-label">Автоматический перевод · не проверен<xsl:text> · абзац №</xsl:text><xsl:number level="any" count="p|p-ai" from="daf|header[@type='chapter']"/><xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

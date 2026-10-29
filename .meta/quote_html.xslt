@@ -51,7 +51,7 @@
                 <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
             </xsl:if>
             <span class="ai-translation-label"
-                  style="display: block; color: #7b561d; font-size: 0.75em; font-weight: bold; margin-bottom: 0.5em;">Автоматический перевод · не проверен<xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
+                  style="display: block; color: #7b561d; font-size: 0.75em; font-weight: bold; margin-bottom: 0.5em;">Автоматический перевод · не проверен<xsl:text> · абзац №</xsl:text><xsl:number level="any" count="p|p-ai" from="daf|header[@type='chapter']"/><xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
