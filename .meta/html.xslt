@@ -323,6 +323,7 @@
 		<xsl:variable name="level" select="@offset" />
 		<xsl:variable name="padding_value" select="$level * $padding_base" />
         <p>
+            <xsl:if test="@id"><xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute></xsl:if>
 			<xsl:if test="@offset">
 				<xsl:attribute name='style'><xsl:value-of select="concat('padding-left: ',$padding_value,'px;')" /></xsl:attribute>
 			</xsl:if>

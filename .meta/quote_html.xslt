@@ -39,6 +39,7 @@
     </xsl:template>
     <xsl:template match="p">
         <p>
+            <xsl:if test="@id"><xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute></xsl:if>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
