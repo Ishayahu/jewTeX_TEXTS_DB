@@ -21,7 +21,13 @@
     </xsl:template>
 
     <xsl:template match="link_needed">
-        <span class="link_needed" title='нужно проставить ссылки'>
+        <span class="link_needed">
+            <xsl:attribute name="title">
+                <xsl:choose>
+                    <xsl:when test="@reason"><xsl:value-of select="@reason"/></xsl:when>
+                    <xsl:otherwise>нужно проставить ссылки</xsl:otherwise>
+                </xsl:choose>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -80,6 +86,9 @@
         <xsl:copy-of select=".">
         </xsl:copy-of>
 
+    </xsl:template>
+    <xsl:template match="a">
+        <xsl:copy-of select="."/>
     </xsl:template>
 
     <xsl:template match="quote">
