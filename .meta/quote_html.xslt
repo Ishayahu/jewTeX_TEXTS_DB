@@ -46,8 +46,11 @@
     <xsl:template match="p-ai">
         <p class="ai-translation"
            style="border: 1px dashed #b68b46; background-color: #fffaf0; padding: 0.75em 1em; margin: 0.75em 0; border-radius: 4px;">
+            <xsl:if test="@id">
+                <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:if>
             <span class="ai-translation-label"
-                  style="display: block; color: #7b561d; font-size: 0.75em; font-weight: bold; margin-bottom: 0.5em;">Автоматический перевод · не проверен</span>
+                  style="display: block; color: #7b561d; font-size: 0.75em; font-weight: bold; margin-bottom: 0.5em;">Автоматический перевод · не проверен<xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

@@ -336,7 +336,10 @@
     <!-- Unreviewed automatic translation: one clearly marked box per paragraph. -->
     <xsl:template match="p-ai">
         <p class="ai-translation">
-            <span class="ai-translation-label">Автоматический перевод · не проверен</span>
+            <xsl:if test="@id">
+                <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
+            </xsl:if>
+            <span class="ai-translation-label">Автоматический перевод · не проверен<xsl:if test="@id"><xsl:text> · </xsl:text><a href="#{@id}"><xsl:text>#</xsl:text><xsl:value-of select="@id"/></a></xsl:if></span>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
