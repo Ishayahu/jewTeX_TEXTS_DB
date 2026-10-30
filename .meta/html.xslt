@@ -111,6 +111,12 @@
       .source-event[hidden], tr[hidden] { display: none !important; }
       .source-switch-group > .switch { margin: 0.75em 0; }
       .source-switch-group .switch-item { margin: 0 0.4em; }
+      .source-toggle { position: absolute; opacity: 0; width: 1px; height: 1px; }
+      .source-switch-native { justify-content: flex-start; align-items: center; }
+      .source-switch-native label { display: inline-block; padding: 0.35em 0.6em; border: 1px solid #999; border-radius: 4px; }
+      .source-reset { display: none !important; }
+      .source-toggle:checked ~ .source-switch-native .source-reset { display: inline-block !important; }
+      .source-toggle:checked ~ .source-switch-native .source-choice { font-weight: bold; background: #e6f5e6; }
       /*tr.sefard th:first-child {position: relative}
       tr.sefard th:first-child::after{
         position: absolute;
@@ -242,12 +248,32 @@
 
     <!-- A selected chapter is flattened to content with children only.
          Keep switch controls as a child so they survive that selection. -->
+    <!-- Source filtering uses native checkbox + CSS, independent of script execution. -->
     <xsl:template match="content[switch[@sources]]">
+      <xsl:variable name="source" select="switch[1]/@sources"/>
+      <xsl:variable name="filter-id" select="concat('source-filter-', generate-id())"/>
       <div class="source-switch-group">
-        <div class="switch" data-switch-kind="source">
-          <xsl:call-template name="split-string">
-            <xsl:with-param name="text" select="switch[1]/@sources"/>
-          </xsl:call-template>
+        <xsl:attribute name="id"><xsl:value-of select="$filter-id"/></xsl:attribute>
+        <style type="text/css">
+          <xsl:text>#</xsl:text><xsl:value-of select="$filter-id"/>
+          <xsl:text> .source-toggle:checked ~ .source-switch-content .source-event:not([data-source~="</xsl:text>
+          <xsl:value-of select="$source"/>
+          <xsl:text>"]) { display: none !important; }</xsl:text>
+        </style>
+        <input class="source-toggle" type="checkbox">
+          <xsl:attribute name="id"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
+        </input>
+        <div class="switch source-switch-native">
+          <label class="switch-item source-choice">
+            <xsl:attribute name="for"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
+            <xsl:call-template name="switch-label">
+              <xsl:with-param name="key" select="$source"/>
+            </xsl:call-template>
+          </label>
+          <label class="switch-item source-reset">
+            <xsl:attribute name="for"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
+            X
+          </label>
         </div>
         <div class="source-switch-content">
           <xsl:apply-templates select="node()[not(self::switch)]"/>
