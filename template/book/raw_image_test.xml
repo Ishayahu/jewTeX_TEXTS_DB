@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level="0" type="siman" name="raw-image-test">
+    <p>Эксперимент с внешними изображениями GitHub Raw. Оба файла находятся рядом с этой книгой в каталоге illustrations репозитория текстов. Приложение jewTeX не менялось.</p>
+    <p>Тест 1: SVG. Если схема видна, браузер успешно загружает SVG по ссылке на другом домене.</p>
+    <img src="https://raw.githubusercontent.com/Ishayahu/jewTeX_TEXTS_DB/master/template/book/illustrations/test.svg" alt="Тест 1: схема SVG из GitHub Raw"/>
+    <p>Тест 2: PNG. Если цветная полоска видна, браузер загружает растровое изображение с того же домена GitHub Raw независимо от поддержки SVG.</p>
+    <img src="https://raw.githubusercontent.com/Ishayahu/jewTeX_TEXTS_DB/master/template/book/illustrations/test.png" alt="Тест 2: цветная полоска PNG из GitHub Raw"/>
+  </header>
+</content>
