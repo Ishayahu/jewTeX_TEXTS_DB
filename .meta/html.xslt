@@ -111,6 +111,14 @@
       .source-event[hidden], tr[hidden] { display: none !important; }
       .source-switch-group > .switch { margin: 0.75em 0; }
       .source-switch-group .switch-item { margin: 0 0.4em; }
+      .source-choice-input { position:absolute; opacity:0; width:1px; height:1px; }
+      .source-switch-controls { margin: 0.75em 0; }
+      .source-switch-row { display:flex; flex-wrap:wrap; gap:0.35em; align-items:center; margin:0.35em 0; }
+      .source-row-title { display:inline-block; min-width:7em; font-weight:bold; }
+      .source-switch-label { border:1px solid #aaa; border-radius:4px; padding:0.3em 0.5em; cursor:pointer; }
+      .source-switch-label:focus-visible { outline:2px solid #222; }
+      .source-block { border-left:3px solid #999; margin:0.6em 0; padding:0.35em 0.85em; }
+      .source-block h5 { margin:0.25em 0 0.5em; }
       .source-toggle { position: absolute; opacity: 0; width: 1px; height: 1px; }
       .source-switch-native { justify-content: flex-start; align-items: center; }
       .source-switch-native label { display: inline-block; padding: 0.35em 0.6em; border: 1px solid #999; border-radius: 4px; }
@@ -246,43 +254,103 @@
 </html>
 </xsl:template>
 
-    <!-- A selected chapter is flattened to content with children only.
-         Keep switch controls as a child so they survive that selection. -->
-    <!-- Source filtering uses native checkbox + CSS, independent of script execution. -->
+    <!-- Native CSS filtering: two rows share the same checked inputs.
+         It works even if scripts in the XSLT-generated HTML are inert. -->
+    <xsl:template name="source-controls">
+      <xsl:param name="rest"/>
+      <xsl:param name="group-id"/>
+      <xsl:param name="mode"/>
+      <xsl:variable name="value" select="normalize-space(substring-before(concat($rest, ','), ','))"/>
+      <xsl:if test="string-length($value) &gt; 0">
+        <xsl:variable name="input-id" select="concat($group-id, '-', $value)"/>
+        <xsl:choose>
+          <xsl:when test="$mode = 'inputs'">
+            <input type="checkbox" class="source-choice-input" checked="checked">
+              <xsl:attribute name="id"><xsl:value-of select="$input-id"/></xsl:attribute>
+              <xsl:attribute name="aria-label"><xsl:value-of select="$value"/></xsl:attribute>
+            </input>
+          </xsl:when>
+          <xsl:when test="$mode = 'css'">
+            <xsl:text>#</xsl:text><xsl:value-of select="$input-id"/>
+            <xsl:text>:not(:checked) ~ .source-switch-content .source-block[data-source~="</xsl:text>
+            <xsl:value-of select="$value"/><xsl:text>"] { display:none !important; } </xsl:text>
+            <xsl:text>#</xsl:text><xsl:value-of select="$input-id"/>
+            <xsl:text>:not(:checked) ~ .source-switch-content .source-event[data-source="</xsl:text>
+            <xsl:value-of select="$value"/><xsl:text>"] { display:none !important; } </xsl:text>
+            <xsl:text>#</xsl:text><xsl:value-of select="$input-id"/>
+            <xsl:text>:checked ~ .source-switch-controls .source-row-show label[for="</xsl:text>
+            <xsl:value-of select="$input-id"/><xsl:text>"] { background:#d9ead3; border-color:#407b43; font-weight:bold; } </xsl:text>
+            <xsl:text>#</xsl:text><xsl:value-of select="$input-id"/>
+            <xsl:text>:not(:checked) ~ .source-switch-controls .source-row-hide label[for="</xsl:text>
+            <xsl:value-of select="$input-id"/><xsl:text>"] { background:#f5cccc; border-color:#b54f4f; font-weight:bold; } </xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <label class="source-switch-label">
+              <xsl:attribute name="for"><xsl:value-of select="$input-id"/></xsl:attribute>
+              <xsl:call-template name="switch-label">
+                <xsl:with-param name="key" select="$value"/>
+              </xsl:call-template>
+            </label>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:if>
+      <xsl:if test="contains($rest, ',')">
+        <xsl:call-template name="source-controls">
+          <xsl:with-param name="rest" select="substring-after($rest, ',')"/>
+          <xsl:with-param name="group-id" select="$group-id"/>
+          <xsl:with-param name="mode" select="$mode"/>
+        </xsl:call-template>
+      </xsl:if>
+    </xsl:template>
+
     <xsl:template match="content[switch[@sources]]">
-      <xsl:variable name="source" select="switch[1]/@sources"/>
-      <xsl:variable name="filter-id" select="concat('source-filter-', generate-id())"/>
+      <xsl:variable name="sources" select="switch[1]/@sources"/>
+      <xsl:variable name="group-id" select="concat('source-filter-', generate-id())"/>
       <div class="source-switch-group">
-        <xsl:attribute name="id"><xsl:value-of select="$filter-id"/></xsl:attribute>
+        <xsl:call-template name="source-controls">
+          <xsl:with-param name="rest" select="$sources"/>
+          <xsl:with-param name="group-id" select="$group-id"/>
+          <xsl:with-param name="mode" select="'inputs'"/>
+        </xsl:call-template>
         <style type="text/css">
-          <xsl:text>#</xsl:text><xsl:value-of select="$filter-id"/>
-          <xsl:text> .source-toggle:checked ~ .source-switch-content .source-event:not([data-source~="</xsl:text>
-          <xsl:value-of select="$source"/>
-          <xsl:text>"]) { display: none !important; }</xsl:text>
+          <xsl:call-template name="source-controls">
+            <xsl:with-param name="rest" select="$sources"/>
+            <xsl:with-param name="group-id" select="$group-id"/>
+            <xsl:with-param name="mode" select="'css'"/>
+          </xsl:call-template>
         </style>
-        <input class="source-toggle" type="checkbox">
-          <xsl:attribute name="id"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
-        </input>
-        <div class="switch source-switch-native">
-          <label class="switch-item source-choice">
-            <xsl:attribute name="for"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
-            <xsl:call-template name="switch-label">
-              <xsl:with-param name="key" select="$source"/>
+        <div class="source-switch-controls">
+          <div class="source-switch-row source-row-show">
+            <span class="source-row-title">Показывать</span>
+            <xsl:call-template name="source-controls">
+              <xsl:with-param name="rest" select="$sources"/>
+              <xsl:with-param name="group-id" select="$group-id"/>
+              <xsl:with-param name="mode" select="'show'"/>
             </xsl:call-template>
-          </label>
-          <label class="switch-item source-reset">
-            <xsl:attribute name="for"><xsl:value-of select="concat($filter-id, '-checkbox')"/></xsl:attribute>
-            X
-          </label>
+          </div>
+          <div class="source-switch-row source-row-hide">
+            <span class="source-row-title">Исключить</span>
+            <xsl:call-template name="source-controls">
+              <xsl:with-param name="rest" select="$sources"/>
+              <xsl:with-param name="group-id" select="$group-id"/>
+              <xsl:with-param name="mode" select="'hide'"/>
+            </xsl:call-template>
+          </div>
         </div>
         <div class="source-switch-content">
           <xsl:apply-templates select="node()[not(self::switch)]"/>
         </div>
       </div>
     </xsl:template>
-
-    <!-- Suppress the XML-only control marker in unfiltered views. -->
     <xsl:template match="switch"/>
+
+    <xsl:template match="source_block">
+      <section class="source-block">
+        <xsl:attribute name="data-source"><xsl:value-of select="translate(@source, ',', ' ')"/></xsl:attribute>
+        <xsl:if test="@label"><h5><xsl:value-of select="@label"/></h5></xsl:if>
+        <xsl:apply-templates/>
+      </section>
+    </xsl:template>
 
     <xsl:template match="header[@type='part']">
         <h2>Часть <xsl:value-of select="@number"/>: <xsl:value-of select="@verbouse_name"/></h2>
@@ -637,6 +705,8 @@
       <xsl:choose>
         <xsl:when test="$key = 'seder_hadorot'">Седер аДорот</xsl:when>
         <xsl:when test="$key = 'seder_olam'">Седер Олам</xsl:when>
+        <xsl:when test="$key = 'yerushalmi'">Иерусалимский Талмуд</xsl:when>
+        <xsl:when test="$key = 'external_source'">Внешние источники</xsl:when>
         <xsl:otherwise><xsl:value-of select="$key"/></xsl:otherwise>
       </xsl:choose>
     </xsl:template>

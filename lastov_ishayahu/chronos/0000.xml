@@ -1886,7 +1886,7 @@
     </header>
   </header>
 	<header level="0" type="chapter" name="3900" verbouse_name="40 век. Мишна" text_link='https://he.wikipedia.org/wiki/%D7%A9%D7%A0%D7%99%D7%9D_%D7%A2%D7%91%D7%A8%D7%99%D7%95%D7%AA_%D7%92%27%D7%AA%D7%AA%22%D7%A7_-_%D7%92%27%D7%AA%D7%AA%D7%A7%D7%A6%22%D7%98'>
-    <switch sources="seder_hadorot" />
+    <switch sources="seder_hadorot,yerushalmi,external_source" />
     <header level="2" type="seif" name="3900 Правление Антонина Пия" source="seder_hadorot">
       <quote author='heilprin_yechiel' book='seder_hadorot' siman='3900' siman_katan="Антонин Пий" />
       <p></p>
@@ -1897,6 +1897,26 @@
     </header>
     <header level="2" type="seif" name="3905 Дурные знаки" source="seder_hadorot">
       <quote author='heilprin_yechiel' book='seder_hadorot' siman='3905' siman_katan='Дурные знаки' />
+    </header>
+    <header level="2" type="seif" name="3909? или 3915? — гиюр Антонинуса" source="seder_hadorot yerushalmi external_source">
+      <p>Датировка предварительная: «3909? или 3915?»; историческое отождествление Антонинуса пока не установлено. Ниже сопоставлены традиционные свидетельства и внешние исторические параллели.</p>
+      <source_block source="seder_hadorot" label="Седер аДорот">
+        <quote author="heilprin_yechiel" book="seder_hadorot" siman="Таннаим и амораим — рабби Йеуда ха-Наси" siman_katan="6. Антонинус и Раби"/>
+      </source_block>
+      <source_block source="yerushalmi" label="Иерусалимский Талмуд, Мегила 3:2">
+        <quote author="jerusalem_talmud" book="megillah" chapter="3" halakha="2" siman_katan="Гиюр Антонинуса"/>
+      </source_block>
+      <source_block source="external_source" label="Внешние свидетельства и исторические параллели">
+        <p>Прямое независимое античное подтверждение гиюра римского императора пока не обнаружено. Эти материалы нельзя считать доказательством гиюра Антонинуса.</p>
+        <p><a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/Caracalla*.html" target="_blank">Historia Augusta, Каракалла 1:6</a>: в детстве Каракалла возмущался наказанием товарища, принявшего иудаизм. Сам Каракалла здесь не назван прозелитом.</p>
+        <p><a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/80*.html" target="_blank">Кассий Дион, Римская история 80:11</a>: Элагабал, носивший императорское имя Антонинус, совершил обрезание и избегал свинины. Дион связывает это с сирийским жречеством, а не с гиюром.</p>
+        <p><a href="https://www.livius.org/sources/content/herodian-s-roman-history/herodian-5.6" target="_blank">Геродиан, 5:6:9</a>: Элагабал избегал свиней по финикийскому обычаю.</p>
+        <p><a href="https://penelope.uchicago.edu/Josephus/ant-20.html" target="_blank">Иосиф Флавий, Иудейские древности XX, 7:1</a>: Азиз, царь Эмесы, согласился на обрезание ради женитьбы на Друзилле. Это событие более раннего периода, не свидетельство гиюра Антонинуса.</p>
+        <p><a href="https://lucianofsamosata.info/wiki/doku.php?id=home:texts_and_library:essays:the-syrian-goddess" target="_blank">Лукиан, О сирийской богине, §54</a>: в Иераполе свиней не приносили в жертву и не употребляли в пищу; это другой сирийский культ.</p>
+        <p><a href="https://study.scicenter.online/roman-law/the-status-the-jews-the-111548.html" target="_blank">Ульпиан, Дигесты 50.2.3.3</a>: Север и Антонин позволили последователям иудейской религии занимать общественные должности при определённых ограничениях. О личном гиюре речь не идёт.</p>
+        <p><a href="https://www.tertullian.org/fathers/jerome_daniel_02_text.htm" target="_blank">Иероним, комментарий к Даниэлю 11:34–35</a>: некоторые евреи толковали стих применительно к Северу и Антонину, благосклонным к евреям. Автор пересказывает традицию, не утверждая обращения императора.</p>
+        <p><strong>Исследовательская гипотеза, не факт:</strong> общие практики обрезания и отказа от свинины могут отражать контакты сирийских общин (включая евреев и самаритян) либо самостоятельные местные обычаи. Прямой связи культа Эль-Габала с самаритянами пока не найдено. Возможное смешение нескольких римских Антонинусов также требует отдельной проверки.</p>
+      </source_block>
     </header>
     <header level="2" type="seif" name="3920? ">
       <p>где-то 3920х годах раби Натан встречает пророка Элияу и спрашивает, как Бг отреагировал на спор <link author='lastov_ishayahu' book='chronos' chapter='9999' seif='1961330c-6d21-4ae4-a6aa-c2cd74573c33'>р. Элиэзера и р. Иошуа о печи Ахная</link> Ответ: победили Меня сыновья мои, победили (см. "3820? Спор о печи Ахная") (БМ 59а-б)</p>
