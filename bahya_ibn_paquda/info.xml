@@ -1,10 +1,21 @@
 <?xml version="1.0" standalone="yes"?>
 <info>
- <ru>
+  <start_year>4800</start_year>
+  <end_year>4880</end_year>
+  <localized_info>
+    <ru>
   <title>Рабейну</title>
   <first_name>Бахья</first_name>
   <last_name>ибн Пакуда</last_name>
   <short_name>Рабейну Бахья</short_name>
   <full_name>Рабейну Бахья ибн Пакуда</full_name>
- </ru>
+      <quote/>
+    </ru>
+    <en><title/><first_name/><last_name/><short_name/><quote/></en>
+    <he><title/><first_name/><last_name/><short_name/><quote/></he>
+  </localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><philosophy/><exegesis/></domains>
+  <cities/>
+  <books/>
 </info>

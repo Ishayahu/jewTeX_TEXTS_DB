@@ -1,2 +1,2 @@
 <?xml version="1.0" standalone="yes"?>
-<info><localized_info><ru><title/><first_name/><last_name>Зоар</last_name><short_name>Зоар</short_name><quote/></ru><he><title/><first_name/><last_name>ספר הזהר</last_name><short_name>זהר</short_name><quote/></he></localized_info><display><css_class_name>default</css_class_name></display><domains><kabbalah/></domains><cities/><books/></info>
+<info><start_year>5040</start_year><end_year>5065</end_year><localized_info><ru><title/><first_name/><last_name>Зоар</last_name><short_name>Зоар</short_name><quote/></ru><he><title/><first_name/><last_name>ספר הזהר</last_name><short_name>זהר</short_name><quote/></he></localized_info><display><css_class_name>default</css_class_name></display><domains><kabbalah/></domains><cities/><books/></info>
