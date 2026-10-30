@@ -107,6 +107,10 @@
         text-decoration: underline;
         cursor: pointer;
       }
+      .switch-item.active { font-weight: bold; text-decoration: none; }
+      .source-event[hidden], tr[hidden] { display: none !important; }
+      .source-switch-group > .switch { margin: 0.75em 0; }
+      .source-switch-group .switch-item { margin: 0 0.4em; }
       /*tr.sefard th:first-child {position: relative}
       tr.sefard th:first-child::after{
         position: absolute;
@@ -172,6 +176,65 @@
     </style>
   </head>
   <body>
+    <script type="text/javascript">
+      <xsl:text><![CDATA[
+(function () {
+  function each(nodes, callback) {
+    Array.prototype.forEach.call(nodes, callback);
+  }
+  function markSelected(bar, value) {
+    each(bar.querySelectorAll('[switch-value]'), function (item) {
+      var isActive = item.getAttribute('switch-value') === value;
+      item.classList.toggle('active', isActive);
+      item.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+  }
+  window.set_switch = function (button, event) {
+    if (event) event.preventDefault();
+    var bar = button.parentNode;
+    var value = button.getAttribute('switch-value');
+    if (!bar || !value) return;
+    if (bar.getAttribute('data-switch-kind') === 'source') {
+      var group = bar.parentNode;
+      if (!group || !group.classList.contains('source-switch-group')) return;
+      each(group.querySelectorAll('.source-event'), function (item) {
+        var sources = (item.getAttribute('data-source') || '').split(/[\s,]+/);
+        item.hidden = sources.indexOf(value) === -1;
+      });
+    } else {
+      var table = bar.nextElementSibling;
+      if (!table || table.tagName.toLowerCase() !== 'table') return;
+      var keys = Array.prototype.map.call(
+        bar.querySelectorAll('[switch-value]'),
+        function (item) { return item.getAttribute('switch-value'); }
+      );
+      each(table.rows, function (row) {
+        var classified = keys.some(function (key) { return row.classList.contains(key); });
+        row.hidden = classified ? !row.classList.contains(value) : false;
+      });
+    }
+    markSelected(bar, value);
+  };
+  window.clear_switch = function (button, event) {
+    if (event) event.preventDefault();
+    var bar = button.parentNode;
+    if (!bar) return;
+    if (bar.getAttribute('data-switch-kind') === 'source') {
+      var group = bar.parentNode;
+      if (!group) return;
+      each(group.querySelectorAll('.source-event'), function (item) {
+        item.hidden = false;
+      });
+    } else {
+      var table = bar.nextElementSibling;
+      if (!table || table.tagName.toLowerCase() !== 'table') return;
+      each(table.rows, function (row) { row.hidden = false; });
+    }
+    markSelected(bar, null);
+  };
+})();
+      ]]></xsl:text>
+    </script>
     <xsl:apply-templates/>
   </body>
 </html>
@@ -198,7 +261,19 @@
 				</xsl:otherwise>
 			</xsl:choose>	
 		</h2>
-		<xsl:apply-templates />
+        <xsl:choose>
+          <xsl:when test="@switch">
+            <div class="source-switch-group">
+              <div class="switch" data-switch-kind="source">
+                <xsl:call-template name="split-string">
+                  <xsl:with-param name="text" select="@switch"/>
+                </xsl:call-template>
+              </div>
+              <div class="source-switch-content"><xsl:apply-templates /></div>
+            </div>
+          </xsl:when>
+          <xsl:otherwise><xsl:apply-templates /></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="header[@type='sub_chapter']">
@@ -242,6 +317,22 @@
 			</h3>	
 		</a>
 		<xsl:apply-templates />
+    </xsl:template>
+    <!-- Entire seif is filtered, including its heading and quoted source. -->
+    <xsl:template match="header[@type='seif'][ancestor::header[@switch]]" priority="2">
+      <div class="source-event">
+        <xsl:if test="@source">
+          <xsl:attribute name="data-source"><xsl:value-of select="@source"/></xsl:attribute>
+        </xsl:if>
+        <a>
+          <xsl:attribute name="name"><xsl:value-of select="generate-id()"/></xsl:attribute>
+          <h4 data-type="header">
+            <xsl:attribute name="data-level"><xsl:value-of select="@level"/></xsl:attribute>
+            <xsl:value-of select="@name"/>: <xsl:value-of select="@verbouse_name"/>
+          </h4>
+        </a>
+        <xsl:apply-templates/>
+      </div>
     </xsl:template>
     <xsl:template match="header[@type='seif']">
 		<a>
@@ -497,6 +588,15 @@
     
     
     <!-- Рекурсивный шаблон для разделения строки -->
+    <xsl:template name="switch-label">
+      <xsl:param name="key"/>
+      <xsl:choose>
+        <xsl:when test="$key = 'seder_hadorot'">Седер аДорот</xsl:when>
+        <xsl:when test="$key = 'seder_olam'">Седер Олам</xsl:when>
+        <xsl:otherwise><xsl:value-of select="$key"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:template>
+
     <xsl:template name="split-string">
         <xsl:param name="text"/>
         <xsl:param name="delimiter" select="','"/>
@@ -509,7 +609,7 @@
                   <xsl:attribute name='switch-value'>
                     <xsl:value-of select="substring-before($text, $delimiter)"/>
                   </xsl:attribute>
-                  <xsl:value-of select="substring-before($text, $delimiter)"/>
+                  <xsl:call-template name="switch-label"><xsl:with-param name="key" select="substring-before($text, $delimiter)"/></xsl:call-template>
                 </span>
                 <!-- Рекурсивно обрабатываем оставшуюся часть -->
                 <xsl:call-template name="split-string">
@@ -524,7 +624,7 @@
                   <xsl:attribute name='switch-value'>
                     <xsl:value-of select="$text"/>
                   </xsl:attribute>
-                  <xsl:value-of select="$text"/>
+                  <xsl:call-template name="switch-label"><xsl:with-param name="key" select="$text"/></xsl:call-template>
                 </span>
                 <span class='switch-item' onclick="clear_switch(this, event)">X</span>
             </xsl:otherwise>
