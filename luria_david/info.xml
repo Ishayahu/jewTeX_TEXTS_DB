@@ -1,2 +1,4 @@
 <?xml version="1.0" standalone="yes"?>
-<info><localized_info><ru><first_name>Давид</first_name><last_name>Лурия</last_name></ru></localized_info></info>
+<info>
+  <end_year>5616</end_year>
+  <start_year>5558</start_year><localized_info><ru><first_name>Давид</first_name><last_name>Лурия</last_name></ru></localized_info></info>
