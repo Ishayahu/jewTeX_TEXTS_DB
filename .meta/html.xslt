@@ -240,6 +240,24 @@
 </html>
 </xsl:template>
 
+    <!-- A selected chapter is flattened to content with children only.
+         Keep switch controls as a child so they survive that selection. -->
+    <xsl:template match="content[switch[@sources]]">
+      <div class="source-switch-group">
+        <div class="switch" data-switch-kind="source">
+          <xsl:call-template name="split-string">
+            <xsl:with-param name="text" select="switch[1]/@sources"/>
+          </xsl:call-template>
+        </div>
+        <div class="source-switch-content">
+          <xsl:apply-templates select="node()[not(self::switch)]"/>
+        </div>
+      </div>
+    </xsl:template>
+
+    <!-- Suppress the XML-only control marker in unfiltered views. -->
+    <xsl:template match="switch"/>
+
     <xsl:template match="header[@type='part']">
         <h2>Часть <xsl:value-of select="@number"/>: <xsl:value-of select="@verbouse_name"/></h2>
 		<xsl:apply-templates />
@@ -319,7 +337,7 @@
 		<xsl:apply-templates />
     </xsl:template>
     <!-- Entire seif is filtered, including its heading and quoted source. -->
-    <xsl:template match="header[@type='seif'][ancestor::header[@switch]]" priority="2">
+    <xsl:template match="header[@type='seif'][ancestor::header[@switch] or ancestor::content[switch[@sources]]]" priority="2">
       <div class="source-event">
         <xsl:if test="@source">
           <xsl:attribute name="data-source"><xsl:value-of select="@source"/></xsl:attribute>
