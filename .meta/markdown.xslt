@@ -17,4 +17,8 @@
     <!-- <xsl:apply-templates /> -->
   </xsl:template>
 
+
+    <!-- Машиночитаемые данные хронологии должны остаться только в XML, без HTML/Markdown-вывода. -->
+    <xsl:template match="chronology_data" priority="20"/>
+
 </xsl:stylesheet>

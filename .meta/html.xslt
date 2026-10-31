@@ -809,4 +809,8 @@
         <a target='_blank' ><xsl:attribute name='href'><xsl:value-of select="@url"/></xsl:attribute><xsl:value-of select="@name"/></a>
     </xsl:template>
 	
+
+    <!-- Машиночитаемые данные хронологии должны остаться только в XML, без HTML/Markdown-вывода. -->
+    <xsl:template match="chronology_data" priority="20"/>
+
 </xsl:stylesheet>

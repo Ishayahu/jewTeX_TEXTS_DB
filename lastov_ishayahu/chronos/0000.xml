@@ -2254,4 +2254,68 @@
     <p></p>
   </header>
   
+
+  <!-- Редакторские данные для Jewish Chronology Lab.
+       Не являются частью выводимого текста. Сверка с прозой пока выполняется вручную.
+       Обновление JSON: Ishayahu/jewish-chrono/scripts/sync_chronology.py.
+       Добавлять события, датировки, связи и источники здесь; не править генерируемые JSON вручную. -->
+  <chronology_data version="1" calendar="AM">
+    <events>
+      <event id="akiva_death" label="Смерть раби Акивы" kind="death" subject="Раби Акива"/>
+      <event id="rabbi_birth" label="Рождение Раби Йеуды а-Наси" kind="birth" subject="Раби Йеуда а-Наси"/>
+      <event id="antoninus_infant_birth" label="Рождение младенца Антонинуса" kind="birth" subject="Антонинус из рассказа"/>
+      <event id="emperor_birth" label="Рождение императора Антонина" kind="birth" subject="Антонин Пий (условная идентификация)"/>
+      <event id="emperor_accession" label="Вступление императора на престол" kind="accession" subject="Антонин Пий"/>
+      <event id="antoninus_death" label="Смерть Антонина Пия" kind="death" subject="Антонин Пий"/>
+    </events>
+    <claims>
+      <claim id="akiva-3880" kind="source-claim" event_id="akiva_death" year="3880" title="3880 АМ — датировка смерти раби Акивы" status="needs-verification">
+        <source author="Раби Йехиэль Гейльприн" work="Седер а-Дорот" location="Обсуждение дат смерти раби Акивы" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/heilprin_yechiel/seder_hadorot/01.xml">
+          <review>Хронология содержит 3880, 3897 и 3901 как альтернативы; первичная атрибуция требует проверки.</review>
+        </source>
+      </claim>
+      <claim id="akiva-3897" kind="source-claim" event_id="akiva_death" year="3897" title="3897 АМ — альтернативная дата смерти раби Акивы" status="needs-primary-attribution">
+        <source author="Хронология: альтернативная датировка" work="Хронология. Причины и следствия" location="Годы 3880, 3897, 3901 — смерть раби Акивы" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/lastov_ishayahu/chronos/0000.xml">
+          <review>В человекочитаемой хронологии год 3897 указан как альтернативный; ранний источник не установлен.</review>
+        </source>
+      </claim>
+      <claim id="akiva-3901" kind="source-claim" event_id="akiva_death" year="3901" title="3901 АМ — альтернативная дата смерти раби Акивы" status="needs-primary-attribution">
+        <source author="Раби Йехиэль Гейльприн" work="Седер а-Дорот" location="Запись 3901 — гибель раби Акивы по другому мнению" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/heilprin_yechiel/seder_hadorot/01.xml">
+          <review>Не путать альтернативную дату смерти с годом падения Бейтара и не приписывать её раннему автору без проверки.</review>
+        </source>
+      </claim>
+      <claim id="accession-3900" kind="source-claim" event_id="emperor_accession" year="3900" title="3900 АМ — вступление Антонина" status="verified-in-translated-xml">
+        <source author="Раби Давид Ганс (цитирует Гейльприн)" work="Цемах Давид / Седер а-Дорот" location="Седер а-Дорот, 3900, Антонин Пий, первый абзац" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/heilprin_yechiel/seder_hadorot/01.xml">
+          <original_quote>Воцарился в 3900 году от сотворения мира в возрасте сорока семи лет («Цемах Давид»).</original_quote>
+          <review>Проверено наличие цитаты в русском XML; оригинал «Цемах Давид» требует сверки.</review>
+        </source>
+      </claim>
+      <claim id="age-47" kind="source-claim" event_id="emperor_accession" metric="age_at_accession" value="47" title="47 лет — возраст при вступлении" status="verified-in-translated-xml">
+        <source author="Раби Давид Ганс (цитирует Гейльприн)" work="Цемах Давид / Седер а-Дорот" location="Седер а-Дорот, 3900, Антонин Пий, первый абзац" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/heilprin_yechiel/seder_hadorot/01.xml">
+          <original_quote>Воцарился в 3900 году от сотворения мира в возрасте сорока семи лет («Цемах Давид»).</original_quote>
+          <review>Возраст указан годами. Точный день рождения не установлен.</review>
+        </source>
+      </claim>
+      <claim id="antoninus-death-3923" kind="source-claim" event_id="antoninus_death" year="3923" title="3923 АМ — сообщение о смерти Антонина Пия" status="verified-in-translated-xml">
+        <source author="Раби Йехиэль Гейльприн" work="Седер а-Дорот" location="Запись 3923, смерть Антонина Пия" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/heilprin_yechiel/seder_hadorot/01.xml">
+          <review>Дата из традиционного источника. Исторические сопоставления исследуются отдельно.</review>
+        </source>
+      </claim>
+    </claims>
+    <constraints>
+      <constraint id="rabbi" kind="reported-relation" lhs_event="rabbi_birth" rhs_event="akiva_death" relation="same-year" delta_years="0" label="Раби родился в год смерти раби Акивы" default_active="true" status="source-reported">
+        <evidence work="Кидушин 72б; приведено также в хронологии" url="https://www.sefaria.org/Kiddushin.72b" review="Сообщение о совпадении рождений/смертей — первоисточник, но не самостоятельная абсолютная датировка."/>
+      </constraint>
+      <constraint id="baby" kind="research-inference" lhs_event="antoninus_infant_birth" rhs_event="rabbi_birth" relation="same-year" delta_years="0" label="Раби и младенец Антонинус — ровесники" default_active="true" status="inference">
+        <evidence work="Сефер Юхасин; рассказы о Раби и Антонинусе" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/abraham_zacuto/sefer_yuchasin/01.xml" review="Интерпретация рассказа о младенцах; сама по себе не устанавливает год."/>
+      </constraint>
+      <constraint id="identity" kind="identity-hypothesis" lhs_event="emperor_birth" rhs_event="antoninus_infant_birth" relation="same-year" delta_years="0" label="Младенец Антонинус — тот же человек, что император" default_active="false" status="unproven">
+        <evidence work="Гипотеза отождествления" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/abraham_zacuto/sefer_yuchasin/01.xml" review="Отождествление нельзя считать фактом без отдельного доказательства."/>
+      </constraint>
+    </constraints>
+    <derived_examples>
+      <example id="computed-3927" kind="computed-example" base_claim_id="akiva-3880" age_claim_id="age-47" status="arithmetic-example"/>
+      <example id="computed-3948" kind="computed-example" base_claim_id="akiva-3901" age_claim_id="age-47" status="arithmetic-example"/>
+    </derived_examples>
+  </chronology_data>
 </content>
