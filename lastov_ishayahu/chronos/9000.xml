@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level="0" type="chapter" name="9000" verbouse_name="Приложения. Тематические подборки первоисточников">
+    <header level="2" type="seif" name="Антонинус — первоисточники">
+      <p><strong>Антонинус: свидетельства еврейских источников.</strong> Здесь собраны переводы из базы текстов и очередь мест, найденных в Sefaria. Перевод сохраняется в своём первоисточнике, а здесь вставляется через цитату. Это позволяет исправлять перевод в одном месте.</p>
+      <p><strong>Вопрос идентификации:</strong> имя Антонинус / Антолинус в разных талмудических и мидрашистских источниках не доказывает, что речь всегда идёт об одном лице или именно об императоре Антонине Пии. Отождествления и датировки следует проверять отдельно.</p>
+      <p>Общий редакторский план и очередь переводов: <a href="https://github.com/Ishayahu/jewTeX_TEXTS_DB/issues/12" target="_blank">GitHub issue №12</a>. Для поиска других вариантов имени: <a href="https://www.sefaria.org/search?q=%D7%90%D7%A0%D7%98%D7%95%D7%A0%D7%99%D7%A0%D7%95%D7%A1" target="_blank">поиск Антонинуса в Sefaria</a>.</p>
+
+      <p><strong>1. Иерусалимский Талмуд: уже опубликованные переводы.</strong></p>
+      <p><strong>Мегила 3:2.</strong> Светильник для синагоги, дискуссия об обращении Антонинуса, рассказ об обрезании и прозвище Раби.</p>
+      <quote author="jerusalem_talmud" book="megillah" chapter="3" halakha="2" siman_katan="Гиюр Антонинуса"/>
+      <p><strong>Авода Зара 3:1.</strong> Объяснение прозвища «Рабейну а-Кадош»; это лишь переведённая часть связанного контекста.</p>
+      <quote author="jerusalem_talmud" book="avodah_zarah" chapter="3" halakha="1" siman_katan="Почему Раби называли Рабейну а-Кадош"/>
+
+      <p><strong>2. Тосафот на Авода Зара 10б: уже опубликованные переводы.</strong></p>
+      <p><strong>Обмен младенцев во время запрета обрезания.</strong></p>
+      <quote author="tosafot" book="tosafot_al_avodah_zarah" chapter="1" siman_katan="10b:Скажи тому, кто стоит у ворот"/>
+      <p><strong>Обрезание Антонинуса и его доля в будущем мире.</strong></p>
+      <quote author="tosafot" book="tosafot_al_avodah_zarah" chapter="1" siman_katan="10b:Горе кораблю, идущему без пошлины"/>
+
+      <p><strong>3. Исторические сочинения: уже опубликованные переводы.</strong></p>
+      <p><strong>«Седер а-Дорот» — Антонин Пий, датировка его правления и возраст.</strong></p>
+      <quote author="heilprin_yechiel" book="seder_hadorot" siman="3900" siman_katan="Антонин Пий"/>
+      <p><strong>«Седер а-Дорот» — рассказы об Антонинусе и Раби.</strong></p>
+      <quote author="heilprin_yechiel" book="seder_hadorot" siman="Таннаим и амораим — рабби Йеуда ха-Наси" siman_katan="6. Антонинус и Раби"/>
+      <p><strong>«Цемах Давид», часть II, 3900 — Антонин Пий вступает на престол.</strong></p>
+      <quote author="david_gans" book="tzemach_david" chapter="2" siman="3900" siman_katan="Антонин Пий вступает на престол"/>
+      <p><strong>«Цемах Давид», часть II, 3915 — гонения и сообщение о гиюре.</strong></p>
+      <quote author="david_gans" book="tzemach_david" chapter="2" siman="3915" siman_katan="Пятое преследование и сообщение о гиюре Антонинуса"/>
+      <p><strong>«Цемах Давид», часть II, 3923 — смерть императора.</strong></p>
+      <quote author="david_gans" book="tzemach_david" chapter="2" siman="3923" siman_katan="Последние годы и смерть Антонина Пия"/>
+      <p><strong>«Сефер Юхасин», рассказ о Раби и Антонинусе.</strong></p>
+      <quote author="abraham_zacuto" book="sefer_yuchasin" siman="Маамар первый — четвёртое тысячелетие" siman_katan="Раби Йеуда а-Наси, Антонинус и прозвище Рабейну а-Кадош"/>
+
+      <p><strong>4. Найденные места Sefaria — ожидают русского перевода в нашей базе.</strong> Пока здесь стоят ссылки на еврейский текст, а не вымышленные цитаты. По мере завершения каждого перевода ссылка будет заменена на вставку из соответствующего канонического XML.</p>
+      <p><link_needed reason="Проверить существующий перевод Гемары; перевести весь выбранный отрывок, создать адресную цитату."><a href="https://www.sefaria.org/Avodah_Zarah.10a-11a" target="_blank">Авода Зара 10а–11а — беседы Раби и Антонинуса, двор, слуги и смерть</a></link_needed></p>
+      <p><link_needed reason="Проверить адресуемый перевод сугии о беседах с Антонинусом."><a href="https://www.sefaria.org/Sanhedrin.91a-91b" target="_blank">Санхедрин 91а–91б — душа, дурное начало, воскресение и солнце</a></link_needed></p>
+      <p><link_needed reason="Полный связанный отрывок, не дублировать параллель в Мегила 3:2."><a href="https://www.sefaria.org/Jerusalem_Talmud_Megillah.1.11" target="_blank">Йерушалми, Мегила 1:11 — жертвенник, левиафан и обрезание</a></link_needed></p>
+      <p><link_needed reason="Особенно важная параллель; прочитать полный еврейский оригинал."><a href="https://www.sefaria.org/Jerusalem_Talmud_Sanhedrin.10.5.3" target="_blank">Йерушалми, Санхедрин 10:5:3 — обрезание, гиюр, прозвище и молитва</a></link_needed></p>
+      <p><link_needed reason="Перевести самостоятельный рассказ без сокращений."><a href="https://www.sefaria.org/Bereshit_Rabbah.11.4" target="_blank">Берешит Рабба 11:4 — особая приправа субботней трапезы</a></link_needed></p>
+      <p><link_needed reason="Сверить рассказ с параллелью Авода Зара 10а."><a href="https://www.sefaria.org/Bereshit_Rabbah.67.6" target="_blank">Берешит Рабба 67:6 — сокровищница и смена чиновников</a></link_needed></p>
+      <p><link_needed reason="Уточнить номер сегмента и перевести отрывок целиком."><a href="https://www.sefaria.org/Bereshit_Rabbah.75" target="_blank">Берешит Рабба 75 — письмо Раби императору</a></link_needed></p>
+      <p><link_needed reason="Проверить контекст и полный перевод."><a href="https://www.sefaria.org/Bereshit_Rabbah.84.3" target="_blank">Берешит Рабба 84:3 — вопрос об Иове</a></link_needed></p>
+      <p><link_needed reason="Перевести рассказ в контексте мидраша."><a href="https://www.sefaria.org/Vayikra_Rabbah.10.1" target="_blank">Ваикра Рабба 10:1 — ученик Раби и слуга Антонинуса</a></link_needed></p>
+      <p><link_needed reason="Уточнить нумерацию сегмента, затем перевести."><a href="https://www.sefaria.org/Vayikra_Rabbah.16" target="_blank">Ваикра Рабба 16 — молитва против жары и холода</a></link_needed></p>
+      <p><link_needed reason="Перевести полный рассказ и связать с Берешит Рабба 11:4."><a href="https://www.sefaria.org/Esther_Rabbah.1.10" target="_blank">Эстер Рабба 1:10 — трапеза у Антонинуса</a></link_needed></p>
+      <p><strong>5. Дополнительная библиографическая проверка.</strong> Установить точное место в Коэлет Рабба, Килаим, «Ливнат а-Сапир» и Зоаре; различать прямые цитаты, поздние пересказы и возможные варианты книги «Сефер Йерушалми». Эти ссылки пока не считаются установленными.</p>
+    </header>
+  </header>
+</content>

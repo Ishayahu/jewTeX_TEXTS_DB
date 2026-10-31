@@ -1894,13 +1894,14 @@
 	<header level="0" type="chapter" name="3900" verbouse_name="40 век. Мишна" text_link='https://he.wikipedia.org/wiki/%D7%A9%D7%A0%D7%99%D7%9D_%D7%A2%D7%91%D7%A8%D7%99%D7%95%D7%AA_%D7%92%27%D7%AA%D7%AA%22%D7%A7_-_%D7%92%27%D7%AA%D7%AA%D7%A7%D7%A6%22%D7%98'>
     <switch sources="seder_hadorot,yerushalmi,external_source" />
     <header level="2" type="seif" name="3900 Правление Антонина Пия" source="seder_hadorot external_source">
+      <p><link author="lastov_ishayahu" book="chronos" chapter="9000" seif="Антонинус — первоисточники">Антонинус — тематическая подборка первоисточников и переводов</link></p>
       <source_block source="seder_hadorot" label="Седер а-Дорот, 3900">
         <quote author="heilprin_yechiel" book="seder_hadorot" siman="3900" siman_katan="Антонин Пий"/>
       </source_block>
       <source_block source="external_source" label="Редакторские сведения и проверка исторической версии">
         <p>В ранее собранных редакторских заметках указано, что женой Антонина Пия была Анния Галерия Фаустина (Фаустина Старшая), племянница жены Адриана; год её смерти там обозначен как 3903. Эти сведения не входят в текст «Седер а-Дорот» за 3900 год. Сам автор называет Антонина «зятем Адриана», что необходимо отдельно сопоставить с историческими родословными.</p>
         <p>Рабочее историческое примечание: Антонин Пий способствовал развитию римского права; см. <a href="https://ru.wikipedia.org/wiki/Антонин_Пий#Юридическая_деятельность" target="_blank">Википедию, раздел «Юридическая деятельность»</a>. Википедия остаётся внешней ссылкой.</p>
-        <p><work_needed>Добавить в исследование другие первоисточники об Антонинусе из <a href="https://www.sefaria.org/search?q=אנטונינוס" target="_blank">поиска Sefaria</a>, переводить каждый в отдельном каноническом источнике. Не вставлять редакторское задание в авторскую книгу.</work_needed></p>
+        <p>Новые первоисточники и переводы об Антонинусе добавляются в <link author="lastov_ishayahu" book="chronos" chapter="9000" seif="Антонинус — первоисточники">тематическую подборку</link>. Очередь работ: <a href="https://github.com/Ishayahu/jewTeX_TEXTS_DB/issues/12" target="_blank">задача GitHub №12</a>.</p>
         <p>Редакторская проверка ссылок: <link author="jerusalem_talmud" book="megillah" chapter="3" halakha="2" siman_katan="Гиюр Антонинуса">Иерусалимский Талмуд, Мегила 3:2</link>, и <link author="jerusalem_talmud" book="avodah_zarah" chapter="3" halakha="1" siman_katan="Почему Раби называли Рабейну а-Кадош">Авода Зара 3:1</link> объясняют прозвище «Рабейну а-Кадош» тем, что Раби не смотрел на своё обрезание; приписываемое Иерусалимскому Талмуду объяснение через посвящение отцом при гонениях остаётся не локализованным в самом талмудическом тексте. «Сефер Юхасин» и «Седер а-Дорот» содержат такую атрибуцию. <a href="https://he.wikisource.org/wiki/סדר_הדורות_אלף_הרביעי_ט" target="_blank">Еврейский оригинал Седер а-Дорот, 3900</a>.</p>
 
 
@@ -1917,6 +1918,7 @@
       </source_block>
     </header>
     <header level="2" type="seif" name="3909? или 3915? — гиюр Антонинуса" source="seder_hadorot yerushalmi external_source">
+      <p>Первичные свидетельства о гиюре и другие рассказы см. в <link author="lastov_ishayahu" book="chronos" chapter="9000" seif="Антонинус — первоисточники">подборке об Антонинусе</link>.</p>
       <p>Датировка предварительная: «3909? или 3915?»; историческое отождествление Антонинуса пока не установлено. Ниже сопоставлены традиционные свидетельства и внешние исторические параллели.</p>
       <source_block source="seder_hadorot" label="Седер аДорот">
         <quote author="heilprin_yechiel" book="seder_hadorot" siman="Таннаим и амораим — рабби Йеуда ха-Наси" siman_katan="6. Антонинус и Раби"/>
