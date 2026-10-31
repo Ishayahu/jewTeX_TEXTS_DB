@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <start_year>5212</start_year>
+  <end_year>5275</end_year>
+  <localized_info>
+    <ru>
+      <title>Рабби</title>
+      <first_name>Авраам</first_name>
+      <last_name>бен Шмуэль Закуто</last_name>
+      <short_name>Авраам Закуто</short_name>
+      <quote/>
+    </ru>
+  </localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><exegesis/><halakha/><liturgics/><kabbalah/><philosophy/></domains>
+  <cities/>
+  <books/>
+</info>
