@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <start_year>5301</start_year><end_year>5373</end_year>
+  <localized_info>
+    <ru><title>Рабби</title><first_name>Давид</first_name><last_name>бен Шломо Ганс</last_name><short_name>Давид Ганс</short_name><quote/></ru>
+    <en><title>Rabbi</title><first_name>David</first_name><last_name>Gans</last_name><short_name>David Gans</short_name><quote/></en>
+  </localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><exegesis/><halakha/><liturgics/><kabbalah/><philosophy/></domains>
+  <cities><city>Прага</city></cities><books><book>Цемах Давид</book></books>
+</info>
