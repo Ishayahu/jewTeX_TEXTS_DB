@@ -2256,15 +2256,14 @@
   
 
   <!-- Редакторские данные для Jewish Chronology Lab.
-       Не являются частью выводимого текста. Сверка с прозой пока выполняется вручную.
+       Не являются частью выводимого текста. Сверка с прозой пока выполняется вручную. Условие ровесничества Антонинуса и Раби включает идентичность с императором и не делится на два независимых флажка.
        Обновление JSON: Ishayahu/jewish-chrono/scripts/sync_chronology.py.
        Добавлять события, датировки, связи и источники здесь; не править генерируемые JSON вручную. -->
   <chronology_data version="1" calendar="AM">
     <events>
       <event id="akiva_death" label="Смерть раби Акивы" kind="death" subject="Раби Акива"/>
       <event id="rabbi_birth" label="Рождение Раби Йеуды а-Наси" kind="birth" subject="Раби Йеуда а-Наси"/>
-      <event id="antoninus_infant_birth" label="Рождение младенца Антонинуса" kind="birth" subject="Антонинус из рассказа"/>
-      <event id="emperor_birth" label="Рождение императора Антонина" kind="birth" subject="Антонин Пий (условная идентификация)"/>
+      <event id="emperor_birth" label="Рождение императора Антонина" kind="birth" subject="Антонинус из рассказа (в сценарии — император)"/>
       <event id="emperor_accession" label="Вступление императора на престол" kind="accession" subject="Антонин Пий"/>
       <event id="antoninus_death" label="Смерть Антонина Пия" kind="death" subject="Антонин Пий"/>
     </events>
@@ -2306,11 +2305,8 @@
       <constraint id="rabbi" kind="reported-relation" lhs_event="rabbi_birth" rhs_event="akiva_death" relation="same-year" delta_years="0" label="Раби родился в год смерти раби Акивы" default_active="true" status="source-reported">
         <evidence work="Кидушин 72б; приведено также в хронологии" url="https://www.sefaria.org/Kiddushin.72b" review="Сообщение о совпадении рождений/смертей — первоисточник, но не самостоятельная абсолютная датировка."/>
       </constraint>
-      <constraint id="baby" kind="research-inference" lhs_event="antoninus_infant_birth" rhs_event="rabbi_birth" relation="same-year" delta_years="0" label="Раби и младенец Антонинус — ровесники" default_active="true" status="inference">
-        <evidence work="Сефер Юхасин; рассказы о Раби и Антонинусе" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/abraham_zacuto/sefer_yuchasin/01.xml" review="Интерпретация рассказа о младенцах; сама по себе не устанавливает год."/>
-      </constraint>
-      <constraint id="identity" kind="identity-hypothesis" lhs_event="emperor_birth" rhs_event="antoninus_infant_birth" relation="same-year" delta_years="0" label="Младенец Антонинус — тот же человек, что император" default_active="false" status="unproven">
-        <evidence work="Гипотеза отождествления" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/abraham_zacuto/sefer_yuchasin/01.xml" review="Отождествление нельзя считать фактом без отдельного доказательства."/>
+      <constraint id="antoninus" kind="research-inference" lhs_event="emperor_birth" rhs_event="rabbi_birth" relation="same-year" delta_years="0" label="Раби и Антонинус (император из рассказа) — ровесники" default_active="true" status="inference">
+        <evidence work="Сефер Юхасин; рассказ о Раби и Антонинусе" url="https://github.com/Ishayahu/jewTeX_TEXTS_DB/blob/master/abraham_zacuto/sefer_yuchasin/01.xml" review="Единая условная связь: рассказ о ровесниках и отождествление Антонинуса с императором не разделяются на два переключателя. Историческая атрибуция требует отдельной проверки."/>
       </constraint>
     </constraints>
     <derived_examples>
