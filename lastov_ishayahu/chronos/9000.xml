@@ -196,10 +196,13 @@
       <p id="ant-book-62"><strong>Midrash Yelamdenu, Selections from Yalkut Talmud Torah</strong> — 1 позиций; около 1250 г. н. э.</p>
       <p><strong>Мидраш Йеламдену 144:1 — Яаков и Эсав; в данном сегменте Антонинус не упомянут (проверенный тематический ложноположительный результат)</strong></p>
       <quote author="midrash" book="midrash_yelamdenu_yalkut_talmud_torah" chapter="144" siman_katan="1"/>
-      <p id="ant-book-127"><strong>Midrash HaIzmiri</strong> — 3 позиций; около 1659 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:12" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:12</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:13" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:13</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Midrash_HaIttamari_13:27" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 13:27</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-127"><strong>Midrash HaIttamari (Мидраш а-Иттамари)</strong> — 3 позиций; около 1659 г. н. э.</p>
+      <p><strong>Мидраш а-Иттамари 8:12 — заход солнца, Антонинус и притча о душе</strong></p>
+      <quote author="midrash" book="ha_ittamari" chapter="8" siman_katan="12"/>
+      <p><strong>Мидраш а-Иттамари 8:13 — объяснение разговора о солнце как разговора о душе</strong></p>
+      <quote author="midrash" book="ha_ittamari" chapter="8" siman_katan="13"/>
+      <p><strong>Мидраш а-Иттамари 13:27 — редька на столе Антонинуса и Раби; сравнение с Рамбамом</strong></p>
+      <quote author="midrash" book="ha_ittamari" chapter="13" siman_katan="27"/>
       <p id="ant-book-344"><strong>Parashat Bereshit</strong> — 2 позиций; год не установлен</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Bereshit" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Bereshit</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><strong>Берешит Рабати, Берешит 59 — сроки беременности и стадо Антонинуса</strong></p>
