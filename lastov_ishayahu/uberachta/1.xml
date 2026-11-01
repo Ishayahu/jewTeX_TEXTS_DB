@@ -1696,6 +1696,22 @@
 
 
 <header level="0" type="chapter" name='11' number='11' verbouse_name="Трапеза">
+  <p><work_needed reason='Существующие записи Кцот а-Шульхан 37–43 являются черновыми конспектами, а не полными переводами. Требуется сверка с ивритским оригиналом, восстановление пропущенных пунктов и правильных границ параграфов (в исходных файлах временно стоит seif 4). Не выдавать их за завершённый перевод.'>Перевести по оригиналу полностью недостающие законы трапезы из «Кцот а-Шульхан», исправить нумерацию параграфов в источнике и обновить цитаты. Сейчас ниже приведены имеющиеся черновые записи.</work_needed></p>
+  <header level="1" type="sub_chapter" name='1' number='1' verbouse_name="Преломление хлеба и благословение «а-моци»">
+    <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='37' seif='4' ref='Черновые записи о благословении и преломлении хлеба' />
+  </header>
+  <header level="1" type="sub_chapter" name='2' number='2' verbouse_name="Благословения на еду и напитки внутри трапезы">
+    <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='40' seif='4' ref='Черновые записи о вине, смене места и напитках во время трапезы' />
+  </header>
+  <header level="1" type="sub_chapter" name='3' number='3' verbouse_name="Перемена места во время трапезы">
+    <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='41' seif='4' ref='Черновые записи о смене места во время трапезы' />
+  </header>
+  <header level="1" type="sub_chapter" name='4' number='4' verbouse_name="Завершение трапезы и отвлечение от еды">
+    <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='42' seif='4' ref='Черновые записи о завершении трапезы и отвлечении от еды' />
+  </header>
+  <header level="1" type="sub_chapter" name='5' number='5' verbouse_name="Маим ахароним">
+    <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='43' seif='4' ref='Черновые записи о последних водах перед Биркат а-мазон' />
+  </header>
 </header>
 
 <header level="0" type="chapter" name='10' number='10' verbouse_name="Биркат амазон">
