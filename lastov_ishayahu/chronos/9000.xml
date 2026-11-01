@@ -211,27 +211,14 @@
       <p><strong>Берешит Рабати, Вайера 24 — обмен младенцев и дружба Раби с Антонинусом; в оригинале есть обрыв перехода</strong></p>
       <quote author="midrash" book="bereshit_rabbati" chapter="vayera" siman_katan="24"/>
     </header>
-    <header level="2" type="seif" name="Антонинус — Комментарии до XIX века">
-      <p><strong>Комментарии до XIX века</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
+    <header level="2" type="seif" name="Антонинус — Раши и Тосафот">
+      <p><strong>Комментарии до XIX века: Раши и классические Тосафот.</strong> Произведения приведены в приблизительно хронологическом порядке. Наличие ссылки не доказывает историческую идентификацию Антонинуса.</p>
+      <p><strong>Все адреса (210):</strong></p>
       <p><strong>Уже переведённые места:</strong></p>
       <p><strong>Обмен младенцев во время запрета обрезания.</strong></p>
       <quote author="tosafot" book="tosafot_al_avodah_zarah" chapter="1" siman_katan="10b:Скажи тому, кто стоит у ворот"/>
       <p><strong>Обрезание Антонинуса и его доля в будущем мире.</strong></p>
       <quote author="tosafot" book="tosafot_al_avodah_zarah" chapter="1" siman_katan="10b:Горе кораблю, идущему без пошлины"/>
-      <p><strong>Все адреса (210):</strong></p>
-      <p><strong>Матанот Кеуна на Коэлет Раба 9:10:2 — варианты чтения, Анталимос и Антонинус, обрезание Раби</strong></p>
-      <quote author="yissachar_ber_ben_naftali_katz" book="matnot_kehunah_on_kohelet_rabbah" chapter="9" siman_katan="10:2"/>
-      <p id="ant-book-29"><strong>Rabbeinu Chananel on Avodah Zarah</strong> — 5 ссылок; около 1013 г. н. э.</p>
-      <p><strong>Рабейну Хананэль, Авода Зара 10a:3 — перевод комментария</strong></p>
-      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10a:3"/>
-      <p><strong>Рабейну Хананэль, Авода Зара 10b:3 — перевод комментария</strong></p>
-      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:3"/>
-      <p><strong>Рабейну Хананэль, Авода Зара 10b:4 — перевод комментария</strong></p>
-      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:4"/>
-      <p><strong>Рабейну Хананэль, Авода Зара 10b:5 — перевод комментария</strong></p>
-      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:5"/>
-      <p><strong>Рабейну Хананэль, Авода Зара 11a:2 — перевод комментария</strong></p>
-      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="11a:2"/>
       <p id="ant-book-36"><strong>Rashi on Berachoth</strong> — 1 ссылок; около 1065 г. н. э.</p>
       <p><strong>Раши на Berakhot 16b:24:1 — перевод</strong></p>
       <quote author="shlomo_yitzchaki" book="rashi_al_berakhot" chapter="2" siman_katan="16b:24:1"/>
@@ -293,14 +280,20 @@
       <p id="ant-book-53"><strong>Tosafot on Talmud Ketubot</strong> — 1 ссылок; около 1150 г. н. э.</p>
       <p><strong>Тосафот на Ктубот 30а:8:1 — перевод</strong></p>
       <quote author="tosafot" book="tosafot_al_ketubot" chapter="3" siman_katan="30a:8:1"/>
-      <p id="ant-book-55"><strong>Rash MiShantz on Mishnah Challah</strong> — 1 ссылок; около 1180 г. н. э.</p>
-      <p><strong>Раш ми-Шанц на Хала 4:10:4 — перевод</strong></p>
-      <quote author="shimshon_ben_avraham_mishantz" book="rash_mishantz_al_hallah" chapter="4" siman_katan="10:4"/>
-      <p id="ant-book-56"><strong>Radak on Genesis</strong> — 2 ссылок; около 1185 г. н. э.</p>
-      <p><strong>Радак на Берешит 8:21:5 — перевод</strong></p>
-      <quote author="kimhi_david" book="radak_al_bereshit" chapter="8" siman_katan="21:5"/>
-      <p><strong>Радак на Берешит 25:23:2 — перевод</strong></p>
-      <quote author="kimhi_david" book="radak_al_bereshit" chapter="25" siman_katan="23:2"/>
+    </header>
+    <header level="2" type="seif" name="Антонинус — Другие комментарии к Талмуду">
+      <p>Комментарии к Вавилонскому и Иерусалимскому Талмуду, кроме Раши и классических Тосафот. Тосафот РИД представлены отдельно от классических Тосафот. Порядок произведений — приблизительно хронологический.</p>
+      <p id="ant-book-29"><strong>Rabbeinu Chananel on Avodah Zarah</strong> — 5 ссылок; около 1013 г. н. э.</p>
+      <p><strong>Рабейну Хананэль, Авода Зара 10a:3 — перевод комментария</strong></p>
+      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10a:3"/>
+      <p><strong>Рабейну Хананэль, Авода Зара 10b:3 — перевод комментария</strong></p>
+      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:3"/>
+      <p><strong>Рабейну Хананэль, Авода Зара 10b:4 — перевод комментария</strong></p>
+      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:4"/>
+      <p><strong>Рабейну Хананэль, Авода Зара 10b:5 — перевод комментария</strong></p>
+      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="10b:5"/>
+      <p><strong>Рабейну Хананэль, Авода Зара 11a:2 — перевод комментария</strong></p>
+      <quote author="chananel_ben_hushiel" book="rabbeinu_chananel_on_avodah_zarah" chapter="1" siman_katan="11a:2"/>
       <p id="ant-book-58"><strong>Tosafot Rid on Avodah Zarah Third Recension</strong> — 1 ссылок; около 1200 г. н. э.</p>
       <p><strong>Тосафот РИД на Авода Зара 10б:1 — перевод</strong></p>
       <quote author="isaiah_ben_mali_di_trani" book="tosafot_rid_on_avodah_zarah_third_recension" chapter="1" siman_katan="10b:1"/>
@@ -320,12 +313,110 @@
       <quote author="aharon_ben_joseph_halevi" book="chiddushei_haraah_on_berakhot" chapter="3" siman_katan="21a:9"/>
       <p><strong>Редакторское примечание №111 — косвенная параллель</strong>. В самом комментарии а-Раа Антонинус не упомянут. Имя появляется только в примечании Моше Иегуды Блау, отсылающем к Танхуме, Микец 9.</p>
       <quote author="blau_moshe_yehuda" book="comments_to_chiddushei_haraah_on_berakhot" chapter="3" siman_katan="21a:9:111"/>
-      <p id="ant-book-65"><strong>Kitzur Baal HaTurim on Bereshit</strong> — 1 ссылок; около 1280 г. н. э.</p>
-      <p><strong>Кицур Бааль а-Турим на Берешит 25:23:2 — перевод</strong></p>
-      <quote author="jacob_ben_asher" book="kitzur_baal_haturim_on_genesis" chapter="25" siman_katan="23:2"/>
       <p id="ant-book-66"><strong>Ritva on Megillah</strong> — 1 ссылок; около 1280 г. н. э.</p>
       <p><strong>Ритва на Мегила 5б:5 — перевод</strong></p>
       <quote author="yom_tov_ben_abraham_of_seville" book="ritva_on_megillah" chapter="1" siman_katan="5b:5"/>
+      <p id="ant-book-78"><strong>Sirilio on Jerusalem Talmud Maaser Sheni</strong> — 1 ссылок; около 1485 г. н. э.</p>
+      <p><strong>Шломо Сирилио на Маасер Шени 4:1:7:1 — перевод</strong></p>
+      <quote author="shlomo_sirilio" book="sirilio_on_jerusalem_talmud_maaser_sheni" chapter="4" siman_katan="1:7:1"/>
+      <p id="ant-book-79"><strong>Sirilio on Jerusalem Talmud Sheviit</strong> — 1 ссылок; около 1485 г. н. э.</p>
+      <p><strong>Шломо Сирилио на Швиит 6:1:21:2 — перевод</strong></p>
+      <quote author="shlomo_sirilio" book="sirilio_on_jerusalem_talmud_sheviit" chapter="6" siman_katan="1:21:2"/>
+      <p id="ant-book-86"><strong>Maharshal on Sanhedrin</strong> — 1 ссылок; около 1530 г. н. э.</p>
+      <p><strong>Хохмат Шломо (Магаршаль), Санхедрин 91б:4 — исправление границы комментария Раши на слова Антонинуса</strong>. Это текстологическая заметка, а не отдельное свидетельство об Антонинусе.</p>
+      <quote author="luria_solomon" book="chokhmat_shlomo_on_sanhedrin" chapter="11" siman_katan="91b:4"/>
+      <p id="ant-book-89"><strong>Shita Mekubetzet on Ketubot</strong> — 1 ссылок; около 1540 г. н. э.</p>
+      <p><strong>Шита Мекубецет на Ктубот 30а:17 — перевод</strong></p>
+      <quote author="betzalel_ashkenazi" book="shita_mekubetzet_on_ketubot" chapter="3" siman_katan="30a:17"/>
+      <p id="ant-book-101"><strong>Chidushei Agadot on Avodah Zarah</strong> — 2 ссылок; около 1580 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Avodah_Zarah_10b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Avodah Zarah 10b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Avodah_Zarah_11a:3" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Avodah Zarah 11a:3</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-102"><strong>Chidushei Agadot on Bava Batra</strong> — 2 ссылок; около 1580 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Batra_74b:1" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Batra 74b:1</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Batra_78b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Batra 78b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-103"><strong>Chidushei Agadot on Bava Metzia</strong> — 1 ссылок; около 1580 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Metzia_107b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Metzia 107b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-104"><strong>Chidushei Agadot on Sanhedrin</strong> — 2 ссылок; около 1580 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Sanhedrin_91b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Sanhedrin 91b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Sanhedrin_98b:9" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Sanhedrin 98b:9</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-133"><strong>Gevuras Ari on Yoma</strong> — 1 ссылок; около 1695 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Gevurat_Ari_on_Yoma_54a:1" target="_blank" rel="noopener noreferrer">Gevurat Ari on Yoma 54a:1</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-135"><strong>Penei Yehoshua on Megillah</strong> — 1 ссылок; около 1702 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Penei_Yehoshua_on_Megillah_5b:4" target="_blank" rel="noopener noreferrer">Penei Yehoshua on Megillah 5b:4</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-138"><strong>Korban HaEdah on Jerusalem Talmud Megillah</strong> — 11 ссылок; около 1707 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:3" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:3</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:4</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:11</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:14" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:14</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:15" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:15</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:4:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:4:4</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:4:5" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:4:5</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:1" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:1</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:8" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:8</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:11</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:12" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:12</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-139"><strong>Korban HaEdah on Jerusalem Talmud Sanhedrin</strong> — 7 ссылок; около 1707 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:1" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:1</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:3" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:3</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:4</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:8" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:8</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:14" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:14</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:15" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:15</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-140"><strong>Korban HaEdah on Jerusalem Talmud Yevamot</strong> — 1 ссылок; около 1707 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Yevamot_4:11:5:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Yevamot 4:11:5:11</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-141"><strong>Sheyarei Korban on Jerusalem Talmud Sanhedrin</strong> — 1 ссылок; около 1707 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Sheyarei_Korban_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Sheyarei Korban on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-142"><strong>Mareh HaPanim on Jerusalem Talmud Megillah</strong> — 1 ссылок; около 1710 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Mareh_HaPanim_on_Jerusalem_Talmud_Megillah_3:2:4:1" target="_blank" rel="noopener noreferrer">Mareh HaPanim on Jerusalem Talmud Megillah 3:2:4:1</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-143"><strong>Penei Moshe on Jerusalem Talmud Challah</strong> — 1 ссылок; около 1710 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Challah_4:5:1:3" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Challah 4:5:1:3</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-144"><strong>Penei Moshe on Jerusalem Talmud Megillah</strong> — 4 ссылок; около 1710 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:1" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:1</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:4" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:4</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:5" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:5</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_3:2:4:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 3:2:4:2</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-145"><strong>Penei Moshe on Jerusalem Talmud Sanhedrin</strong> — 2 ссылок; около 1710 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sanhedrin_10:5:3:6" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sanhedrin 10:5:3:6</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-146"><strong>Penei Moshe on Jerusalem Talmud Sheviit</strong> — 1 ссылок; около 1710 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sheviit_6:1:21:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sheviit 6:1:21:2</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-151"><strong>Beur HaGra on Jerusalem Talmud Kilayim</strong> — 1 ссылок; около 1720 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Beur_HaGra_on_Jerusalem_Talmud_Kilayim_9:3:3:3" target="_blank" rel="noopener noreferrer">Beur HaGra on Jerusalem Talmud Kilayim 9:3:3:3</a> (комментарий; перевод не отмечен)</p>
+      <p id="ant-book-156"><strong>Haggahot Ya'avetz on Megillah</strong> — 2 ссылок; около 1725 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Haggahot_Ya%27avetz_on_Megillah_5b:3" target="_blank" rel="noopener noreferrer">Haggahot Ya'avetz on Megillah 5b:3</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Haggahot_Ya%27avetz_on_Megillah_25b:3" target="_blank" rel="noopener noreferrer">Haggahot Ya'avetz on Megillah 25b:3</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-159"><strong>Petach Einayim on Bava Metzia</strong> — 1 ссылок; около 1750 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Bava_Metzia_107b:2" target="_blank" rel="noopener noreferrer">Petach Einayim on Bava Metzia 107b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-160"><strong>Petach Einayim on Megillah</strong> — 1 ссылок; около 1750 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Megillah_5b:3" target="_blank" rel="noopener noreferrer">Petach Einayim on Megillah 5b:3</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-161"><strong>Petach Einayim on Niddah</strong> — 1 ссылок; около 1750 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Niddah_30b:2" target="_blank" rel="noopener noreferrer">Petach Einayim on Niddah 30b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-162"><strong>Petach Einayim on Sanhedrin</strong> — 1 ссылок; около 1750 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Sanhedrin_91a:6" target="_blank" rel="noopener noreferrer">Petach Einayim on Sanhedrin 91a:6</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-163"><strong>Petach Einayim on Shabbat</strong> — 1 ссылок; около 1750 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Shabbat_53b:1" target="_blank" rel="noopener noreferrer">Petach Einayim on Shabbat 53b:1</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-169"><strong>Marit HaAyin on Avodah Zarah</strong> — 4 ссылок; около 1768 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:2" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:2</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:4" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:4</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:5" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:5</a> (позднее цитирование; перевод не отмечен)</p>
+      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_11a:1" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 11a:1</a> (позднее цитирование; перевод не отмечен)</p>
+      <p id="ant-book-170"><strong>Marit HaAyin on Sanhedrin</strong> — 1 ссылок; около 1768 г. н. э.</p>
+      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Sanhedrin_91b:2" target="_blank" rel="noopener noreferrer">Marit HaAyin on Sanhedrin 91b:2</a> (позднее цитирование; перевод не отмечен)</p>
+    </header>
+    <header level="2" type="seif" name="Антонинус — Прочие комментарии">
+      <p>Комментарии к Танаху, Мишне, мидрашам, Зоару, галахическим книгам и другим текстам. Порядок произведений — приблизительно хронологический. Поисковое совпадение не доказывает, что источник говорит именно об Антонинусе.</p>
+      <p id="ant-book-55"><strong>Rash MiShantz on Mishnah Challah</strong> — 1 ссылок; около 1180 г. н. э.</p>
+      <p><strong>Раш ми-Шанц на Хала 4:10:4 — перевод</strong></p>
+      <quote author="shimshon_ben_avraham_mishantz" book="rash_mishantz_al_hallah" chapter="4" siman_katan="10:4"/>
+      <p id="ant-book-56"><strong>Radak on Genesis</strong> — 2 ссылок; около 1185 г. н. э.</p>
+      <p><strong>Радак на Берешит 8:21:5 — перевод</strong></p>
+      <quote author="kimhi_david" book="radak_al_bereshit" chapter="8" siman_katan="21:5"/>
+      <p><strong>Радак на Берешит 25:23:2 — перевод</strong></p>
+      <quote author="kimhi_david" book="radak_al_bereshit" chapter="25" siman_katan="23:2"/>
+      <p id="ant-book-65"><strong>Kitzur Baal HaTurim on Bereshit</strong> — 1 ссылок; около 1280 г. н. э.</p>
+      <p><strong>Кицур Бааль а-Турим на Берешит 25:23:2 — перевод</strong></p>
+      <quote author="jacob_ben_asher" book="kitzur_baal_haturim_on_genesis" chapter="25" siman_katan="23:2"/>
       <p id="ant-book-68"><strong>Magen Avot on Avot</strong> — 2 ссылок; около 1390 г. н. э.</p>
       <p><strong>Маген Авот на Пиркей Авот 1:16:1 — перевод</strong></p>
       <quote author="shimon_ben_tzemach_duran" book="magen_avot_on_avot" chapter="1" siman_katan="16:1"/>
@@ -347,18 +438,9 @@
       <p><strong>Абарбанель на Дварим 28:49:4 — другой римский деятель</strong></p>
       <p>Названный у Абарбанеля «Антонинус» — по историческому контексту Марк Антоний, отправивший Сосия на помощь Ироду во время борьбы с Антигоном, а не Антонинус — современник Раби.</p>
       <quote author="abarbanel_isaac" book="abarbanel_on_torah_deuteronomy" chapter="28" siman_katan="49:4"/>
-      <p id="ant-book-78"><strong>Sirilio on Jerusalem Talmud Maaser Sheni</strong> — 1 ссылок; около 1485 г. н. э.</p>
-      <p><strong>Шломо Сирилио на Маасер Шени 4:1:7:1 — перевод</strong></p>
-      <quote author="shlomo_sirilio" book="sirilio_on_jerusalem_talmud_maaser_sheni" chapter="4" siman_katan="1:7:1"/>
-      <p id="ant-book-79"><strong>Sirilio on Jerusalem Talmud Sheviit</strong> — 1 ссылок; около 1485 г. н. э.</p>
-      <p><strong>Шломо Сирилио на Швиит 6:1:21:2 — перевод</strong></p>
-      <quote author="shlomo_sirilio" book="sirilio_on_jerusalem_talmud_sheviit" chapter="6" siman_katan="1:21:2"/>
       <p id="ant-book-82"><strong>Abarbanel on Obadiah</strong> — 1 ссылок; около 1502 г. н. э.</p>
       <p><strong>Абарбанель на Овадью 1:6 — разорение Эдома, Рим и Асвирос, сын Антонинуса</strong>. Переведён весь доступный раздел толкования к стихам 6–9 из еврейского издания; соответствие его границ отдельному адресу Sefaria 1:6:1 ещё требует сверки.</p>
       <quote author="abarbanel_isaac" book="abarbanel_on_obadiah" chapter="1" siman_katan="6:Толкование стихов 6–9"/>
-      <p id="ant-book-86"><strong>Maharshal on Sanhedrin</strong> — 1 ссылок; около 1530 г. н. э.</p>
-      <p><strong>Хохмат Шломо (Магаршаль), Санхедрин 91б:4 — исправление границы комментария Раши на слова Антонинуса</strong>. Это текстологическая заметка, а не отдельное свидетельство об Антонинусе.</p>
-      <quote author="luria_solomon" book="chokhmat_shlomo_on_sanhedrin" chapter="11" siman_katan="91b:4"/>
       <p id="ant-book-87"><strong>Deuteronomy</strong> — 1 ссылок; около 1540 г. н. э.</p>
       <p><strong>Алших на Дварим 21:15:3 — первородство сына нелюбимой жены, последствия греха и буквы Имени י־ה</strong> (в переведённом самостоятельном толковании Антонинус не назван; исходное совпадение каталога не подтверждено).</p>
       <quote author="alshich_moshe" book="torat_mosheh_al_devarim" chapter="21" siman_katan="15:3"/>
@@ -371,9 +453,6 @@
       <p><strong>Сифтей Коэн на Бемидбар 16:1:1 — перевод</strong> (рабби Мордехай а-Коэн из Цфата, не Шах). Упоминание Антонинуса — в рассказе о трёх сокровищах Йосефа.</p>
       <quote author="mordechai_hakohen_of_safed" book="siftei_kohen_on_torah_numbers" chapter="16" siman_katan="16:1:1"/>
       <p><a href="https://www.sefaria.org/Tzror_HaMor_on_Torah,_Numbers_11:16:1" target="_blank" rel="noopener noreferrer">Tzror HaMor on Torah, Numbers 11:16:1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-89"><strong>Shita Mekubetzet on Ketubot</strong> — 1 ссылок; около 1540 г. н. э.</p>
-      <p><strong>Шита Мекубецет на Ктубот 30а:17 — перевод</strong></p>
-      <quote author="betzalel_ashkenazi" book="shita_mekubetzet_on_ketubot" chapter="3" siman_katan="30a:17"/>
       <p id="ant-book-90"><strong>Alshich on Song of Songs</strong> — 2 ссылок; около 1542 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Shoshanat_HaAmakim_on_Song_of_Songs_7:6:1" target="_blank" rel="noopener noreferrer">Shoshanat HaAmakim on Song of Songs 7:6:1</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Shoshanat_HaAmakim_on_Song_of_Songs_7:6:2" target="_blank" rel="noopener noreferrer">Shoshanat HaAmakim on Song of Songs 7:6:2</a> (позднее цитирование; перевод не отмечен)</p>
@@ -393,22 +472,13 @@
       <p><a href="https://www.sefaria.org/Yefeh_To%27ar_on_Bereshit_Rabbah_47:9:2" target="_blank" rel="noopener noreferrer">Yefeh To'ar on Bereshit Rabbah 47:9:2</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-97"><strong>Ketem Paz on Zohar</strong> — 1 ссылок; около 1561 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Ketem_Paz_on_Zohar_78b:6" target="_blank" rel="noopener noreferrer">Ketem Paz on Zohar 78b:6</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-101"><strong>Chidushei Agadot on Avodah Zarah</strong> — 2 ссылок; около 1580 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Avodah_Zarah_10b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Avodah Zarah 10b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Avodah_Zarah_11a:3" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Avodah Zarah 11a:3</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-102"><strong>Chidushei Agadot on Bava Batra</strong> — 2 ссылок; около 1580 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Batra_74b:1" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Batra 74b:1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Batra_78b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Batra 78b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-103"><strong>Chidushei Agadot on Bava Metzia</strong> — 1 ссылок; около 1580 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Bava_Metzia_107b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Bava Metzia 107b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-104"><strong>Chidushei Agadot on Sanhedrin</strong> — 2 ссылок; около 1580 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Sanhedrin_91b:2" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Sanhedrin 91b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Chidushei_Agadot_on_Sanhedrin_98b:9" target="_blank" rel="noopener noreferrer">Chidushei Agadot on Sanhedrin 98b:9</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-105"><strong>Matnot Kehunah on Bereshit Rabbah</strong> — 3 ссылок; около 1584 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Matnot_Kehunah_on_Bereshit_Rabbah_67:6:2" target="_blank" rel="noopener noreferrer">Matnot Kehunah on Bereshit Rabbah 67:6:2</a> (комментарий; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Matnot_Kehunah_on_Bereshit_Rabbah_75:5:1" target="_blank" rel="noopener noreferrer">Matnot Kehunah on Bereshit Rabbah 75:5:1</a> (комментарий; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Matnot_Kehunah_on_Bereshit_Rabbah_76:6:4" target="_blank" rel="noopener noreferrer">Matnot Kehunah on Bereshit Rabbah 76:6:4</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-106"><strong>Matnot Kehunah on Kohelet Rabbah</strong> — 1 ссылок; около 1584 г. н. э.</p>
+      <p><strong>Матанот Кеуна на Коэлет Раба 9:10:2 — варианты чтения, Анталимос и Антонинус, обрезание Раби</strong></p>
+      <quote author="yissachar_ber_ben_naftali_katz" book="matnot_kehunah_on_kohelet_rabbah" chapter="9" siman_katan="10:2"/>
       <p><a href="https://www.sefaria.org/Matnot_Kehunah_on_Kohelet_Rabbah_9:10:2:11" target="_blank" rel="noopener noreferrer">Matnot Kehunah on Kohelet Rabbah 9:10:2:11</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-107"><strong>Matnot Kehunah on Vayikra Rabbah</strong> — 1 ссылок; около 1584 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Matnot_Kehunah_on_Vayikra_Rabbah_16:8:8" target="_blank" rel="noopener noreferrer">Matnot Kehunah on Vayikra Rabbah 16:8:8</a> (комментарий; перевод не отмечен)</p>
@@ -443,10 +513,6 @@
       <p id="ant-book-131"><strong>Vayechi</strong> — 2 ссылок; около 1685 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Chatam_Sofer_on_Torah,_Vayechi_10" target="_blank" rel="noopener noreferrer">Chatam Sofer on Torah, Vayechi 10</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Megalleh_Amukkot_on_Torah,_Vayechi_1" target="_blank" rel="noopener noreferrer">Megalleh Amukkot on Torah, Vayechi 1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-133"><strong>Gevuras Ari on Yoma</strong> — 1 ссылок; около 1695 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Gevurat_Ari_on_Yoma_54a:1" target="_blank" rel="noopener noreferrer">Gevurat Ari on Yoma 54a:1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-135"><strong>Penei Yehoshua on Megillah</strong> — 1 ссылок; около 1702 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Penei_Yehoshua_on_Megillah_5b:4" target="_blank" rel="noopener noreferrer">Penei Yehoshua on Megillah 5b:4</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-136"><strong>Mishnat DeRabbi Eliezer on Bereshit Rabbah</strong> — 1 ссылок; около 1703 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Mishnat_DeRabbi_Eliezer_on_Bereshit_Rabbah_34:10:2" target="_blank" rel="noopener noreferrer">Mishnat DeRabbi Eliezer on Bereshit Rabbah 34:10:2</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-137"><strong>Genesis</strong> — 42 ссылок; около 1704 г. н. э.</p>
@@ -492,67 +558,14 @@
       <p><a href="https://www.sefaria.org/Torah_Temimah_on_Torah,_Genesis_25:23:2" target="_blank" rel="noopener noreferrer">Torah Temimah on Torah, Genesis 25:23:2</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Tzror_HaMor_on_Torah,_Genesis_25:22:1" target="_blank" rel="noopener noreferrer">Tzror HaMor on Torah, Genesis 25:22:1</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Tzror_HaMor_on_Torah,_Genesis_47:6:1" target="_blank" rel="noopener noreferrer">Tzror HaMor on Torah, Genesis 47:6:1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-138"><strong>Korban HaEdah on Jerusalem Talmud Megillah</strong> — 11 ссылок; около 1707 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:3" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:3</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:4</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:11</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:14" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:14</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_1:11:4:15" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 1:11:4:15</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:4:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:4:4</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:4:5" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:4:5</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:1" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:1</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:8" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:8</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:11</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Megillah_3:2:5:12" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Megillah 3:2:5:12</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-139"><strong>Korban HaEdah on Jerusalem Talmud Sanhedrin</strong> — 7 ссылок; около 1707 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:1" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:1</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:3" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:3</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:4" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:4</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:8" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:8</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:14" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:14</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Sanhedrin_10:5:3:15" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Sanhedrin 10:5:3:15</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-140"><strong>Korban HaEdah on Jerusalem Talmud Yevamot</strong> — 1 ссылок; около 1707 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Korban_HaEdah_on_Jerusalem_Talmud_Yevamot_4:11:5:11" target="_blank" rel="noopener noreferrer">Korban HaEdah on Jerusalem Talmud Yevamot 4:11:5:11</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-141"><strong>Sheyarei Korban on Jerusalem Talmud Sanhedrin</strong> — 1 ссылок; около 1707 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Sheyarei_Korban_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Sheyarei Korban on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-142"><strong>Mareh HaPanim on Jerusalem Talmud Megillah</strong> — 1 ссылок; около 1710 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Mareh_HaPanim_on_Jerusalem_Talmud_Megillah_3:2:4:1" target="_blank" rel="noopener noreferrer">Mareh HaPanim on Jerusalem Talmud Megillah 3:2:4:1</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-143"><strong>Penei Moshe on Jerusalem Talmud Challah</strong> — 1 ссылок; около 1710 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Challah_4:5:1:3" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Challah 4:5:1:3</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-144"><strong>Penei Moshe on Jerusalem Talmud Megillah</strong> — 4 ссылок; около 1710 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:1" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:1</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:4" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:4</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_1:11:4:5" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 1:11:4:5</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Megillah_3:2:4:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Megillah 3:2:4:2</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-145"><strong>Penei Moshe on Jerusalem Talmud Sanhedrin</strong> — 2 ссылок; около 1710 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sanhedrin_10:5:3:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sanhedrin 10:5:3:2</a> (комментарий; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sanhedrin_10:5:3:6" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sanhedrin 10:5:3:6</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-146"><strong>Penei Moshe on Jerusalem Talmud Sheviit</strong> — 1 ссылок; около 1710 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Penei_Moshe_on_Jerusalem_Talmud_Sheviit_6:1:21:2" target="_blank" rel="noopener noreferrer">Penei Moshe on Jerusalem Talmud Sheviit 6:1:21:2</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-149"><strong>Maaseh Rokeach on Defilement of Foods</strong> — 1 ссылок; около 1718 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Maaseh_Rokeach_on_Defilement_of_Foods_10:17:1" target="_blank" rel="noopener noreferrer">Maaseh Rokeach on Defilement of Foods 10:17:1</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-150"><strong>Maaseh Rokeach on Marriage</strong> — 1 ссылок; около 1718 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Maaseh_Rokeach_on_Marriage_2:9:1" target="_blank" rel="noopener noreferrer">Maaseh Rokeach on Marriage 2:9:1</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-151"><strong>Beur HaGra on Jerusalem Talmud Kilayim</strong> — 1 ссылок; около 1720 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Beur_HaGra_on_Jerusalem_Talmud_Kilayim_9:3:3:3" target="_blank" rel="noopener noreferrer">Beur HaGra on Jerusalem Talmud Kilayim 9:3:3:3</a> (комментарий; перевод не отмечен)</p>
       <p id="ant-book-153"><strong>Lechem Shamayim on Pirkei Avot</strong> — 1 ссылок; около 1722 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Lechem_Shamayim_on_Pirkei_Avot_6:9:18" target="_blank" rel="noopener noreferrer">Lechem Shamayim on Pirkei Avot 6:9:18</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-156"><strong>Haggahot Ya'avetz on Megillah</strong> — 2 ссылок; около 1725 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Haggahot_Ya%27avetz_on_Megillah_5b:3" target="_blank" rel="noopener noreferrer">Haggahot Ya'avetz on Megillah 5b:3</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Haggahot_Ya%27avetz_on_Megillah_25b:3" target="_blank" rel="noopener noreferrer">Haggahot Ya'avetz on Megillah 25b:3</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-158"><strong>Beur HaGra OC</strong> — 1 ссылок; около 1748 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Beur_HaGra_on_Shulchan_Arukh,_Orach_Chayim_614:2:8" target="_blank" rel="noopener noreferrer">Beur HaGra on Shulchan Arukh, Orach Chayim 614:2:8</a> (комментарий; перевод не отмечен)</p>
-      <p id="ant-book-159"><strong>Petach Einayim on Bava Metzia</strong> — 1 ссылок; около 1750 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Bava_Metzia_107b:2" target="_blank" rel="noopener noreferrer">Petach Einayim on Bava Metzia 107b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-160"><strong>Petach Einayim on Megillah</strong> — 1 ссылок; около 1750 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Megillah_5b:3" target="_blank" rel="noopener noreferrer">Petach Einayim on Megillah 5b:3</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-161"><strong>Petach Einayim on Niddah</strong> — 1 ссылок; около 1750 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Niddah_30b:2" target="_blank" rel="noopener noreferrer">Petach Einayim on Niddah 30b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-162"><strong>Petach Einayim on Sanhedrin</strong> — 1 ссылок; около 1750 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Sanhedrin_91a:6" target="_blank" rel="noopener noreferrer">Petach Einayim on Sanhedrin 91a:6</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-163"><strong>Petach Einayim on Shabbat</strong> — 1 ссылок; около 1750 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Petach_Einayim_on_Shabbat_53b:1" target="_blank" rel="noopener noreferrer">Petach Einayim on Shabbat 53b:1</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-164"><strong>Vayigash</strong> — 4 ссылок; около 1757 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Beit_Yaakov_on_Torah,_Vayigash_24:3" target="_blank" rel="noopener noreferrer">Beit Yaakov on Torah, Vayigash 24:3</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Degel_Machaneh_Ephraim,_Vayigash_9" target="_blank" rel="noopener noreferrer">Degel Machaneh Ephraim, Vayigash 9</a> (позднее цитирование; перевод не отмечен)</p>
@@ -560,13 +573,6 @@
       <p><a href="https://www.sefaria.org/Torah_Ohr,_Vayigash_2:1" target="_blank" rel="noopener noreferrer">Torah Ohr, Vayigash 2:1</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-165"><strong>Yein Levanon on Avot</strong> — 1 ссылок; около 1765 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Yein_Levanon_on_Avot_6:8:13" target="_blank" rel="noopener noreferrer">Yein Levanon on Avot 6:8:13</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-169"><strong>Marit HaAyin on Avodah Zarah</strong> — 4 ссылок; около 1768 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:2" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:4" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:4</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_10b:5" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 10b:5</a> (позднее цитирование; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Avodah_Zarah_11a:1" target="_blank" rel="noopener noreferrer">Marit HaAyin on Avodah Zarah 11a:1</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-170"><strong>Marit HaAyin on Sanhedrin</strong> — 1 ссылок; около 1768 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Marit_HaAyin_on_Sanhedrin_91b:2" target="_blank" rel="noopener noreferrer">Marit HaAyin on Sanhedrin 91b:2</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-179"><strong>Ki Teitzei</strong> — 3 ссылок; около 1785 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Chatam_Sofer_on_Torah,_Ki_Teitzei_35" target="_blank" rel="noopener noreferrer">Chatam Sofer on Torah, Ki Teitzei 35</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Chatam_Sofer_on_Torah,_Ki_Teitzei_37" target="_blank" rel="noopener noreferrer">Chatam Sofer on Torah, Ki Teitzei 37</a> (позднее цитирование; перевод не отмечен)</p>
