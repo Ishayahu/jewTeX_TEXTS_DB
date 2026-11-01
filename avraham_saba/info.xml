@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <localized_info>
+    <ru><title>рав</title><first_name>Авраам</first_name><last_name>Саба</last_name><short_name/><quote/></ru>
+    <en><title>Rabbi</title><first_name>Avraham</first_name><last_name>Saba</last_name><short_name/><quote/></en>
+    <he><title>הרב</title><first_name>אברהם</first_name><last_name>סבע</last_name><short_name/><quote/></he>
+  </localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><exegesis/></domains><cities/><books/>
+</info>
