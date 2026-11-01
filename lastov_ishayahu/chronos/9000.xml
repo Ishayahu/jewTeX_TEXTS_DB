@@ -67,7 +67,8 @@
     <header level="2" type="seif" name="Антонинус — Мидраши">
       <p><strong>Мидраши</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
       <p><strong>Мидраши по произведениям; переведённые места вставлены как цитаты:</strong></p>
-      <p><a href="https://www.sefaria.org/Midrash_Tanchuma_Buber%2C_Vayishlach.5" target="_blank" rel="noopener noreferrer">Танхума Бубер, Вайишлах 5 — дополнительный адрес</a> (перевод не опубликован)</p>
+      <p><strong>Танхума Бубер, Вайишлах 5:1 — письмо Раби Антонинусу и обращение Яакова к Эсаву</strong></p>
+      <quote author="midrash" book="tanchuma_buber_vayishlach" chapter="5" siman_katan="1"/>
       <p id="ant-book-1"><strong>The Midrash of Philo</strong> — 1 поисковый адрес; датировка основного произведения не доказывает датировку редакторского аппарата.</p>
       <p><a href="https://www.sefaria.org/The_Midrash_of_Philo_8:21:11" target="_blank" rel="noopener noreferrer">The Midrash of Philo 8:21:11</a> (непроверенная поисковая находка: неизвестно, присутствует ли имя Антонинуса в древнем тексте, современном комментарии или результат был ошибочно включён поисковым агентом; не использовать как историческое свидетельство до проверки совпавшей строки)</p>
       
@@ -193,16 +194,19 @@
       <p><strong>Ялкут Шимони на Нах 1071:9 — Антонинус и заход солнца на западе</strong></p>
       <quote author="midrash" book="yalkut_shimoni_nach" chapter="1071" siman_katan="9"/>
       <p id="ant-book-62"><strong>Midrash Yelamdenu, Selections from Yalkut Talmud Torah</strong> — 1 позиций; около 1250 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Midrash_Yelamdenu,_Selections_from_Yalkut_Talmud_Torah_144:1" target="_blank" rel="noopener noreferrer">Midrash Yelamdenu, Selections from Yalkut Talmud Torah 144:1</a> (параллель или компиляция; перевод не отмечен)</p>
+      <p><strong>Мидраш Йеламдену 144:1 — Яаков и Эсав; в данном сегменте Антонинус не упомянут (проверенный тематический ложноположительный результат)</strong></p>
+      <quote author="midrash" book="midrash_yelamdenu_yalkut_talmud_torah" chapter="144" siman_katan="1"/>
       <p id="ant-book-127"><strong>Midrash HaIzmiri</strong> — 3 позиций; около 1659 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:12" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:12</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:13" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:13</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_13:27" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 13:27</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-344"><strong>Parashat Bereshit</strong> — 2 позиций; год не установлен</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Bereshit" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Bereshit</a> (параллель или компиляция; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Bereshit_59" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Bereshit 59</a> (параллель или компиляция; перевод не отмечен)</p>
+      <p><strong>Берешит Рабати, Берешит 59 — сроки беременности и стадо Антонинуса</strong></p>
+      <quote author="midrash" book="bereshit_rabbati" chapter="bereshit" siman_katan="59"/>
       <p id="ant-book-345"><strong>Parashat Vayera</strong> — 1 позиций; год не установлен</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Vayera_24" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Vayera 24</a> (параллель или компиляция; перевод не отмечен)</p>
+      <p><strong>Берешит Рабати, Вайера 24 — обмен младенцев и дружба Раби с Антонинусом; в оригинале есть обрыв перехода</strong></p>
+      <quote author="midrash" book="bereshit_rabbati" chapter="vayera" siman_katan="24"/>
     </header>
     <header level="2" type="seif" name="Антонинус — Комментарии до XIX века">
       <p><strong>Комментарии до XIX века</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
