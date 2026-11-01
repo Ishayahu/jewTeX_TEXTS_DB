@@ -27,10 +27,11 @@ CLASS_NAMES = {
 def year_value(value):
     if isinstance(value, bool):
         return None
-    if isinstance(value, (int, float)) and -10000 <= value <= 3000:
+    if isinstance(value, (int, float)) and -10000 <= value <= 2500:
         return round(value)
     if isinstance(value, str) and re.fullmatch(r"-?\d{1,4}", value):
-        return int(value)
+        n = int(value)
+        return n if -10000 <= n <= 2500 else None
     return None
 
 
@@ -122,13 +123,13 @@ def render(data):
     for year, book, passages in works:
         grp, label = period(year)
         if previous_group != grp:
-            rows.append(f'      <p><strong>{escape(label)}: {by_period[grp]} книг, '
-                        f'{refs_by_period[grp]} ссылок</strong></p>')
+            rows.append(f'      <p><strong>{escape(label)}: книг {by_period[grp]}, '
+                        f'ссылок {refs_by_period[grp]}</strong></p>')
             previous_group = grp
         when = ("год не установлен" if year is None else
                 f"около {abs(year)} г. до н. э." if year < 0 else f"около {year} г. н. э.")
         rows.append(f'      <p><strong>{escape(book)}</strong> — '
-                    f'{len(passages)} ссылок; {escape(when)}.</p>')
+                    f'ссылок: {len(passages)}; {escape(when)}</p>')
         for item in passages:
             klass = CLASS_NAMES.get(item.get("classification"), "классификация не установлена")
             status = ("переведён" if item.get("database_status") == "translated"
