@@ -33,6 +33,17 @@ jobs:
       - name: Install Unicode XML parser
         run: python -m pip install lxml
 
+      - name: Validate source registry and recover damaged JSON from Sefaria
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! python -m json.tool research/antoninus/registry.json >/dev/null; then
+            echo "::warning::The existing registry is not valid JSON; rebuilding from Sefaria"
+            python research/antoninus/search_sefaria.py --output /tmp/antoninus-search.json
+            python research/antoninus/build_registry.py /tmp/antoninus-search.json research/antoninus/registry.json
+            python -m json.tool research/antoninus/registry.json >/dev/null
+          fi
+
       - name: Render full book-ordered catalogue
         run: python research/antoninus/render_catalog.py
 
@@ -58,7 +69,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add lastov_ishayahu/chronos/9001.xml
+          git add lastov_ishayahu/chronos/9001.xml research/antoninus/registry.json
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
