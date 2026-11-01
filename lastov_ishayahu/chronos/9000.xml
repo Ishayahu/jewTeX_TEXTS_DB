@@ -38,37 +38,30 @@
       <quote author="talmud" book="sanhedrin" daf="110a" ref="Три сокровищницы Йосефа — параллель к Песахим 119а"/>
     </header>
     <header level="2" type="seif" name="Антонинус — Йерушалми и Мишна">
-      <p><strong>Йерушалми и Мишна</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
-      <p><strong>Уже переведённые места:</strong></p>
-      <p><strong>Мегила 3:2.</strong> Светильник для синагоги, дискуссия об обращении Антонинуса, рассказ об обрезании и прозвище Раби.</p>
+      <p>Переведённые отрывки приводятся цитатами из соответствующих трактатов, без повторного хранения текста. Сходные, но не тождественные редакции в Нида и Йевамот оставлены самостоятельными.</p>
+      <p><strong>Килаим 9:3:3 — Антолинус и одежда при воскресении</strong></p>
+      <quote author="jerusalem_talmud" book="kilayim" chapter="9" halakha="3" siman_katan="Антолинус о печати и одежде при воскресении"/>
+      <p><strong>Нида 1:3:8 — стадо Антонинуса и сроки беременности</strong></p>
+      <quote author="jerusalem_talmud" book="niddah" chapter="1" halakha="3" siman_katan="Коровы Антонинуса и сроки беременности"/>
+      <p><strong>Санхедрин 1:4:8 — Антонинус-гегемон спрашивает о числе левитов</strong></p>
+      <quote author="jerusalem_talmud" book="sanhedrin" chapter="1" halakha="4" siman_katan="Антонинус-гегемон и триста первенцев-левитов"/>
+      <p><strong>Йевамот 4:11:5 — параллель о царском стаде (без имени Антонинуса)</strong></p>
+      <quote author="jerusalem_talmud" book="yevamot" chapter="4" halakha="11" siman_katan="Корова царского стада и сроки беременности"/>
+      <p><strong>Мегила 1:11:4 — жертвенник и состав воскурения</strong></p>
+      <quote author="jerusalem_talmud" book="megillah" chapter="1" halakha="11" siman_katan="Антонинус спрашивает о жертвеннике и воскурении"/>
+      <p><strong>Мегила 3:2:4–5 — светильник, гиюр, Левиафан и обрезание</strong></p>
       <quote author="jerusalem_talmud" book="megillah" chapter="3" halakha="2" siman_katan="Гиюр Антонинуса"/>
-      <p><strong>Авода Зара 3:1.</strong> Объяснение прозвища «Рабейну а-Кадош»; это лишь переведённая часть связанного контекста.</p>
+      <p><strong>Авода Зара 3:1 — почему Раби называли Рабейну а-Кадош</strong></p>
       <quote author="jerusalem_talmud" book="avodah_zarah" chapter="3" halakha="1" siman_katan="Почему Раби называли Рабейну а-Кадош"/>
-      <p><strong>Все адреса (16):</strong></p>
-      <p id="ant-book-4"><strong>M. Challah</strong> — 1 ссылок; около 190 г. н. э.</p>
+
+      <p><strong>Переводы ещё не опубликованы — 9 отдельных адресов:</strong></p>
       <p><a href="https://www.sefaria.org/Mishnah_Challah_4:11" target="_blank" rel="noopener noreferrer">Mishnah Challah 4:11</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-9"><strong>JT Kilayim</strong> — 1 ссылок; около 375 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Kilayim_9:3:3" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Kilayim 9:3:3</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-10"><strong>JT Nidah</strong> — 1 ссылок; около 375 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Niddah_1:3:8" target="_blank" rel="noopener noreferrer" title="Стадо Антонинуса и определение срока беременности животных.">Jerusalem Talmud Niddah 1:3:8</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-11"><strong>JT Sanhedrin</strong> — 3 ссылок; около 375 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Sanhedrin_1:2:47" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Sanhedrin 1:2:47</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Sanhedrin_1:4:8" target="_blank" rel="noopener noreferrer" title="Вопрос правителя Антонинуса о расхождении числа левитов и итоговой суммы.">Jerusalem Talmud Sanhedrin 1:4:8</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Sanhedrin_10:5:3" target="_blank" rel="noopener noreferrer" title="Спор о гиюре, Йом-Кипур, Левиафан, обрезание и прозвище Раби.">Jerusalem Talmud Sanhedrin 10:5:3</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-12"><strong>JT Yevamot,Yerushalmi Yevamot</strong> — 1 ссылок; около 375 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Yevamot_4:11:5" target="_blank" rel="noopener noreferrer" title="Стадо Антонинуса и определение срока беременности животных.">Jerusalem Talmud Yevamot 4:11:5</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-13"><strong>Talmud Yerushalmi Megillah</strong> — 3 ссылок; около 375 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Megillah_1:11:4" target="_blank" rel="noopener noreferrer" title="Жертвенник, воскурение, гиюр, Левиафан и обрезание Антонинуса.">Jerusalem Talmud Megillah 1:11:4</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Megillah_3:2:4" target="_blank" rel="noopener noreferrer" title="Светильник Антонинуса для синагоги и вопрос, прошёл ли он гиюр.">Jerusalem Talmud Megillah 3:2:4</a> (ранний текст; переведён)</p>
-      <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Megillah_3:2:5" target="_blank" rel="noopener noreferrer" title="Спор о гиюре, Йом-Кипур, Левиафан, обрезание и прозвище Раби.">Jerusalem Talmud Megillah 3:2:5</a> (ранний текст; переведён)</p>
-      <p id="ant-book-14"><strong>Yerushalmi Ketubot</strong> — 2 ссылок; около 375 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Ketubot_9:9:1" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Ketubot 9:9:1</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Ketubot_12:3:3" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Ketubot 12:3:3</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-15"><strong>Yerushalmi Ma'aser Sheni</strong> — 1 ссылок; около 375 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Maaser_Sheni_4:1:7" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Maaser Sheni 4:1:7</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-16"><strong>Yerushalmi Nedarim</strong> — 1 ссылок; около 375 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Nedarim_8:1:7" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Nedarim 8:1:7</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-17"><strong>Yerushalmi Sheviit</strong> — 2 ссылок; около 375 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Sheviit_6:1" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Sheviit 6:1</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Jerusalem_Talmud_Sheviit_6:1:21" target="_blank" rel="noopener noreferrer">Jerusalem Talmud Sheviit 6:1:21</a> (ранний текст; перевод не отмечен)</p>
     </header>
