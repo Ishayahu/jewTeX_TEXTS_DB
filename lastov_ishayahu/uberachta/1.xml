@@ -166,12 +166,14 @@
       <p></p>
       <p></p>
     </header>
-    <header level="2" type="siman" name='2' number='2' verbouse_name="БШКМЛВ">
-      <p><work_needed>Что это и почему шопотом и почему помогает после брохи впустую?</work_needed></p>
-      <p><work_needed></work_needed></p>
+    <header level="2" type="siman" name='2' number='2' verbouse_name="БШКМЛВ: произнесение шёпотом и исправление упоминания Имени впустую">
+      <quote author='jacob_ben_asher' book='tur_orach_chayim' siman='61' ref='Почему БШКМЛВ говорят шёпотом' />
+      <quote author='naeh_avraham_chaim' book='ketzos_hashulchan' siman='43' seif='13' ref='БШКМЛВ после благословения впустую' />
+      <quote author='moses_ben_maimon' book='mishneh_torah_haflaah_shevuot' chapter='12' siman='11' />
     </header>
-    <header level="2" type="siman" name='3' number='3' verbouse_name="Строение брохи. Какие имена можно говориь, когда можно....">
-      <p><work_needed>Тур, ОХ 219 про агомель: почему Ашем Элокейну, а Рахмана засчиталось....</work_needed></p>
+    <header level="2" type="siman" name='3' number='3' verbouse_name="Строение благословения: Имя и Царство">
+      <quote author='jacob_ben_asher' book='tur_orach_chayim' siman='219' ref='Имя и Царство в благословении' />
+      <p><work_needed reason='Продолжить систематическое описание строения благословений и допустимых форм Имени и Царства'>Продолжить разбор устройства благословений и случаев, когда другие формулировки засчитываются.</work_needed></p>
     </header>
   </header>
   
