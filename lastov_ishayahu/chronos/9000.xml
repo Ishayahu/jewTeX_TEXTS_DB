@@ -2,50 +2,40 @@
 <content>
   <header level="0" type="chapter" name="9000" verbouse_name="Антонинус — сводный каталог цитат">
     <header level="2" type="seif" name="Антонинус — Бавли">
-      <p><strong>Бавли</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
-      
-      <p><strong>Опубликованные переводы из Бавли — Авода Зара 10а–11а:</strong></p>
-      <p><strong>10a: Антонинус: наследование престола и освобождение Тверии</strong></p>
+      <p>Тексты Бавли опубликованы в соответствующих трактатах и приводятся здесь только через адресуемые цитаты. Близкие, но различающиеся редакции, в частности Песахим 119а и Санхедрин 110а, сохраняются отдельно.</p>
+      <p><strong>Брахот 57б</strong></p>
+      <p><strong>Брахот 57б:17–18 — Антонинус и Раби за столом</strong></p>
+      <quote author="talmud" book="berakhot" daf="57b" ref="Антонинус и Раби — два знатных человека и огурцы"/>
+      <p><strong>Песахим 119а</strong></p>
+      <p><strong>Песахим 119а:11 — три сокровищницы Йосефа</strong></p>
+      <quote author="talmud" book="pesahim" daf="119a" ref="Три сокровищницы Йосефа"/>
+      <p><strong>Авода Зара 10а–11а</strong></p>
+      <p><strong>Авода Зара 10а — престолонаследие и Тверия</strong></p>
       <quote author="talmud" book="avodah_zarah" daf="10a" ref="Антонинус: наследование престола и освобождение Тверии"/>
-      <p><strong>10b: Антонинус: тайная переписка, посещения Раби и будущий мир</strong></p>
+      <p><strong>Авода Зара 10б — общение с Раби и будущий мир</strong></p>
       <quote author="talmud" book="avodah_zarah" daf="10b" ref="Антонинус: тайная переписка, посещения Раби и будущий мир"/>
-      <p><strong>10b: Кетия бар Шалом и Антонинус: кто приобретает свой мир</strong></p>
+      <p><strong>Авода Зара 10б — Кетия бар Шалом</strong></p>
       <quote author="talmud" book="avodah_zarah" daf="10b" ref="Кетия бар Шалом и Антонинус: кто приобретает свой мир"/>
-      <p><strong>10b: Антонинус: смерть и разрыв дружбы с Раби</strong></p>
+      <p><strong>Авода Зара 10б — смерть Антонинуса</strong></p>
       <quote author="talmud" book="avodah_zarah" daf="10b" ref="Антонинус: смерть и разрыв дружбы с Раби"/>
-      <p><strong>11a: Антонинус и Раби: две знатные личности и их стол</strong></p>
+      <p><strong>Авода Зара 11а — две знатные личности</strong></p>
       <quote author="talmud" book="avodah_zarah" daf="11a" ref="Антонинус и Раби: две знатные личности и их стол"/>
-      <p><strong>Все адреса (25):</strong></p>
-      <p id="ant-book-19"><strong>Berachoth</strong> — 2 ссылок; около 450 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Berakhot_57b:17" target="_blank" rel="noopener noreferrer" title="Антонинус и Раби как две знатные личности; богатый стол и редька.">Berakhot 57b:17</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Berakhot_57b:18" target="_blank" rel="noopener noreferrer" title="Антонинус и Раби как две знатные личности; богатый стол и редька.">Berakhot 57b:18</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-20"><strong>Masekhet Pesachim</strong> — 1 ссылок; около 450 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Pesachim_119a:11" target="_blank" rel="noopener noreferrer" title="Одна из сокровищниц Йосефа открылась Антонинусу, сыну Асвейруса.">Pesachim 119a:11</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-21"><strong>Talmud Avodah Zarah</strong> — 15 ссылок; около 450 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10a:13" target="_blank" rel="noopener noreferrer" title="Совет о наследовании престола и освобождении Тверии; сокровищницы и смена чиновников.">Avodah Zarah 10a:13</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10a:14" target="_blank" rel="noopener noreferrer" title="Совет о наследовании престола и освобождении Тверии; сокровищницы и смена чиновников.">Avodah Zarah 10a:14</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10a:15" target="_blank" rel="noopener noreferrer" title="Совет о наследовании престола и освобождении Тверии; сокровищницы и смена чиновников.">Avodah Zarah 10a:15</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:2" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:2</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:3" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:3</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:4" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:4</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:5" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:5</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:6" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:6</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:7" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:7</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:8" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:8</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:10" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:10</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:11" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:11</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_10b:16" target="_blank" rel="noopener noreferrer" title="Цикл о тайных посещениях Раби, дарах, слугах, дочери Гире и смерти Антонинуса.">Avodah Zarah 10b:16</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_11a:6" target="_blank" rel="noopener noreferrer" title="Антонинус и Раби как две знатные личности; богатый стол и редька.">Avodah Zarah 11a:6</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Avodah_Zarah_11a:7" target="_blank" rel="noopener noreferrer" title="Антонинус и Раби как две знатные личности; богатый стол и редька.">Avodah Zarah 11a:7</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-22"><strong>Talmud Niddah</strong> — 1 ссылок; около 450 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Niddah_45a:9" target="_blank" rel="noopener noreferrer" title="Юстина, дочь Асвейруса, сына Антонинуса, спрашивает о брачном возрасте.">Niddah 45a:9</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-23"><strong>Tractate Sanhedrin</strong> — 6 ссылок; около 450 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_91a:17" target="_blank" rel="noopener noreferrer" title="Тело и душа на суде; притча о хромом и слепом сторожах.">Sanhedrin 91a:17</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_91b:4" target="_blank" rel="noopener noreferrer" title="Почему солнце восходит на востоке и заходит на западе.">Sanhedrin 91b:4</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_91b:5" target="_blank" rel="noopener noreferrer" title="Когда душа входит в человека: при зачатии или при формировании.">Sanhedrin 91b:5</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_91b:6" target="_blank" rel="noopener noreferrer" title="Когда дурное начало начинает властвовать над человеком.">Sanhedrin 91b:6</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_91b:7" target="_blank" rel="noopener noreferrer" title="Вопрос о походе в Александрию и возможности появления правителя Египта.">Sanhedrin 91b:7</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Sanhedrin_110a:12" target="_blank" rel="noopener noreferrer" title="Одна из сокровищниц Йосефа открылась Антонинусу, сыну Асвейруса.">Sanhedrin 110a:12</a> (ранний текст; перевод не отмечен)</p>
+      <p><strong>Нида 45а</strong></p>
+      <p><strong>Нида 45а:9–15 — разговор Юстани с Раби и обсуждение барайты</strong></p>
+      <quote author="talmud" book="niddah" daf="45a" ref="Юстани — дочь Асвейруса, сына Антонинуса"/>
+      <p><strong>Санхедрин 91а–91б и 110а</strong></p>
+      <p><strong>Санхедрин 91а — вопрос о суде над телом и душой</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="91a" ref="Антонинус о суде над телом и душой — постановка вопроса"/>
+      <p><strong>Санхедрин 91б — продолжение притчи о двух сторожах</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="91b" ref="Антонинус о суде над телом и душой — притча и ответ"/>
+      <p><strong>Санхедрин 91б — солнце заходит на западе</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="91b" ref="Антонинус о том, почему солнце заходит на западе"/>
+      <p><strong>Санхедрин 91б — когда человек получает душу</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="91b" ref="Антонинус о времени появления души у человека"/>
+      <p><strong>Санхедрин 91б — когда начинает действовать дурное начало</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="91b" ref="Антонинус о времени появления дурного начала"/>
+      <p><strong>Санхедрин 110а — самостоятельная редакция трёх сокровищниц</strong></p>
+      <quote author="talmud" book="sanhedrin" daf="110a" ref="Три сокровищницы Йосефа — параллель к Песахим 119а"/>
     </header>
     <header level="2" type="seif" name="Антонинус — Йерушалми и Мишна">
       <p><strong>Йерушалми и Мишна</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
