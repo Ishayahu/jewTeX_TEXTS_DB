@@ -68,6 +68,8 @@
       <p><strong>Мидраши</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
       <p><strong>Мидраши по произведениям; переведённые места вставлены как цитаты:</strong></p>
       <p><a href="https://www.sefaria.org/Midrash_Tanchuma_Buber%2C_Vayishlach.5" target="_blank" rel="noopener noreferrer">Танхума Бубер, Вайишлах 5 — дополнительный адрес</a> (перевод не опубликован)</p>
+      <p id="ant-book-1"><strong>The Midrash of Philo</strong> — 1 поисковый адрес; датировка основного произведения не доказывает датировку редакторского аппарата.</p>
+      <p><a href="https://www.sefaria.org/The_Midrash_of_Philo_8:21:11" target="_blank" rel="noopener noreferrer">The Midrash of Philo 8:21:11</a> (непроверенная поисковая находка: неизвестно, присутствует ли имя Антонинуса в древнем тексте, современном комментарии или результат был ошибочно включён поисковым агентом; не использовать как историческое свидетельство до проверки совпавшей строки)</p>
       
       <p id="ant-book-5"><strong>Tractate Shirah</strong> — 2 позиций; около 200 г. н. э.</p>
       <p><strong>Мехильта, Шира 2:25 — суд над телом и душой</strong></p>
@@ -95,19 +97,29 @@
       <quote author="midrash_rabbah" book="bereshit" chapter="20" letter="6"/>
       <p><strong>Берешит Раба 34:10 — душа и дурное начало</strong></p>
       <quote author="midrash_rabbah" book="bereshit" chapter="34" letter="10"/>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_67:6" target="_blank" rel="noopener noreferrer" title="Совет о наследовании престола и освобождении Тверии; сокровищницы и смена чиновников.">Bereshit Rabbah 67:6</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_75:5" target="_blank" rel="noopener noreferrer" title="Письмо Раби Антонинусу с формулой «твой слуга Йеуда».">Bereshit Rabbah 75:5</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_84:3" target="_blank" rel="noopener noreferrer" title="Беседа о словах Иова, наказании и вознаграждении.">Bereshit Rabbah 84:3</a> (ранний текст; перевод не отмечен)</p>
+      <p><strong>Берешит Раба 67:6 — совет Антонинусу о сокровищницах и сановниках</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="67" letter="6"/>
+      <p><strong>Берешит Раба 75:5 — письмо Раби Антонинусу</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="75" letter="5"/>
+      <p><strong>Берешит Раба 84:3 — вопрос Антонинуса об Иове</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="84" letter="3"/>
       <p id="ant-book-24"><strong>Leviticus Rabbah</strong> — 3 позиций; около 500 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Vayikra_Rabbah_3:2" target="_blank" rel="noopener noreferrer" title="Антонинус во главе праведных прозелитов в будущем.">Vayikra Rabbah 3:2</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Vayikra_Rabbah_10:4" target="_blank" rel="noopener noreferrer" title="Ученик Раби оживляет слугу Антонинуса.">Vayikra Rabbah 10:4</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Vayikra_Rabbah_16:8" target="_blank" rel="noopener noreferrer" title="Просьба Антонинуса молиться против холода и жары.">Vayikra Rabbah 16:8</a> (ранний текст; перевод не отмечен)</p>
+      <p><strong>Ваикра Раба 3:2 — Антонинус во главе праведных прозелитов</strong></p>
+      <quote author="midrash_rabbah" book="vayikra" chapter="3" letter="2"/>
+      <p><strong>Ваикра Раба 10:4 — ученик Раби поднимает слугу Антонинуса</strong></p>
+      <quote author="midrash_rabbah" book="vayikra" chapter="10" letter="4"/>
+      <p><strong>Ваикра Раба 16:8 — молитва против холода и жары</strong></p>
+      <quote author="midrash_rabbah" book="vayikra" chapter="16" letter="8"/>
       <p id="ant-book-25"><strong>Pesikta Rabbati</strong> — 1 позиций; около 600 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Pesikta_Rabbati_23:1" target="_blank" rel="noopener noreferrer">Pesikta Rabbati 23:1</a> (ранний текст; перевод не отмечен)</p>
+      <p><strong>Псикта Рабати 23:1 — рассказ об Антонинусе и Шаббате (не весь раздел)</strong></p>
+      <quote author="midrash" book="pesikta_rabbati" chapter="23" siman_katan="Антонинус и приправа Шаббата"/>
       <p id="ant-book-26"><strong>Koheleth Rabbah</strong> — 3 позиций; около 700 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Kohelet_Rabbah_5:11:1" target="_blank" rel="noopener noreferrer">Kohelet Rabbah 5:11:1</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Kohelet_Rabbah_9:10:2" target="_blank" rel="noopener noreferrer" title="Антонинус-младший, смерть Раби и вопрос об обрезании.">Kohelet Rabbah 9:10:2</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Kohelet_Rabbah_10:5:1" target="_blank" rel="noopener noreferrer" title="Антонинус-младший, смерть Раби и вопрос об обрезании.">Kohelet Rabbah 10:5:1</a> (ранний текст; перевод не отмечен)</p>
+      <p><strong>Коэлет Раба 5:11:1 — праведники народов мира и Антонинус</strong></p>
+      <quote author="midrash_rabbah" book="kohelet" chapter="5" letter="11:1"/>
+      <p><strong>Коэлет Раба 9:10:2 — обрезание Анталимоса и святость Раби</strong></p>
+      <quote author="midrash_rabbah" book="kohelet" chapter="9" letter="10:2"/>
+      <p><strong>Коэлет Раба 10:5:1 — Антонинус Младший, внук Антонинуса Старшего</strong></p>
+      <quote author="midrash_rabbah" book="kohelet" chapter="10" letter="5:1"/>
       <p id="ant-book-27"><strong>Pirkei DeRabbi Eliezer</strong> — 1 позиций; около 968 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Tanna_DeBei_Eliyahu_Zuta,_Additions_to_Seder_Eliyahu_Zuta,_Pirkei_DeRabbi_Eliezer_2" target="_blank" rel="noopener noreferrer">Tanna DeBei Eliyahu Zuta, Additions to Seder Eliyahu Zuta, Pirkei DeRabbi Eliezer 2</a> (позднее цитирование; перевод не отмечен)</p>
       <p id="ant-book-30"><strong>Midrash Shocher Tov</strong> — 1 позиций; около 1050 г. н. э.</p>
