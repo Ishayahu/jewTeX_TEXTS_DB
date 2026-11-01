@@ -66,45 +66,55 @@
     </header>
     <header level="2" type="seif" name="Антонинус — Мидраши">
       <p><strong>Мидраши</strong>. Каталог по произведениям в приблизительно хронологическом порядке. Ссылка не является доказательством идентификации Антонинуса.</p>
-      <p><strong>Все адреса (62):</strong></p>
+      <p><strong>Мидраши по произведениям; переведённые места вставлены как цитаты:</strong></p>
       <p><a href="https://www.sefaria.org/Midrash_Tanchuma_Buber%2C_Vayishlach.5" target="_blank" rel="noopener noreferrer">Танхума Бубер, Вайишлах 5 — дополнительный адрес</a> (перевод не опубликован)</p>
-      <p id="ant-book-1"><strong>The Midrash of Philo</strong> — 1 ссылок; около 10 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/The_Midrash_of_Philo_8:21:11" target="_blank" rel="noopener noreferrer">The Midrash of Philo 8:21:11</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-5"><strong>Tractate Shirah</strong> — 2 ссылок; около 200 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Mekhilta_DeRabbi_Yishmael,_Tractate_Shirah_2:25" target="_blank" rel="noopener noreferrer" title="Тело и душа на суде; притча о хромом и слепом сторожах.">Mekhilta DeRabbi Yishmael, Tractate Shirah 2:25</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Mekhilta_DeRabbi_Yishmael,_Tractate_Shirah_6:15" target="_blank" rel="noopener noreferrer" title="Вопрос о походе в Александрию и возможности появления правителя Египта.">Mekhilta DeRabbi Yishmael, Tractate Shirah 6:15</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-6"><strong>Tractate Vayehi Beshalach</strong> — 2 ссылок; около 200 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Mekhilta_DeRabbi_Yishmael,_Tractate_Vayehi_Beshalach_1:26" target="_blank" rel="noopener noreferrer" title="Антонинус сам освещает дорогу сыновьям как знак любви к ним.">Mekhilta DeRabbi Yishmael, Tractate Vayehi Beshalach 1:26</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Mekhilta_DeRabbi_Yishmael,_Tractate_Vayehi_Beshalach_2:30" target="_blank" rel="noopener noreferrer" title="Антонинус добавил третьего воина на колесницу.">Mekhilta DeRabbi Yishmael, Tractate Vayehi Beshalach 2:30</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-7"><strong>Miketz</strong> — 2 ссылок; около 325 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Midrash_Tanchuma_Buber,_Miketz_11:1" target="_blank" rel="noopener noreferrer" title="Сколько раз в день следует молиться; пример обращений ко двору Антонинуса.">Midrash Tanchuma Buber, Miketz 11:1</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Midrash_Tanchuma,_Miketz_9:2" target="_blank" rel="noopener noreferrer" title="Сколько раз в день следует молиться; пример обращений ко двору Антонинуса.">Midrash Tanchuma, Miketz 9:2</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-8"><strong>Midrash 32 Middot</strong> — 1 ссылок; около 350 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Mishnat_Rabbi_Eliezer_10:6" target="_blank" rel="noopener noreferrer" title="Письмо Раби Антонинусу с формулой «твой слуга Йеуда».">Mishnat Rabbi Eliezer 10:6</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-18"><strong>Genesis Rabbah</strong> — 6 ссылок; около 400 г. н. э.</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_11:4" target="_blank" rel="noopener noreferrer" title="Трапезы Раби и Антонинуса и особая «приправа» Шаббата.">Bereshit Rabbah 11:4</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_20:6" target="_blank" rel="noopener noreferrer">Bereshit Rabbah 20:6</a> (ранний текст; перевод не отмечен)</p>
-      <p><a href="https://www.sefaria.org/Bereshit_Rabbah_34:10" target="_blank" rel="noopener noreferrer" title="Когда душа входит в человека: при зачатии или при формировании.">Bereshit Rabbah 34:10</a> (ранний текст; перевод не отмечен)</p>
+      
+      <p id="ant-book-5"><strong>Tractate Shirah</strong> — 2 позиций; около 200 г. н. э.</p>
+      <p><strong>Мехильта, Шира 2:25 — суд над телом и душой</strong></p>
+      <quote author="halakhic_midrash" book="mekhilta_de_rabbi_yishmael" chapter="shirah_2" siman_katan="25"/>
+      <p><strong>Мехильта, Шира 6:15 — Александрия и египетский правитель</strong></p>
+      <quote author="halakhic_midrash" book="mekhilta_de_rabbi_yishmael" chapter="shirah_6" siman_katan="15"/>
+      <p id="ant-book-6"><strong>Tractate Vayehi Beshalach</strong> — 2 позиций; около 200 г. н. э.</p>
+      <p><strong>Мехильта, Ваехи бешалах 1:25–26 — Антонинус освещает дорогу сыновьям; адрес 1:26 — продолжение</strong></p>
+      <quote author="halakhic_midrash" book="mekhilta_de_rabbi_yishmael" chapter="vayehi_1" siman_katan="25"/>
+      <quote author="halakhic_midrash" book="mekhilta_de_rabbi_yishmael" chapter="vayehi_1" siman_katan="26"/>
+      <p><strong>Мехильта, Ваехи бешалах 2:30 — третий воин на колеснице</strong></p>
+      <quote author="halakhic_midrash" book="mekhilta_de_rabbi_yishmael" chapter="vayehi_2" siman_katan="30"/>
+      <p id="ant-book-7"><strong>Miketz</strong> — 2 позиций; около 325 г. н. э.</p>
+      <p><strong>Танхума Бубер, Микец 11:1 — о молитве каждый час</strong></p>
+      <quote author="midrash" book="tanchuma_buber_miketz" chapter="11" siman_katan="1"/>
+      <p><strong>Танхума, Микец 9:2 — о молитве каждый час</strong></p>
+      <quote author="midrash" book="tanchuma_miketz" chapter="9" siman_katan="2"/>
+      <p id="ant-book-8"><strong>Midrash 32 Middot</strong> — 1 позиций; около 350 г. н. э.</p>
+      <p><strong>Мишнат раби Элиэзер 10:6 — подпись Раби в письме</strong></p>
+      <quote author="midrash" book="mishnat_rabbi_eliezer" chapter="10" siman_katan="6"/>
+      <p id="ant-book-18"><strong>Genesis Rabbah</strong> — 6 позиций; около 400 г. н. э.</p>
+      <p><strong>Берешит Раба 11:4 — приправа Шаббата и другие рассказы</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="11" letter="4"/>
+      <p><strong>Берешит Раба 20:6 — сроки беременности и стадо Антонинуса</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="20" letter="6"/>
+      <p><strong>Берешит Раба 34:10 — душа и дурное начало</strong></p>
+      <quote author="midrash_rabbah" book="bereshit" chapter="34" letter="10"/>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbah_67:6" target="_blank" rel="noopener noreferrer" title="Совет о наследовании престола и освобождении Тверии; сокровищницы и смена чиновников.">Bereshit Rabbah 67:6</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbah_75:5" target="_blank" rel="noopener noreferrer" title="Письмо Раби Антонинусу с формулой «твой слуга Йеуда».">Bereshit Rabbah 75:5</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbah_84:3" target="_blank" rel="noopener noreferrer" title="Беседа о словах Иова, наказании и вознаграждении.">Bereshit Rabbah 84:3</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-24"><strong>Leviticus Rabbah</strong> — 3 ссылок; около 500 г. н. э.</p>
+      <p id="ant-book-24"><strong>Leviticus Rabbah</strong> — 3 позиций; около 500 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Vayikra_Rabbah_3:2" target="_blank" rel="noopener noreferrer" title="Антонинус во главе праведных прозелитов в будущем.">Vayikra Rabbah 3:2</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Vayikra_Rabbah_10:4" target="_blank" rel="noopener noreferrer" title="Ученик Раби оживляет слугу Антонинуса.">Vayikra Rabbah 10:4</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Vayikra_Rabbah_16:8" target="_blank" rel="noopener noreferrer" title="Просьба Антонинуса молиться против холода и жары.">Vayikra Rabbah 16:8</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-25"><strong>Pesikta Rabbati</strong> — 1 ссылок; около 600 г. н. э.</p>
+      <p id="ant-book-25"><strong>Pesikta Rabbati</strong> — 1 позиций; около 600 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Pesikta_Rabbati_23:1" target="_blank" rel="noopener noreferrer">Pesikta Rabbati 23:1</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-26"><strong>Koheleth Rabbah</strong> — 3 ссылок; около 700 г. н. э.</p>
+      <p id="ant-book-26"><strong>Koheleth Rabbah</strong> — 3 позиций; около 700 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Kohelet_Rabbah_5:11:1" target="_blank" rel="noopener noreferrer">Kohelet Rabbah 5:11:1</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Kohelet_Rabbah_9:10:2" target="_blank" rel="noopener noreferrer" title="Антонинус-младший, смерть Раби и вопрос об обрезании.">Kohelet Rabbah 9:10:2</a> (ранний текст; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Kohelet_Rabbah_10:5:1" target="_blank" rel="noopener noreferrer" title="Антонинус-младший, смерть Раби и вопрос об обрезании.">Kohelet Rabbah 10:5:1</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-27"><strong>Pirkei DeRabbi Eliezer</strong> — 1 ссылок; около 968 г. н. э.</p>
+      <p id="ant-book-27"><strong>Pirkei DeRabbi Eliezer</strong> — 1 позиций; около 968 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Tanna_DeBei_Eliyahu_Zuta,_Additions_to_Seder_Eliyahu_Zuta,_Pirkei_DeRabbi_Eliezer_2" target="_blank" rel="noopener noreferrer">Tanna DeBei Eliyahu Zuta, Additions to Seder Eliyahu Zuta, Pirkei DeRabbi Eliezer 2</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-30"><strong>Midrash Shocher Tov</strong> — 1 ссылок; около 1050 г. н. э.</p>
+      <p id="ant-book-30"><strong>Midrash Shocher Tov</strong> — 1 позиций; около 1050 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Midrash_Tehillim_22:23" target="_blank" rel="noopener noreferrer">Midrash Tehillim 22:23</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-43"><strong>Esther Rabbah</strong> — 1 ссылок; около 1100 г. н. э.</p>
+      <p id="ant-book-43"><strong>Esther Rabbah</strong> — 1 позиций; около 1100 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Esther_Rabbah_1:16" target="_blank" rel="noopener noreferrer" title="Трапезы Раби и Антонинуса и особая «приправа» Шаббата.">Esther Rabbah 1:16</a> (ранний текст; перевод не отмечен)</p>
-      <p id="ant-book-44"><strong>Yalk. Gen.</strong> — 15 ссылок; около 1100 г. н. э.</p>
+      <p id="ant-book-44"><strong>Yalk. Gen.</strong> — 15 позиций; около 1100 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_16:22" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 16:22</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_31:3" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 31:3</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_38:1" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 38:1</a> (параллель или компиляция; перевод не отмечен)</p>
@@ -120,7 +130,7 @@
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_247:1" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 247:1</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_733:2" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 733:2</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Torah_856:4" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Torah 856:4</a> (параллель или компиляция; перевод не отмечен)</p>
-      <p id="ant-book-45"><strong>Yalk. Ps.</strong> — 16 ссылок; около 1100 г. н. э.</p>
+      <p id="ant-book-45"><strong>Yalk. Ps.</strong> — 16 позиций; около 1100 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_368:1" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 368:1</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_373:1" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 373:1</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_429:1" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 429:1</a> (параллель или компиляция; перевод не отмечен)</p>
@@ -137,16 +147,16 @@
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_979" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 979</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_979:10" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 979:10</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Yalkut_Shimoni_on_Nach_1071:9" target="_blank" rel="noopener noreferrer">Yalkut Shimoni on Nach 1071:9</a> (параллель или компиляция; перевод не отмечен)</p>
-      <p id="ant-book-62"><strong>Midrash Yelamdenu, Selections from Yalkut Talmud Torah</strong> — 1 ссылок; около 1250 г. н. э.</p>
+      <p id="ant-book-62"><strong>Midrash Yelamdenu, Selections from Yalkut Talmud Torah</strong> — 1 позиций; около 1250 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Midrash_Yelamdenu,_Selections_from_Yalkut_Talmud_Torah_144:1" target="_blank" rel="noopener noreferrer">Midrash Yelamdenu, Selections from Yalkut Talmud Torah 144:1</a> (параллель или компиляция; перевод не отмечен)</p>
-      <p id="ant-book-127"><strong>Midrash HaIzmiri</strong> — 3 ссылок; около 1659 г. н. э.</p>
+      <p id="ant-book-127"><strong>Midrash HaIzmiri</strong> — 3 позиций; около 1659 г. н. э.</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:12" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:12</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_8:13" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 8:13</a> (позднее цитирование; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Midrash_HaIttamari_13:27" target="_blank" rel="noopener noreferrer">Midrash HaIttamari 13:27</a> (позднее цитирование; перевод не отмечен)</p>
-      <p id="ant-book-344"><strong>Parashat Bereshit</strong> — 2 ссылок; год не установлен</p>
+      <p id="ant-book-344"><strong>Parashat Bereshit</strong> — 2 позиций; год не установлен</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Bereshit" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Bereshit</a> (параллель или компиляция; перевод не отмечен)</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Bereshit_59" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Bereshit 59</a> (параллель или компиляция; перевод не отмечен)</p>
-      <p id="ant-book-345"><strong>Parashat Vayera</strong> — 1 ссылок; год не установлен</p>
+      <p id="ant-book-345"><strong>Parashat Vayera</strong> — 1 позиций; год не установлен</p>
       <p><a href="https://www.sefaria.org/Bereshit_Rabbati,_Parashat_Vayera_24" target="_blank" rel="noopener noreferrer">Bereshit Rabbati, Parashat Vayera 24</a> (параллель или компиляция; перевод не отмечен)</p>
     </header>
     <header level="2" type="seif" name="Антонинус — Комментарии до XIX века">
