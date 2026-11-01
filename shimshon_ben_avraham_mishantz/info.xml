@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <localized_info>
+    <ru><title>Рабейну</title><first_name>Шимшон</first_name><last_name>бен Авраам ми-Шанц</last_name><short_name>Раш ми-Шанц</short_name><quote/></ru>
+    <en><title/><first_name/><last_name/><short_name/><quote/></en>
+    <he><title/><first_name/><last_name/><short_name/><quote/></he>
+  </localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><exegesis/><halakha/></domains><cities/><books/>
+</info>
