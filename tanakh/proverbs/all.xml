@@ -1,5 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <content>
+  <header level='1' type='chapter' name='13' number='13'>
+    <header level='2' type='posuk' name='22'>
+      <p-ai>Добрый человек оставит наследство детям своих детей, а богатство грешника сохранено для праведника.</p-ai>
+    </header>
+  </header>
 <header level='1' type='chapter' name='17' number='17'>
   <header level='2' type='posuk' name='5'>
     <header type='ref' name='17.5.1'>
