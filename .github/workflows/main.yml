@@ -39,6 +39,24 @@ jobs:
           fi
           echo "Validated $count XML files"
 
+      - name: Reject non-XML files inside book directories
+        shell: bash
+        run: |
+          set -euo pipefail
+          violations=0
+          while IFS= read -r -d '' file; do
+            IFS='/' read -r -a parts <<< "$file"
+            # Only direct children of author/book, not assets and repository infrastructure.
+            if [[ ${#parts[@]} -eq 3 && -f "${parts[0]}/${parts[1]}/info.xml" && "${parts[2]}" != *.xml ]]; then
+              echo "::error file=$file::Book directories may only contain XML files"
+              ((violations += 1))
+            fi
+          done < <(git ls-files -z)
+          if (( violations > 0 )); then
+            echo "::error::$violations non-XML file(s) found inside book directories"
+            exit 1
+          fi
+
   update-server:
     needs: validate-xml
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
