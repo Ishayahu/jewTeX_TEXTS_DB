@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+  <header level="0" type="chapter" name="100" verbouse_name="Раши на Теилим 100 — Мизмор ле-тода" text_link="https://he.wikisource.org/wiki/רש%22י_על_תהלים_ק">
+    <!-- Дополнительный адрес оригинала: https://www.sefaria.org/Rashi_on_Psalms.100 -->
+    <header level="1" type="posuk" name="1">
+      <p-ai><strong>«Псалом благодарения».</strong> [Это псалом] для выражения благодарности; его произносят при [принесении] благодарственных жертв.</p-ai>
+    </header>
+    <header level="1" type="posuk" name="2">
+      <p-ai><strong>«Служите Господу с радостью».</strong> И почему же [следует служить] именно так? «Знайте, что Господь — Он Бог»: ведь Он выплачивает вознаграждение за ваши дела. А служащим идолам незачем служить с радостью, ибо [идолы] не выплачивают вознаграждения.</p-ai>
+    </header>
+    <header level="1" type="posuk" name="3">
+      <p-ai><strong>«Он создал нас, и не [мы]».</strong> Когда нас ещё не было в мире.</p-ai>
+    </header>
+    <header level="1" type="posuk" name="4">
+      <p-ai><strong>«С благодарением».</strong> С выражением благодарности.</p-ai>
+    </header>
+    <header level="1" type="posuk" name="5">
+      <p-ai><strong>«И до поколения и поколения».</strong> Его верность сохраняется. Всякое выражение со словами «истина» и «верность» [означает] верность обещанию: [Он] верен и даёт Своё обещание.</p-ai>
+    </header>
+  </header>
+</content>
