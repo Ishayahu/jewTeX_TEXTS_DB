@@ -1,7 +1,7 @@
 {
   "version": 1,
   "baseline_date": "2026-11-06",
-  "description": "Baseline of canonical XML tag names, generated from 1618 tracked XML files. Not a text dataset. Semantics of known tags are specified progressively in jewtex.rng and XML editor protocol.",
+  "description": "Baseline for 84 XML element names AND known attributes per element, from 1618 tracked canonical files on 2026-11-06. New XML names/attributes must be documented and tested intentionally. Existing typographical variants in use are not endorsed.",
   "elements": [
     "a",
     "about",
@@ -87,5 +87,233 @@
     "{http://www.w3.org/2000/svg}rect",
     "{http://www.w3.org/2000/svg}svg",
     "{http://www.w3.org/2000/svg}text"
-  ]
+  ],
+  "attributes_by_element": {
+    "a": [
+      "href",
+      "rel",
+      "target",
+      "title"
+    ],
+    "chronology_data": [
+      "calendar",
+      "version"
+    ],
+    "claim": [
+      "event_id",
+      "id",
+      "kind",
+      "metric",
+      "status",
+      "title",
+      "value",
+      "year"
+    ],
+    "comment": [
+      "number"
+    ],
+    "comment_needed": [
+      "reason"
+    ],
+    "constraint": [
+      "default_active",
+      "delta_years",
+      "id",
+      "kind",
+      "label",
+      "lhs_event",
+      "relation",
+      "rhs_event",
+      "status"
+    ],
+    "content": [
+      "link_to_book",
+      "text_link"
+    ],
+    "daf": [
+      "name",
+      "number",
+      "text_link"
+    ],
+    "div": [
+      "class"
+    ],
+    "event": [
+      "id",
+      "kind",
+      "label",
+      "subject"
+    ],
+    "evidence": [
+      "review",
+      "url",
+      "work"
+    ],
+    "example": [
+      "age_claim_id",
+      "base_claim_id",
+      "id",
+      "kind",
+      "status",
+      "type"
+    ],
+    "external_link": [
+      "name",
+      "url"
+    ],
+    "header": [
+      "continued_number",
+      "jdate",
+      "level",
+      "name",
+      "number",
+      "source",
+      "text_lik",
+      "text_link",
+      "type",
+      "vebouse_name",
+      "verbouse_name"
+    ],
+    "img": [
+      "alt",
+      "src"
+    ],
+    "link": [
+      "amud",
+      "author",
+      "book",
+      "chapter",
+      "daf",
+      "dibur_amathil",
+      "din",
+      "gate",
+      "halakha",
+      "klal",
+      "letter",
+      "mishna",
+      "page",
+      "parsha",
+      "part",
+      "perek",
+      "posuk",
+      "ref",
+      "seif",
+      "siman",
+      "siman_katan",
+      "sub_chapter",
+      "upper"
+    ],
+    "link_needed": [
+      "reason"
+    ],
+    "makshan": [
+      "idx"
+    ],
+    "ol": [
+      "start"
+    ],
+    "p": [
+      "id",
+      "idx",
+      "offset",
+      "text_link",
+      "work_needed"
+    ],
+    "p-ai": [
+      "id",
+      "idx"
+    ],
+    "page": [
+      "name"
+    ],
+    "quote": [
+      "amud",
+      "author",
+      "book",
+      "chapter",
+      "daf",
+      "din",
+      "gate",
+      "girsa",
+      "halakha",
+      "klal",
+      "letter",
+      "mishna",
+      "parsha",
+      "posuk",
+      "ref",
+      "seif",
+      "siman",
+      "siman_katan",
+      "upper"
+    ],
+    "source": [
+      "author",
+      "location",
+      "url",
+      "work"
+    ],
+    "source_block": [
+      "label",
+      "source"
+    ],
+    "strong": [
+      "class"
+    ],
+    "summary": [
+      "type"
+    ],
+    "switch": [
+      "sources"
+    ],
+    "table": [
+      "alt",
+      "switch"
+    ],
+    "tarzan": [
+      "idx"
+    ],
+    "td": [
+      "class",
+      "colspan",
+      "rowspan"
+    ],
+    "term": [
+      "name"
+    ],
+    "th": [
+      "class",
+      "colspan",
+      "rowspan"
+    ],
+    "tr": [
+      "class",
+      "id"
+    ],
+    "work_needed": [
+      "reason",
+      "text_link"
+    ],
+    "{http://www.w3.org/2000/svg}rect": [
+      "fill",
+      "height",
+      "stroke",
+      "width",
+      "x",
+      "y"
+    ],
+    "{http://www.w3.org/2000/svg}svg": [
+      "alt",
+      "height",
+      "viewBox",
+      "width"
+    ],
+    "{http://www.w3.org/2000/svg}text": [
+      "fill",
+      "font-size",
+      "text-anchor",
+      "x",
+      "y"
+    ]
+  }
 }

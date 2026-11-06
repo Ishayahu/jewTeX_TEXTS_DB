@@ -107,6 +107,10 @@ def main() -> int:
                 warn("empty_p_placeholders", str(path))
             if el.tag == "header" and not el.get("name"):
                 warn("header_without_name", str(path))
+            if el.tag == "header":
+                for suspicious in ("text_lik", "vebouse_name"):
+                    if suspicious in el.attrib:
+                        warn("possible_misspelled_header_attribute", f"{path}: {suspicious}")
             if root.tag != "info" and el.tag == "quote" and (not el.get("author") or not el.get("book")):
                 warn("quote_missing_target_fields", str(path))
             if el.tag == "p" and "от имени" in "".join(el.itertext()) and "speaker" not in el.attrib:
@@ -131,9 +135,15 @@ def main() -> int:
     if args.known_tags:
         p = Path(args.known_tags)
         if p.exists():
-            allowed = set(json.loads(p.read_text(encoding="utf8"))["elements"])
+            baseline = json.loads(p.read_text(encoding="utf8"))
+            allowed = set(baseline["elements"])
             for t in sorted(set(tags) - allowed):
                 hard_errors.append(f"New XML element {t!r} not registered in {p}; review schema and inventory")
+            known_attributes = baseline.get("attributes_by_element", {})
+            for t, usage in attributes.items():
+                permitted = set(known_attributes.get(t, []))
+                for attribute in sorted(set(usage) - permitted):
+                    hard_errors.append(f"New XML attribute {t}@{attribute} not registered in {p}; review schema and inventory")
         else:
             warn("inventory_missing", str(p))
     report = {
