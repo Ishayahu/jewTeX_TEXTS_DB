@@ -107,10 +107,18 @@ def main() -> int:
                 warn("empty_p_placeholders", str(path))
             if el.tag == "header" and not el.get("name"):
                 warn("header_without_name", str(path))
-            if el.tag == "quote" and (not el.get("author") or not el.get("book")):
+            if root.tag != "info" and el.tag == "quote" and (not el.get("author") or not el.get("book")):
                 warn("quote_missing_target_fields", str(path))
             if el.tag == "p" and "от имени" in "".join(el.itertext()) and "speaker" not in el.attrib:
                 warn("candidate_reported_speech_for_annotation", str(path))
+        # Repeating a named header under the SAME XML parent can break addressing.
+        # A provisional editorial warning, not an automatic structural failure.
+        for parent in root.iter():
+            siblings = [child for child in parent if child.tag == "header" and child.get("name")]
+            keyed = Counter((ch.get("type"), ch.get("name")) for ch in siblings)
+            for (heading_type, name), freq in keyed.items():
+                if freq > 1:
+                    warn("duplicate_sibling_header_address", f"{path}: {heading_type}={name!r} ({freq} siblings)")
         # idx is a Sefaria display aid, NOT globally unique. Count only as diagnostic.
         for daf in root.iter("daf"):
             vals = [e.get("idx") for e in daf.iter() if e.get("idx")]

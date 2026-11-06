@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 tools/xml_audit.py --report "$RUNNER_TEMP/jewtex-xml-audit.json" --summary "$GITHUB_STEP_SUMMARY" --emit-inventory --known-tags schema/element-inventory.json
+          python3 tools/xml_audit.py --report "$RUNNER_TEMP/jewtex-xml-audit.json" --summary "$GITHUB_STEP_SUMMARY" --known-tags schema/element-inventory.json
 
       - name: Publish XML audit
         if: always()
