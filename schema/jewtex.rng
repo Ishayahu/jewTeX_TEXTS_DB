@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start><ref name="legacy-element"/></start>
+  <!-- Transitional, backward-compatible corpus grammar. Existing arbitrary textual
+       tags and attributes remain accepted; semantic_data is strictly typed. -->
+  <define name="legacy-element">
+    <element>
+      <anyName><except><name>semantic_data</name></except></anyName>
+      <zeroOrMore><attribute><anyName/></attribute></zeroOrMore>
+      <zeroOrMore>
+        <choice><text/><ref name="legacy-element"/><ref name="semantic-data"/></choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="review-status">
+    <choice><value>pending</value><value>proposed</value><value>verified</value><value>disputed</value><value>not_applicable</value></choice>
+  </define>
+  <define name="block-status">
+    <choice><value>pending</value><value>partial</value><value>verified</value><value>disputed</value></choice>
+  </define>
+  <define name="semantic-data">
+    <element name="semantic_data">
+      <attribute name="version"><value>1</value></attribute>
+      <zeroOrMore><choice>
+        <ref name="question"/><ref name="claim"/><ref name="relation"/><ref name="transmission"/>
+      </choice></zeroOrMore>
+    </element>
+  </define>
+  <define name="question">
+    <element name="question">
+      <attribute name="id"><text/></attribute>
+      <optional><attribute name="domain"><text/></attribute></optional>
+      <optional><attribute name="concept"><text/></attribute></optional>
+      <optional><attribute name="human_review"><ref name="block-status"/></attribute></optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="claim">
+    <element name="claim">
+      <attribute name="id"><text/></attribute>
+      <attribute name="statement"><text/></attribute>
+      <optional><attribute name="speaker"><text/></attribute></optional>
+      <optional><attribute name="question"><text/></attribute></optional>
+      <optional><attribute name="status"><choice><value>source</value><value>interpretation</value><value>work_needed</value></choice></attribute></optional>
+      <optional><attribute name="human_review"><ref name="block-status"/></attribute></optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="relation">
+    <element name="relation">
+      <attribute name="id"><text/></attribute>
+      <attribute name="from"><text/></attribute>
+      <attribute name="to"><text/></attribute>
+      <attribute name="type"><text/></attribute>
+      <optional><attribute name="evidence"><text/></attribute></optional>
+      <optional><attribute name="review"><ref name="review-status"/></attribute></optional>
+      <optional><attribute name="human_review"><ref name="block-status"/></attribute></optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="transmission">
+    <element name="transmission">
+      <attribute name="statement"><text/></attribute>
+      <optional><attribute name="id"><text/></attribute></optional>
+      <attribute name="human_review"><ref name="block-status"/></attribute>
+      <optional><attribute name="source_ref"><text/></attribute></optional>
+      <optional><attribute name="girsa"><text/></attribute></optional>
+      <optional><attribute name="reviewed_by"><text/></attribute></optional>
+      <optional><attribute name="reviewed_at"><text/></attribute></optional>
+      <oneOrMore><ref name="relay"/></oneOrMore>
+      <ref name="attributed-to"/>
+    </element>
+  </define>
+  <define name="relay">
+    <element name="relay">
+      <attribute name="from"><text/></attribute>
+      <attribute name="to"><text/></attribute>
+      <attribute name="relation">
+        <choice><value>reports_in_name_of</value><value>heard_from</value><value>quotes</value><value>attributed_by</value></choice>
+      </attribute>
+      <attribute name="review"><ref name="review-status"/></attribute>
+      <optional><attribute name="evidence"><text/></attribute></optional>
+      <optional><attribute name="source_ref"><text/></attribute></optional>
+      <optional><attribute name="girsa"><text/></attribute></optional>
+      <optional><attribute name="reviewed_by"><text/></attribute></optional>
+      <optional><attribute name="reviewed_at"><text/></attribute></optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="attributed-to">
+    <element name="attributed_to">
+      <attribute name="person"><text/></attribute>
+      <attribute name="status">
+        <choice><value>reported</value><value>direct</value><value>inferred</value><value>uncertain</value></choice>
+      </attribute>
+      <attribute name="review"><ref name="review-status"/></attribute>
+      <optional><attribute name="reviewed_by"><text/></attribute></optional>
+      <optional><attribute name="reviewed_at"><text/></attribute></optional>
+      <empty/>
+    </element>
+  </define>
+</grammar>

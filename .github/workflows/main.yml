@@ -39,6 +39,36 @@ jobs:
           fi
           echo "Validated $count XML files"
 
+      - name: Validate formal XML schema and examples
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/test_xml_schema.py
+          n=0
+          while IFS= read -r -d '' file; do
+            if ! xmllint --noout --nonet --relaxng schema/jewtex.rng "$file" >/dev/null 2>&1; then
+              echo "::error file=$file::RELAX NG validation failed"
+              xmllint --noout --nonet --relaxng schema/jewtex.rng "$file"
+              exit 1
+            fi
+            ((n += 1))
+          done < <(git ls-files -z -- '*.xml')
+          echo "RELAX NG checked $n corpus files"
+
+      - name: Audit structural debt and semantic chain integrity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/xml_audit.py --report "$RUNNER_TEMP/jewtex-xml-audit.json" --summary "$GITHUB_STEP_SUMMARY" --emit-inventory --known-tags schema/element-inventory.json
+
+      - name: Publish XML audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jewtex-xml-audit
+          path: ${{ runner.temp }}/jewtex-xml-audit.json
+          if-no-files-found: ignore
+
       - name: Reject non-XML files inside book directories
         shell: bash
         run: |
