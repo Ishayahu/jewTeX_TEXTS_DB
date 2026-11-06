@@ -102,5 +102,7 @@
 
     <!-- Машиночитаемые данные хронологии должны остаться только в XML, без HTML/Markdown-вывода. -->
     <xsl:template match="chronology_data" priority="20"/>
+    <!-- Keep semantic metadata out of expanded quotation HTML. -->
+    <xsl:template match="semantic_data" priority="20"/>
 
 </xsl:stylesheet>

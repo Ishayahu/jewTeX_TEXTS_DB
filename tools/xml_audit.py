@@ -145,7 +145,7 @@ def main() -> int:
                 for attribute in sorted(set(usage) - permitted):
                     hard_errors.append(f"New XML attribute {t}@{attribute} not registered in {p}; review schema and inventory")
         else:
-            warn("inventory_missing", str(p))
+            hard_errors.append(f"XML inventory missing: {p}")
     report = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "files_scanned": len(paths),

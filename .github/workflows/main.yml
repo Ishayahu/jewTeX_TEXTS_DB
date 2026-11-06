@@ -19,7 +19,7 @@ jobs:
       - name: Install XML validator
         run: |
           sudo apt-get update
-          sudo apt-get install -y libxml2-utils
+          sudo apt-get install -y libxml2-utils xsltproc
 
       - name: Validate tracked XML files
         shell: bash

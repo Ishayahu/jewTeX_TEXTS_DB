@@ -812,5 +812,7 @@
 
     <!-- Машиночитаемые данные хронологии должны остаться только в XML, без HTML/Markdown-вывода. -->
     <xsl:template match="chronology_data" priority="20"/>
+    <!-- Semantic stand-off annotations must never reach reader-facing HTML. -->
+    <xsl:template match="semantic_data" priority="20"/>
 
 </xsl:stylesheet>
