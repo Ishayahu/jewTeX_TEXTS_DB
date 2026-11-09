@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<content>
+<header level="0" type="siman" name="1" verbouse_name="Краткая редакция: пробуждение утром, благословения и повинная жертва" text_link="https://he.wikisource.org/wiki/%D7%98%D7%95%D7%A8_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%90">
+  <header level="1" type="siman_katan" name="1" verbouse_name="Подъём утром для служения Творцу">
+    <p-ai>На слова Тура «встать утром для служения своему Творцу» Рамбам написал в «Море невухим» (часть III, глава 22 [в других изданиях исправлено на 52]), что сразу по пробуждении утром человеку следует тут же подумать в своём сердце, перед Кем он лежит.</p-ai>
+    <quote author="moses_isserles" book="darkhei_moshe_ha_arokh_al_orach_chayim" siman="1" siman_katan="1" ref="awareness-of-the-king"/>
+    <p-ai>И так же пусть он размышляет обо всех своих делах: ведь его занятия, когда он один у себя дома, не таковы, как дела, которыми он занимается перед царём. И представляется, что именно это имел в виду царь Давид, мир ему, говоря: «Всегда представляю Всевышнего перед собой» и так далее.</p-ai>
+  </header>
+  <header level="1" type="siman_katan" name="2" verbouse_name="До появления зари">
+    <p-ai>К словам «Бейт Йосефа» об отрывке о жертвоприношениях: «Поскольку их время бывает лишь днём» —</p-ai>
+    <quote author="moses_isserles" book="darkhei_moshe_ha_arokh_al_orach_chayim" siman="1" siman_katan="3" ref="blessings-before-dawn"/>
+  </header>
+  <header level="1" type="siman_katan" name="3" verbouse_name="Повинная жертва — условная и определённая">
+    <quote author="moses_isserles" book="darkhei_moshe_ha_arokh_al_orach_chayim" siman="1" siman_katan="4" ref="asham-taluy-prague"/>
+    <p-ai>И несколько представляется, что таково мнение «Бейт Йосефа», хотя он сомневается в этом вопросе и написал: «Возможно, поскольку среди повинных жертв мы находим ту, что может приноситься добровольно» и так далее.</p-ai>
+  </header>
+</header>
+</content>
