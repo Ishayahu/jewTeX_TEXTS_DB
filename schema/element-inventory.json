@@ -91,6 +91,7 @@
   "attributes_by_element": {
     "a": [
       "href",
+      "id",
       "rel",
       "target",
       "title"
