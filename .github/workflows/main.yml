@@ -16,6 +16,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Require info.xml in every content directory
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s tools -p 'test_check_info_xml.py'
+          python3 tools/check_info_xml.py
+
       - name: Install XML validator
         run: |
           sudo apt-get update
