@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Require info.xml in every content directory
         shell: bash
@@ -61,6 +63,29 @@ jobs:
             ((n += 1))
           done < <(git ls-files -z -- '*.xml')
           echo "RELAX NG checked $n corpus files"
+
+      - name: Check internal XML link destinations
+        shell: bash
+        env:
+          LINK_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s tools -p 'test_check_links.py'
+          baseline="$LINK_BASE_SHA"
+          if [[ -z "$baseline" || "$baseline" =~ ^0+$ ]]; then
+            baseline="$(git rev-parse HEAD^)"
+          fi
+          python3 tools/check_links.py --baseline "$baseline" \
+            --report "$RUNNER_TEMP/jewtex-link-audit.json" \
+            --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish internal link audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jewtex-link-audit
+          path: ${{ runner.temp }}/jewtex-link-audit.json
+          if-no-files-found: ignore
 
       - name: Audit structural debt and semantic chain integrity
         shell: bash
