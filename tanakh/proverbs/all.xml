@@ -18,4 +18,11 @@
     </header>
   </header>
 </header>
+  <header level="1" type="chapter" name="21" number="21">
+    <header level="2" type="posuk" name="2">
+      <span>Всякий путь человека прям в его глазах, но Господь взвешивает сердца.</span>
+      <p>Комментарий: <link upper="upper" author="david_altschuler" book="metzudat_david_al_mishlei" chapter="21" posuk="2">Мецудат Давид</link></p>
+      <p>Сопоставить: <link upper="upper" author="kimhi_david" book="radak_al_habakkuk" chapter="2" posuk="4">Радак</link> <link upper="upper" author="abraham_ibn_ezra" book="ibn_ezra_al_habakkuk" chapter="2" posuk="4">Ибн Эзра</link></p>
+    </header>
+  </header>
 </content>
