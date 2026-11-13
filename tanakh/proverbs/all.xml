@@ -8,6 +8,12 @@
       <p>Мидраши и Талмуд: <link upper='upper' author='midrash' book='midrash_mishlei_buber' chapter='13' siman_katan='21'>Мидраш Мишлей</link> <link upper='upper' author='midrash' book='midrash_lekach_tov_bereshit' chapter='25' siman_katan='12:4'>Леках Тов</link> <link upper='upper' author='talmud' book='bava_kamma' daf='119a'>Бава Кама 119а</link></p>
     </header>
   </header>
+
+  <header level="1" type="chapter" name="15">
+    <header level="2" type="posuk" name="27">
+      <p-ai>Разоряет свой дом тот, кто гонится за неправедной наживой; а ненавидящий подарки будет жить.</p-ai>
+    </header>
+  </header>
 <header level='1' type='chapter' name='17' number='17'>
   <header level='2' type='posuk' name='5'>
     <header type='ref' name='17.5.1'>
