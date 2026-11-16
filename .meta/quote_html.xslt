@@ -91,6 +91,10 @@
         <xsl:copy-of select="."/>
     </xsl:template>
 
+    <xsl:template match="sup">
+        <xsl:copy-of select="."/>
+    </xsl:template>
+
     <xsl:template match="quote">
 		<div class="quote">
 			<xsl:copy-of select=".">
