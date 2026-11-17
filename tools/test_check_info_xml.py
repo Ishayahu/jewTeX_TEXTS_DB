@@ -45,6 +45,8 @@ class InfoXmlCheckTests(unittest.TestCase):
                 "lastov_ishayahu/info.xml",
                 "lastov_ishayahu/chronos/info.xml",
                 "lastov_ishayahu/chronos/illustrations/figure.svg",
+                "lastov_ishayahu/parasha_lessons/info.xml",
+                "lastov_ishayahu/parasha_lessons/illustrations/vaetze.svg",
             ]),
             [],
         )
