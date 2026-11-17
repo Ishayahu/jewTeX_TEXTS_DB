@@ -13,6 +13,7 @@ EXEMPT_SUBTREES = frozenset({
     ".github",
     ".meta",
     "lastov_ishayahu/chronos/illustrations",
+    "lastov_ishayahu/parasha_lessons/illustrations",
     "shneur_zalman_of_liadi/likutei_torah_al_devarim/meta",
     "sholom_dovber_schneersohn/sefer_hamaamarim_5656/meta",
     "sholom_dovber_schneersohn/sefer_hamaamarim_5663/meta",
