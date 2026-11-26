@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<info>
+  <start_year>5649</start_year><end_year>5704</end_year>
+  <localized_info><ru><title>Рабби</title><first_name>Калонимус Калмиш</first_name><last_name>Шапиро</last_name><short_name>Пясечненский Ребе</short_name><quote/></ru><en><title>Rabbi</title><first_name>Kalonymus Kalmish</first_name><last_name>Shapira</last_name><short_name>Piaseczno Rebbe</short_name><quote/></en><he><title>רבי</title><first_name>קלונימוס קלמיש</first_name><last_name>שפירא</last_name><short_name>האדמו״ר מפיאסצנה</short_name><quote/></he></localized_info>
+  <display><css_class_name>default</css_class_name></display>
+  <domains><exegesis/><halakha/><liturgics/><kabbalah/><philosophy/></domains><cities/><books/>
+</info>
